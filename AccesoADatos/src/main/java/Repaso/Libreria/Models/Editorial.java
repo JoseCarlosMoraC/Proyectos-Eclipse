@@ -2,7 +2,7 @@ package Repaso.Libreria.Models;
 
 import java.util.Objects;
 
-public class Editorial {
+public class Editorial implements Comparable{
 private String nombre;
 private String direccion;
 private String cif;
@@ -80,6 +80,22 @@ public String toString() {
 	return "Editorial [nombre=" + nombre + ", direccion=" + direccion + ", cif=" + cif + ", web=" + web + ", email="
 			+ email + "]";
 }
+
+public int compareTo(Editorial o) {
+	int cmp = this.nombre.compareToIgnoreCase(o.nombre);
+	if(cmp == 0){
+		cmp = this.cif.compareToIgnoreCase(o.cif);
+	}
+	return cmp;
+}
+
+@Override
+public int compareTo(Object o) {
+	// TODO Auto-generated method stub
+	return 0;
+}
+
+
 
 
 }

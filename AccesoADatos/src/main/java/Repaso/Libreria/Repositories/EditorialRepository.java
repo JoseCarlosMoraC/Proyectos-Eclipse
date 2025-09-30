@@ -12,7 +12,7 @@ import Repaso.Libreria.Models.Libro;
 public class EditorialRepository {
 private Set<Editorial> editoriales;
 
-public EditorialRepository(Set<Editorial> editoriales) {
+public EditorialRepository() {
 	super();
 	this.editoriales = new HashSet<Editorial>();
 }
@@ -47,7 +47,7 @@ public String toString() {
 	return "EditorialRepository [editoriales=" + editoriales + "]";
 }
 
-public void añadirLibro(Editorial l)throws LibreriaException {
+public void añadirEditorial(Editorial l)throws LibreriaException {
 	if(editoriales.contains(l)) {
 		throw new LibreriaException("El libro ya existe");
 	}else {
@@ -55,26 +55,20 @@ public void añadirLibro(Editorial l)throws LibreriaException {
 	}
 }
 
-public Editorial getEditorial(String l)
-{
-	
-	  boolean encontrado = false;
-      Editorial editorial = null;
-
-    
-      Iterator<Editorial> it = editoriales.iterator();
-      while (it.hasNext() && !encontrado) {
-          Editorial e = it.next();
-
-          
-          if (editorial.getCif().equalsIgnoreCase(l)){
-              encontrado = true;
-              editorial = e;
-          
-      }}
-      
-      return editorial;
+public Editorial getEditorial(String cif) {
+	boolean encontrado = false;
+    Editorial editorial = null;
+    Iterator<Editorial> it = editoriales.iterator();
+    while (it.hasNext() && !encontrado) {
+        Editorial editorialdevuelto = it.next();
+        if (editorial.getCif() != null && editorial.getCif().equalsIgnoreCase(cif)) {
+            editorial = editorialdevuelto;
+            encontrado = true;
+        }
+    }
+    return editorial;
 }
+
 
 public Editorial actualizarEditorial(Editorial editorialAActualizar) throws LibreriaException {
 	  boolean encontrado = false;
@@ -94,12 +88,13 @@ public Editorial actualizarEditorial(Editorial editorialAActualizar) throws Libr
       return editorial;
   }
 
+
 public void eliminarEditorial(Editorial l) throws LibreriaException {
-	if(editoriales.contains(l)) {
-		throw new LibreriaException("El libro ya existe");
-	}else {
-		editoriales.remove(l);
-	}
+    if (!editoriales.contains(l)) {
+        throw new LibreriaException("La editorial no existe");
+    } else {
+        editoriales.remove(l);
+    }
 }
 public Editorial buscarEditorialPorCif(String cif) {
 	 boolean encontrado = false;
