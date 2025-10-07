@@ -88,7 +88,7 @@ public void setTipo(TipoAgente tipo) {
 @Override
 public int hashCode() {
 	return Objects.hash(fechaConversacion, id, numValoracionesPositivas, pregunta, respuesta, tipo);
-}
+}	
 
 @Override
 public boolean equals(Object obj) {
