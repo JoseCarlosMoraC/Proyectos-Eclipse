@@ -1,6 +1,7 @@
 package Tema1.Boletin1;
 
 import java.io.File;
+import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -19,7 +20,14 @@ public class Ejercicio3 {
 		}else {
 			directorio.mkdir();
 			
-			logger.info("Directorio creado: " + directorio.getAbsolutePath());
+			logger.info(directorio.getAbsolutePath());
+			try {
+				logger.info(directorio.createNewFile());
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
 		}
 		
 	}

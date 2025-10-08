@@ -10,11 +10,16 @@ public class Ejercicio2 {
 	public static void main(String[] args) {
 	String rutaDirectorio = "C:\\Users\\alumno\\Desktop\\DAM";
 	
-	File f = new File(rutaDirectorio);
 	File directorio = new File(rutaDirectorio);
-	String[] archivos = f.list();
-	for(String ficheros: archivos) {
-		logger.info(ficheros);
+
+		
+		logger.info(directorio.getName());
+		logger.info(directorio.getAbsolutePath());
+		logger.info(directorio.canRead());
+		logger.info(directorio.canWrite());
+		logger.info(directorio.getParentFile());
+		
+		
 }
 	}
-}
+
