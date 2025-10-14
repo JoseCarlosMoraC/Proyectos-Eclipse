@@ -1,4 +1,4 @@
-package Tema2.Boletin2;
+package Tema1.Boletin2;
 
 import java.util.Objects;
 
@@ -6,7 +6,7 @@ public class ResultadoComparacion {
 private String nombre;
 private ValorComparacion ValorComparacion;
 
-public ResultadoComparacion(String nombre, Tema2.Boletin2.ValorComparacion valorComparacion) {
+public ResultadoComparacion(String nombre, Tema1.Boletin2.ValorComparacion valorComparacion) {
 	super();
 	this.nombre = nombre;
 	ValorComparacion = valorComparacion;

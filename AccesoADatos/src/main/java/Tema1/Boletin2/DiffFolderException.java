@@ -1,4 +1,4 @@
-package Tema2.Boletin2;
+package Tema1.Boletin2;
 
 public class DiffFolderException extends Exception{
 	public DiffFolderException(String mensaje) {
