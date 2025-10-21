@@ -38,6 +38,10 @@ public boolean equals(Object obj) {
 	ResultadoComparacion other = (ResultadoComparacion) obj;
 	return Objects.equals(nombre, other.nombre);
 }
+@Override
+public String toString() {
+	return "ResultadoComparacion [nombre=" + nombre + ", ValorComparacion=" + ValorComparacion + "]";
+}
 
 
 }

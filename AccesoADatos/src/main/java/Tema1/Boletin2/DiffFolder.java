@@ -10,7 +10,7 @@ public class DiffFolder {
 	
 	Set<ResultadoComparacion> comparacion;
 
-	public DiffFolder(File folder1, File folder2, Set<ResultadoComparacion> comparacion) {
+	public DiffFolder() {
 		super();
 		folder1 = folder1;
 		folder2 = folder2;
@@ -58,37 +58,121 @@ public class DiffFolder {
 
 
 
-	public void compara() {
-	   //Metodo mira quien tiene mas ficheros de folder 1 y folder 2(arriba:D)
-		//llamar a metodo que es comparaListaFicheros y recibe File1 [], File2 [], isPrimero
-		//devuelve un set de resultados, se lo añado a variable(addAll) comparacion
-		//llamo a comparaListaFicheros, lo del segundo pero al reves, , !isPrimero
+public Set<ResultadoComparacion> compare() {
+		
+		Set<ResultadoComparacion> resultado= new HashSet<ResultadoComparacion> ();
+		boolean carpeta1mayor=  carpeta1tienemasficheroscarpeta2 ();
+		if(carpeta1mayor)
+		{
+			resultado.addAll(recorreFicheros(folder1, folder2, carpeta1mayor)) ;
+			resultado.addAll(recorreFicheros(folder2, folder1, carpeta1mayor)) ;
+		}
+		else
+		{
+			resultado.addAll(recorreFicheros(folder2, folder1, carpeta1mayor)) ;
+			resultado.addAll(recorreFicheros(folder1, folder2, carpeta1mayor)) ;
+			
+		}
+
+
+		//llama al metodo que es compararlistaficheros y recibe File[1], File2 []
+		//Devuelve un set de resultados, se lo añado a variable (AddAll) comparacion
+		//llamo a comparaListaFicheros, lo del segundo pero al reves
 		//log comparacion
-	   
-	    
-	    
-	   
-	}
-	private Set<ResultadoComparacion> comparaListaFicheros(File [] ficheros1, File [] ficheros2, boolean isPrimero){
-		//Recorro fichero1, para cada fichero busco ficheros2
-		//si está llamo metodo comparaFichero que recibe fichero1, fichero2
-		//si no está:
-			// Si  isPrimero 
-						//añado creo objeto resultado (nombre fichero, FALTA_EN_1)
-			//otras
-						//añado creo objeto resultado (nombre fichero, FALTA_EN_2)
-		return comparacion;
-		
-	}
-	
-	//ResultadoComparacion comparaFichero(File fichero1, File fichero2)
-	{
-		// Si la fecha de fichero 1 es antes que la fichero2:
-		//
-		//otras
-		
-	}
 
 	
+		return resultado;
+
+	}
 	
+	
+	
+	public Set<ResultadoComparacion> comparame () {
+		
+		Set<ResultadoComparacion> resultados = new HashSet<ResultadoComparacion> ();
+		boolean carpeta1esmayor=  carpeta1tienemasficheroscarpeta2 ();
+		
+		if(carpeta1esmayor) {
+		
+			resultados.addAll(recorreFicheros(this.folder1,  this.folder2, carpeta1esmayor));
+			resultados.addAll(recorreFicheros(this.folder2,  this.folder1, carpeta1esmayor));
+		}
+		else
+		{
+			resultados.addAll(recorreFicheros(this.folder2,this.folder1, carpeta1esmayor));
+			resultados.addAll(recorreFicheros(this.folder1,  this.folder2, carpeta1esmayor));
+		}
+		
+		return resultados;
+
+		}
+
+	private boolean carpeta1tienemasficheroscarpeta2() {
+		File [] archivoscarpeta1= folder1.listFiles();
+		File [] archivoscarpeta2= folder2.listFiles();
+
+		return archivoscarpeta1.length>archivoscarpeta2.length;
+		
+	}
+	
+	Set<ResultadoComparacion> recorreFicheros(File directorio1, File directorio2, boolean carpeta1esmayor)
+	{
+		Set<ResultadoComparacion> resultado = new HashSet<ResultadoComparacion> ();
+		for(File fichero :  directorio1.listFiles())
+		{
+			resultado.add(comparFicheroConCarpeta(fichero, directorio2, carpeta1esmayor));
+		}
+		
+		return resultado;
+	}
+		
+	
+
+	
+	public ResultadoComparacion comparFicheroConCarpeta(File fichero, File carpeta2, boolean carpeta1esmayor) {
+	   
+	    boolean encontrado = false;
+	    File[] ficherosDirectorio= carpeta2.listFiles() ;
+	    int i = 0;
+	    ValorComparacion valorcomparacion= null;
+	    
+	    while (i <ficherosDirectorio.length && !encontrado)
+	    {
+	    	File archivoiteradocarpeta2 = ficherosDirectorio[i];
+	    	
+	    	if (fichero.getName().equals(archivoiteradocarpeta2.getName())) 
+	    	{
+	    		encontrado = true;
+	            if (fichero.lastModified() > archivoiteradocarpeta2.lastModified()) {
+	                valorcomparacion = ValorComparacion.MENOS_NUEVO_EN_1;
+	            } else if (fichero.lastModified() < archivoiteradocarpeta2.lastModified()) {
+	            	valorcomparacion = ValorComparacion.MENOS_NUEVO_EN_2;
+	            }
+	            else if (fichero.lastModified() == archivoiteradocarpeta2.lastModified()) {
+	            	valorcomparacion = ValorComparacion.IGUALES;
+	            }
+	        }
+	        else {		    	
+	        	i= i+1;
+	        }
+	    	
+	    }
+	
+	    if(!encontrado)
+	    {
+	    	if(carpeta1esmayor)
+	    	valorcomparacion = ValorComparacion.FALTA_EN_2;
+	    	else
+	    		valorcomparacion = ValorComparacion.FALTA_EN_1;
+	    		
+	    }
+
+	    ResultadoComparacion resultado= new ResultadoComparacion(fichero.getName(), valorcomparacion);
+	    return resultado;
+	}
+
+
+
+
+
 }
