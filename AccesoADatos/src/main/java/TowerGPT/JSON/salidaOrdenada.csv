@@ -1,0 +1,5 @@
+identificador,tipo,peticion,respuesta,tiempoEjecucion,numValoracionesPositivas,porcentajeAcierto
+1,HUMANO,¿Qué tiempo hace hoy?,Hoy hace sol y 25 grados.,1.800,4,88.80
+2,IA,Calcula 5+7,El resultado es 12,0.500,10,100.00
+3,HUMANO,Traduce 'hola' a inglés,hello,2.100,4,80.00
+4,IA,Dime una curiosidad sobre Marte,Marte tiene dos lunas: Fobos y Deimos.,0.900,7,95.30
