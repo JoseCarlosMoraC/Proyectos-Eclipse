@@ -3,17 +3,17 @@ package Tema1.ProductosXML.Models;
 import java.util.Objects;
 
 public class Producto {
-private String id;
+private int id;
 private boolean enVenta;
 private String nombre;
-private int precio;
+private double precio;
 private int stock;
 
 public Producto() {
 	super();
 }
 
-public Producto(String id, boolean enVenta, String nombre, int precio, int stock) {
+public Producto(int id, boolean enVenta, String nombre, double precio, int stock) {
 	super();
 	this.id = id;
 	this.enVenta = enVenta;
@@ -22,11 +22,11 @@ public Producto(String id, boolean enVenta, String nombre, int precio, int stock
 	this.stock = stock;
 }
 
-public String getId() {
+public int getId() {
 	return id;
 }
 
-public void setId(String id) {
+public void setId(int id) {
 	this.id = id;
 }
 
@@ -46,11 +46,11 @@ public void setNombre(String nombre) {
 	this.nombre = nombre;
 }
 
-public int getPrecio() {
+public double getPrecio() {
 	return precio;
 }
 
-public void setPrecio(int precio) {
+public void setPrecio(double precio) {
 	this.precio = precio;
 }
 
