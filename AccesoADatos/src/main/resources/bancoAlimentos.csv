@@ -1,0 +1,17 @@
+ID Centro,Nombre Centro,Ciudad,Comedores Abastecidos,Nombre Trabajador,DNI,Fecha Nacimiento,Tipo
+CL01,Banco de Alimentos Sevilla,Sevilla,50,Isabel Morales,34567890C,1985-05-22,ASALARIADO
+CL01,Banco de Alimentos Sevilla,Sevilla,50,María González,87654321B,1992-11-05,VOLUNTARIO
+CL01,Banco de Alimentos Sevilla,Sevilla,50,Juan Pérez,12345678A,1980-04-12,ASALARIADO
+CL01,Banco de Alimentos Sevilla,Sevilla,50,Antonio Fernández,23456789D,1977-03-14,VOLUNTARIO
+CL02,Banco de Alimentos Málaga,Málaga,35,Pedro López,11223344C,1975-08-23,ASALARIADO
+CL02,Banco de Alimentos Málaga,Málaga,35,Ana Torres,44332211D,1988-03-30,VOLUNTARIO
+CL02,Banco de Alimentos Málaga,Málaga,35,Lucía Martín,55667788F,1991-07-08,ASALARIADO
+CL02,Banco de Alimentos Málaga,Málaga,35,Francisco Ruiz,66778899G,1984-12-19,VOLUNTARIO
+CL03,Banco de Alimentos Granada,Granada,28,Laura Fernández,55667788E,1995-06-14,VOLUNTARIO
+CL03,Banco de Alimentos Granada,Granada,28,Carlos Méndez,33445566F,1982-01-10,ASALARIADO
+CL03,Banco de Alimentos Granada,Granada,28,Rafael Sánchez,88990011I,1978-02-17,ASALARIADO
+CL03,Banco de Alimentos Granada,Granada,28,Elena Martín,77889900H,1993-09-29,VOLUNTARIO
+CL04,Banco de Alimentos Córdoba,Córdoba,22,Manuel Serrano,10111213K,1983-04-01,ASALARIADO
+CL04,Banco de Alimentos Córdoba,Córdoba,22,Alberto García,22334455H,1979-09-15,ASALARIADO
+CL04,Banco de Alimentos Córdoba,Córdoba,22,Julia Muñoz,99001122J,1987-10-05,VOLUNTARIO
+CL04,Banco de Alimentos Córdoba,Córdoba,22,Elena Ruiz,99887766G,1990-12-22,VOLUNTARIO
