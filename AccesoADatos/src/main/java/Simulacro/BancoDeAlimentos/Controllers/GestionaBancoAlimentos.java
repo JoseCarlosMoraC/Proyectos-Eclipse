@@ -9,9 +9,11 @@ import org.apache.logging.log4j.Logger;
 import Simulacro.BancoDeAlimentos.Exception.BancoException;
 import Simulacro.BancoDeAlimentos.Models.CentroLogistico;
 import Simulacro.BancoDeAlimentos.Models.Trabajador;
-import Simulacro.BancoDeAlimentos.Repositories.BancoAlimentos;
+import Simulacro.BancoDeAlimentos.Services.ServicioBancoAlimentos;
 import Simulacro.BancoDeAlimentos.Utils.CreacionCSV;
-import Simulacro.BancoDeAlimentos.Utils.XMLDomBancoAlimentos;
+import Simulacro.BancoDeAlimentos.Utils.XMLBancoAlimentos;     // Para escribir XML
+import Simulacro.BancoDeAlimentos.Utils.XMLDomBancoAlimentos; // Para leer XML
+import Simulacro.BancoDeAlimentos.Utils.BancoAlimentosAJson; // Para JSON
 
 public class GestionaBancoAlimentos {
 
@@ -19,36 +21,52 @@ public class GestionaBancoAlimentos {
 
     public static void main(String[] args) {
 
-        XMLDomBancoAlimentos xmlbanco = new XMLDomBancoAlimentos();
-        BancoAlimentos banco = new BancoAlimentos();
+        // 1️⃣ Instanciamos el lector DOM para leer el XML original
+        XMLDomBancoAlimentos lectorXML = new XMLDomBancoAlimentos();
+
+        // 2️⃣ Instanciamos el servicio que gestiona la lógica de negocio
+        ServicioBancoAlimentos servicio = new ServicioBancoAlimentos();
+
+        // 3️⃣ Instanciamos el escritor de XML para exportar datos
+        XMLBancoAlimentos escritorXML = new XMLBancoAlimentos();
+
+        // 4️⃣ Instanciamos el escritor JSON
+        BancoAlimentosAJson escritorJSON = new BancoAlimentosAJson();
 
         try {
-            // Leemos todos los centros desde el XML
-            List<CentroLogistico> centros = xmlbanco.leerCentroLogisticoDesdeXML("bancoAlimentos.xml");
+            // 5️⃣ Leer los centros desde el XML usando DOM
+            List<CentroLogistico> centros = lectorXML.leerCentroLogisticoDesdeXML("bancoAlimentos.xml");
 
-            // Guardamos los centros dentro del banco 👇
-            banco.setListaCentros(new HashSet<>(centros));
+            // 6️⃣ Pasamos los centros al servicio (actualiza internamente el repositorio)
+            servicio.setCentros(new HashSet<>(centros));
 
-            // Mostramos la info completa del banco
-            logger.info(centros);
+            // 7️⃣ Mostrar centros cargados
+            logger.info("Centros cargados: " + servicio.getCentros());
 
-            //Aquí mostramos colaboradores por tipo
-            logger.info("Lista de Asalariados");
-            List<Trabajador> asalariados = banco.getColaboradoresPorTipo("asalariado");
-            for (Trabajador t : asalariados) {
+            // 8️⃣ Mostrar asalariados
+            logger.info("=== ASALARIADOS ===");
+            for (Trabajador t : servicio.getColaboradoresPorTipo("asalariado")) {
                 logger.info(t);
             }
 
-            logger.info("Lista de Voluntarios");
-            List<Trabajador> voluntarios = banco.getColaboradoresPorTipo("voluntario");
-            for (Trabajador t : voluntarios) {
+            // 9️⃣ Mostrar voluntarios
+            logger.info("=== VOLUNTARIOS ===");
+            for (Trabajador t : servicio.getColaboradoresPorTipo("voluntario")) {
                 logger.info(t);
             }
 
-            // 🧾 Ahora sí: generamos el CSV con todos los datos cargados
-            CreacionCSV creador = new CreacionCSV();
-            creador.escribeCSV(centros, "src/main/resources/bancoAlimentos.csv");
-            logger.info("CSV generado correctamente en bancoAlimentos.csv");
+            // 🔟 Generar CSV con la lista de centros y trabajadores
+            CreacionCSV creadorCSV = new CreacionCSV();
+            creadorCSV.escribeCSV(centros, "src/main/resources/bancoAlimentos.csv");
+            logger.info("CSV generado correctamente");
+
+            // 1️⃣1️⃣ Generar XML de salida (misma estructura que el original)
+            escritorXML.escribeCentrosEnXML("bancoAlimentosSalida.xml", centros);
+            logger.info("XML generado correctamente: bancoAlimentosSalida.xml");
+
+            // 1️⃣2️⃣ Generar JSON de salida
+            escritorJSON.escribeCentrosJson(centros, "bancoAlimentosSalida.json");
+            logger.info("JSON generado correctamente: bancoAlimentosSalida.json");
 
         } catch (BancoException e) {
             logger.error("Error del banco: " + e.getMessage());

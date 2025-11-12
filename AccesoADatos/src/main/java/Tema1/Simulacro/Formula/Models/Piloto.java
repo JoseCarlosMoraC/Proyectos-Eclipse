@@ -16,6 +16,10 @@ public Piloto(int identificadorPiloto, String nombre, String pais, int puntos) {
 	this.puntos = puntos;
 }
 
+public Piloto() {
+	// TODO Auto-generated constructor stub
+}
+
 public int getIdentificadorPiloto() {
 	return identificadorPiloto;
 }
