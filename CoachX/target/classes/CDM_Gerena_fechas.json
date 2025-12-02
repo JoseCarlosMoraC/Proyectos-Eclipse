@@ -1,0 +1,3550 @@
+[
+  {
+    "id": 1,
+    "nombre": "Club Deportivo Municipal Gerena",
+    "escudo": "https://example.com/escudo.png",
+    "contacto": "contacto@cdmgerena.com",
+    "equipos": [
+      {
+        "id": 101,
+        "nombre": "Prebenjamin A",
+        "categoria": "prebenjamin",
+        "jugadores": [
+          {
+            "id": 1001,
+            "nombre": "Jugador 1",
+            "dorsal": 1,
+            "fecha_nacimiento": "2018-01-01",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5001,
+              "partidos_jugados": 2,
+              "goles": 0,
+              "minutos": 30,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1002,
+            "nombre": "Jugador 2",
+            "dorsal": 2,
+            "fecha_nacimiento": "2019-01-02",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5002,
+              "partidos_jugados": 4,
+              "goles": 1,
+              "minutos": 60,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1003,
+            "nombre": "Jugador 3",
+            "dorsal": 3,
+            "fecha_nacimiento": "2018-01-03",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5003,
+              "partidos_jugados": 6,
+              "goles": 2,
+              "minutos": 90,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1004,
+            "nombre": "Jugador 4",
+            "dorsal": 4,
+            "fecha_nacimiento": "2019-01-04",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5004,
+              "partidos_jugados": 8,
+              "goles": 3,
+              "minutos": 120,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1005,
+            "nombre": "Jugador 5",
+            "dorsal": 5,
+            "fecha_nacimiento": "2018-01-05",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5005,
+              "partidos_jugados": 10,
+              "goles": 4,
+              "minutos": 150,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1006,
+            "nombre": "Jugador 6",
+            "dorsal": 6,
+            "fecha_nacimiento": "2019-01-06",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5006,
+              "partidos_jugados": 12,
+              "goles": 0,
+              "minutos": 180,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1007,
+            "nombre": "Jugador 7",
+            "dorsal": 7,
+            "fecha_nacimiento": "2018-01-07",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5007,
+              "partidos_jugados": 14,
+              "goles": 1,
+              "minutos": 210,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1008,
+            "nombre": "Jugador 8",
+            "dorsal": 8,
+            "fecha_nacimiento": "2019-01-08",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5008,
+              "partidos_jugados": 16,
+              "goles": 2,
+              "minutos": 240,
+              "tarjetas": 1,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1009,
+            "nombre": "Jugador 9",
+            "dorsal": 9,
+            "fecha_nacimiento": "2018-01-09",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5009,
+              "partidos_jugados": 18,
+              "goles": 3,
+              "minutos": 270,
+              "tarjetas": 2,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1010,
+            "nombre": "Jugador 10",
+            "dorsal": 10,
+            "fecha_nacimiento": "2019-01-10",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5010,
+              "partidos_jugados": 20,
+              "goles": 4,
+              "minutos": 300,
+              "tarjetas": 0,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1011,
+            "nombre": "Jugador 11",
+            "dorsal": 11,
+            "fecha_nacimiento": "2018-01-11",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5011,
+              "partidos_jugados": 22,
+              "goles": 0,
+              "minutos": 330,
+              "tarjetas": 1,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1012,
+            "nombre": "Jugador 12",
+            "dorsal": 12,
+            "fecha_nacimiento": "2019-01-12",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5012,
+              "partidos_jugados": 24,
+              "goles": 1,
+              "minutos": 360,
+              "tarjetas": 2,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1013,
+            "nombre": "Jugador 13",
+            "dorsal": 13,
+            "fecha_nacimiento": "2018-01-13",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5013,
+              "partidos_jugados": 26,
+              "goles": 2,
+              "minutos": 390,
+              "tarjetas": 0,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1014,
+            "nombre": "Jugador 14",
+            "dorsal": 14,
+            "fecha_nacimiento": "2019-01-14",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5014,
+              "partidos_jugados": 28,
+              "goles": 3,
+              "minutos": 420,
+              "tarjetas": 1,
+              "rendimiento_index": 6.5
+            }
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "nombre": "Prebenjamin B",
+        "categoria": "prebenjamin",
+        "jugadores": [
+          {
+            "id": 1015,
+            "nombre": "Jugador 1",
+            "dorsal": 1,
+            "fecha_nacimiento": "2018-01-01",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5015,
+              "partidos_jugados": 2,
+              "goles": 0,
+              "minutos": 30,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1016,
+            "nombre": "Jugador 2",
+            "dorsal": 2,
+            "fecha_nacimiento": "2019-01-02",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5016,
+              "partidos_jugados": 4,
+              "goles": 1,
+              "minutos": 60,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1017,
+            "nombre": "Jugador 3",
+            "dorsal": 3,
+            "fecha_nacimiento": "2018-01-03",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5017,
+              "partidos_jugados": 6,
+              "goles": 2,
+              "minutos": 90,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1018,
+            "nombre": "Jugador 4",
+            "dorsal": 4,
+            "fecha_nacimiento": "2019-01-04",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5018,
+              "partidos_jugados": 8,
+              "goles": 3,
+              "minutos": 120,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1019,
+            "nombre": "Jugador 5",
+            "dorsal": 5,
+            "fecha_nacimiento": "2018-01-05",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5019,
+              "partidos_jugados": 10,
+              "goles": 4,
+              "minutos": 150,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1020,
+            "nombre": "Jugador 6",
+            "dorsal": 6,
+            "fecha_nacimiento": "2019-01-06",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5020,
+              "partidos_jugados": 12,
+              "goles": 0,
+              "minutos": 180,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1021,
+            "nombre": "Jugador 7",
+            "dorsal": 7,
+            "fecha_nacimiento": "2018-01-07",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5021,
+              "partidos_jugados": 14,
+              "goles": 1,
+              "minutos": 210,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1022,
+            "nombre": "Jugador 8",
+            "dorsal": 8,
+            "fecha_nacimiento": "2019-01-08",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5022,
+              "partidos_jugados": 16,
+              "goles": 2,
+              "minutos": 240,
+              "tarjetas": 1,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1023,
+            "nombre": "Jugador 9",
+            "dorsal": 9,
+            "fecha_nacimiento": "2018-01-09",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5023,
+              "partidos_jugados": 18,
+              "goles": 3,
+              "minutos": 270,
+              "tarjetas": 2,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1024,
+            "nombre": "Jugador 10",
+            "dorsal": 10,
+            "fecha_nacimiento": "2019-01-10",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5024,
+              "partidos_jugados": 20,
+              "goles": 4,
+              "minutos": 300,
+              "tarjetas": 0,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1025,
+            "nombre": "Jugador 11",
+            "dorsal": 11,
+            "fecha_nacimiento": "2018-01-11",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5025,
+              "partidos_jugados": 22,
+              "goles": 0,
+              "minutos": 330,
+              "tarjetas": 1,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1026,
+            "nombre": "Jugador 12",
+            "dorsal": 12,
+            "fecha_nacimiento": "2019-01-12",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5026,
+              "partidos_jugados": 24,
+              "goles": 1,
+              "minutos": 360,
+              "tarjetas": 2,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1027,
+            "nombre": "Jugador 13",
+            "dorsal": 13,
+            "fecha_nacimiento": "2018-01-13",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5027,
+              "partidos_jugados": 26,
+              "goles": 2,
+              "minutos": 390,
+              "tarjetas": 0,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1028,
+            "nombre": "Jugador 14",
+            "dorsal": 14,
+            "fecha_nacimiento": "2019-01-14",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5028,
+              "partidos_jugados": 28,
+              "goles": 3,
+              "minutos": 420,
+              "tarjetas": 1,
+              "rendimiento_index": 6.5
+            }
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "nombre": "Benjamin A",
+        "categoria": "benjamin",
+        "jugadores": [
+          {
+            "id": 1029,
+            "nombre": "Jugador 1",
+            "dorsal": 1,
+            "fecha_nacimiento": "2016-01-01",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5029,
+              "partidos_jugados": 2,
+              "goles": 0,
+              "minutos": 30,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1030,
+            "nombre": "Jugador 2",
+            "dorsal": 2,
+            "fecha_nacimiento": "2017-01-02",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5030,
+              "partidos_jugados": 4,
+              "goles": 1,
+              "minutos": 60,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1031,
+            "nombre": "Jugador 3",
+            "dorsal": 3,
+            "fecha_nacimiento": "2016-01-03",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5031,
+              "partidos_jugados": 6,
+              "goles": 2,
+              "minutos": 90,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1032,
+            "nombre": "Jugador 4",
+            "dorsal": 4,
+            "fecha_nacimiento": "2017-01-04",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5032,
+              "partidos_jugados": 8,
+              "goles": 3,
+              "minutos": 120,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1033,
+            "nombre": "Jugador 5",
+            "dorsal": 5,
+            "fecha_nacimiento": "2016-01-05",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5033,
+              "partidos_jugados": 10,
+              "goles": 4,
+              "minutos": 150,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1034,
+            "nombre": "Jugador 6",
+            "dorsal": 6,
+            "fecha_nacimiento": "2017-01-06",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5034,
+              "partidos_jugados": 12,
+              "goles": 0,
+              "minutos": 180,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1035,
+            "nombre": "Jugador 7",
+            "dorsal": 7,
+            "fecha_nacimiento": "2016-01-07",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5035,
+              "partidos_jugados": 14,
+              "goles": 1,
+              "minutos": 210,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1036,
+            "nombre": "Jugador 8",
+            "dorsal": 8,
+            "fecha_nacimiento": "2017-01-08",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5036,
+              "partidos_jugados": 16,
+              "goles": 2,
+              "minutos": 240,
+              "tarjetas": 1,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1037,
+            "nombre": "Jugador 9",
+            "dorsal": 9,
+            "fecha_nacimiento": "2016-01-09",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5037,
+              "partidos_jugados": 18,
+              "goles": 3,
+              "minutos": 270,
+              "tarjetas": 2,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1038,
+            "nombre": "Jugador 10",
+            "dorsal": 10,
+            "fecha_nacimiento": "2017-01-10",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5038,
+              "partidos_jugados": 20,
+              "goles": 4,
+              "minutos": 300,
+              "tarjetas": 0,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1039,
+            "nombre": "Jugador 11",
+            "dorsal": 11,
+            "fecha_nacimiento": "2016-01-11",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5039,
+              "partidos_jugados": 22,
+              "goles": 0,
+              "minutos": 330,
+              "tarjetas": 1,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1040,
+            "nombre": "Jugador 12",
+            "dorsal": 12,
+            "fecha_nacimiento": "2017-01-12",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5040,
+              "partidos_jugados": 24,
+              "goles": 1,
+              "minutos": 360,
+              "tarjetas": 2,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1041,
+            "nombre": "Jugador 13",
+            "dorsal": 13,
+            "fecha_nacimiento": "2016-01-13",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5041,
+              "partidos_jugados": 26,
+              "goles": 2,
+              "minutos": 390,
+              "tarjetas": 0,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1042,
+            "nombre": "Jugador 14",
+            "dorsal": 14,
+            "fecha_nacimiento": "2017-01-14",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5042,
+              "partidos_jugados": 28,
+              "goles": 3,
+              "minutos": 420,
+              "tarjetas": 1,
+              "rendimiento_index": 6.5
+            }
+          }
+        ]
+      },
+      {
+        "id": 104,
+        "nombre": "Benjamin B",
+        "categoria": "benjamin",
+        "jugadores": [
+          {
+            "id": 1043,
+            "nombre": "Jugador 1",
+            "dorsal": 1,
+            "fecha_nacimiento": "2016-01-01",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5043,
+              "partidos_jugados": 2,
+              "goles": 0,
+              "minutos": 30,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1044,
+            "nombre": "Jugador 2",
+            "dorsal": 2,
+            "fecha_nacimiento": "2017-01-02",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5044,
+              "partidos_jugados": 4,
+              "goles": 1,
+              "minutos": 60,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1045,
+            "nombre": "Jugador 3",
+            "dorsal": 3,
+            "fecha_nacimiento": "2016-01-03",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5045,
+              "partidos_jugados": 6,
+              "goles": 2,
+              "minutos": 90,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1046,
+            "nombre": "Jugador 4",
+            "dorsal": 4,
+            "fecha_nacimiento": "2017-01-04",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5046,
+              "partidos_jugados": 8,
+              "goles": 3,
+              "minutos": 120,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1047,
+            "nombre": "Jugador 5",
+            "dorsal": 5,
+            "fecha_nacimiento": "2016-01-05",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5047,
+              "partidos_jugados": 10,
+              "goles": 4,
+              "minutos": 150,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1048,
+            "nombre": "Jugador 6",
+            "dorsal": 6,
+            "fecha_nacimiento": "2017-01-06",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5048,
+              "partidos_jugados": 12,
+              "goles": 0,
+              "minutos": 180,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1049,
+            "nombre": "Jugador 7",
+            "dorsal": 7,
+            "fecha_nacimiento": "2016-01-07",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5049,
+              "partidos_jugados": 14,
+              "goles": 1,
+              "minutos": 210,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1050,
+            "nombre": "Jugador 8",
+            "dorsal": 8,
+            "fecha_nacimiento": "2017-01-08",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5050,
+              "partidos_jugados": 16,
+              "goles": 2,
+              "minutos": 240,
+              "tarjetas": 1,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1051,
+            "nombre": "Jugador 9",
+            "dorsal": 9,
+            "fecha_nacimiento": "2016-01-09",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5051,
+              "partidos_jugados": 18,
+              "goles": 3,
+              "minutos": 270,
+              "tarjetas": 2,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1052,
+            "nombre": "Jugador 10",
+            "dorsal": 10,
+            "fecha_nacimiento": "2017-01-10",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5052,
+              "partidos_jugados": 20,
+              "goles": 4,
+              "minutos": 300,
+              "tarjetas": 0,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1053,
+            "nombre": "Jugador 11",
+            "dorsal": 11,
+            "fecha_nacimiento": "2016-01-11",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5053,
+              "partidos_jugados": 22,
+              "goles": 0,
+              "minutos": 330,
+              "tarjetas": 1,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1054,
+            "nombre": "Jugador 12",
+            "dorsal": 12,
+            "fecha_nacimiento": "2017-01-12",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5054,
+              "partidos_jugados": 24,
+              "goles": 1,
+              "minutos": 360,
+              "tarjetas": 2,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1055,
+            "nombre": "Jugador 13",
+            "dorsal": 13,
+            "fecha_nacimiento": "2016-01-13",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5055,
+              "partidos_jugados": 26,
+              "goles": 2,
+              "minutos": 390,
+              "tarjetas": 0,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1056,
+            "nombre": "Jugador 14",
+            "dorsal": 14,
+            "fecha_nacimiento": "2017-01-14",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5056,
+              "partidos_jugados": 28,
+              "goles": 3,
+              "minutos": 420,
+              "tarjetas": 1,
+              "rendimiento_index": 6.5
+            }
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "nombre": "Alevin A",
+        "categoria": "alevin",
+        "jugadores": [
+          {
+            "id": 1057,
+            "nombre": "Jugador 1",
+            "dorsal": 1,
+            "fecha_nacimiento": "2014-01-01",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5057,
+              "partidos_jugados": 2,
+              "goles": 0,
+              "minutos": 30,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1058,
+            "nombre": "Jugador 2",
+            "dorsal": 2,
+            "fecha_nacimiento": "2015-01-02",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5058,
+              "partidos_jugados": 4,
+              "goles": 1,
+              "minutos": 60,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1059,
+            "nombre": "Jugador 3",
+            "dorsal": 3,
+            "fecha_nacimiento": "2014-01-03",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5059,
+              "partidos_jugados": 6,
+              "goles": 2,
+              "minutos": 90,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1060,
+            "nombre": "Jugador 4",
+            "dorsal": 4,
+            "fecha_nacimiento": "2015-01-04",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5060,
+              "partidos_jugados": 8,
+              "goles": 3,
+              "minutos": 120,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1061,
+            "nombre": "Jugador 5",
+            "dorsal": 5,
+            "fecha_nacimiento": "2014-01-05",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5061,
+              "partidos_jugados": 10,
+              "goles": 4,
+              "minutos": 150,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1062,
+            "nombre": "Jugador 6",
+            "dorsal": 6,
+            "fecha_nacimiento": "2015-01-06",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5062,
+              "partidos_jugados": 12,
+              "goles": 0,
+              "minutos": 180,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1063,
+            "nombre": "Jugador 7",
+            "dorsal": 7,
+            "fecha_nacimiento": "2014-01-07",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5063,
+              "partidos_jugados": 14,
+              "goles": 1,
+              "minutos": 210,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1064,
+            "nombre": "Jugador 8",
+            "dorsal": 8,
+            "fecha_nacimiento": "2015-01-08",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5064,
+              "partidos_jugados": 16,
+              "goles": 2,
+              "minutos": 240,
+              "tarjetas": 1,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1065,
+            "nombre": "Jugador 9",
+            "dorsal": 9,
+            "fecha_nacimiento": "2014-01-09",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5065,
+              "partidos_jugados": 18,
+              "goles": 3,
+              "minutos": 270,
+              "tarjetas": 2,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1066,
+            "nombre": "Jugador 10",
+            "dorsal": 10,
+            "fecha_nacimiento": "2015-01-10",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5066,
+              "partidos_jugados": 20,
+              "goles": 4,
+              "minutos": 300,
+              "tarjetas": 0,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1067,
+            "nombre": "Jugador 11",
+            "dorsal": 11,
+            "fecha_nacimiento": "2014-01-11",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5067,
+              "partidos_jugados": 22,
+              "goles": 0,
+              "minutos": 330,
+              "tarjetas": 1,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1068,
+            "nombre": "Jugador 12",
+            "dorsal": 12,
+            "fecha_nacimiento": "2015-01-12",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5068,
+              "partidos_jugados": 24,
+              "goles": 1,
+              "minutos": 360,
+              "tarjetas": 2,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1069,
+            "nombre": "Jugador 13",
+            "dorsal": 13,
+            "fecha_nacimiento": "2014-01-13",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5069,
+              "partidos_jugados": 26,
+              "goles": 2,
+              "minutos": 390,
+              "tarjetas": 0,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1070,
+            "nombre": "Jugador 14",
+            "dorsal": 14,
+            "fecha_nacimiento": "2015-01-14",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5070,
+              "partidos_jugados": 28,
+              "goles": 3,
+              "minutos": 420,
+              "tarjetas": 1,
+              "rendimiento_index": 6.5
+            }
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "nombre": "Alevin B",
+        "categoria": "alevin",
+        "jugadores": [
+          {
+            "id": 1071,
+            "nombre": "Jugador 1",
+            "dorsal": 1,
+            "fecha_nacimiento": "2014-01-01",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5071,
+              "partidos_jugados": 2,
+              "goles": 0,
+              "minutos": 30,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1072,
+            "nombre": "Jugador 2",
+            "dorsal": 2,
+            "fecha_nacimiento": "2015-01-02",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5072,
+              "partidos_jugados": 4,
+              "goles": 1,
+              "minutos": 60,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1073,
+            "nombre": "Jugador 3",
+            "dorsal": 3,
+            "fecha_nacimiento": "2014-01-03",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5073,
+              "partidos_jugados": 6,
+              "goles": 2,
+              "minutos": 90,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1074,
+            "nombre": "Jugador 4",
+            "dorsal": 4,
+            "fecha_nacimiento": "2015-01-04",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5074,
+              "partidos_jugados": 8,
+              "goles": 3,
+              "minutos": 120,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1075,
+            "nombre": "Jugador 5",
+            "dorsal": 5,
+            "fecha_nacimiento": "2014-01-05",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5075,
+              "partidos_jugados": 10,
+              "goles": 4,
+              "minutos": 150,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1076,
+            "nombre": "Jugador 6",
+            "dorsal": 6,
+            "fecha_nacimiento": "2015-01-06",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5076,
+              "partidos_jugados": 12,
+              "goles": 0,
+              "minutos": 180,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1077,
+            "nombre": "Jugador 7",
+            "dorsal": 7,
+            "fecha_nacimiento": "2014-01-07",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5077,
+              "partidos_jugados": 14,
+              "goles": 1,
+              "minutos": 210,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1078,
+            "nombre": "Jugador 8",
+            "dorsal": 8,
+            "fecha_nacimiento": "2015-01-08",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5078,
+              "partidos_jugados": 16,
+              "goles": 2,
+              "minutos": 240,
+              "tarjetas": 1,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1079,
+            "nombre": "Jugador 9",
+            "dorsal": 9,
+            "fecha_nacimiento": "2014-01-09",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5079,
+              "partidos_jugados": 18,
+              "goles": 3,
+              "minutos": 270,
+              "tarjetas": 2,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1080,
+            "nombre": "Jugador 10",
+            "dorsal": 10,
+            "fecha_nacimiento": "2015-01-10",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5080,
+              "partidos_jugados": 20,
+              "goles": 4,
+              "minutos": 300,
+              "tarjetas": 0,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1081,
+            "nombre": "Jugador 11",
+            "dorsal": 11,
+            "fecha_nacimiento": "2014-01-11",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5081,
+              "partidos_jugados": 22,
+              "goles": 0,
+              "minutos": 330,
+              "tarjetas": 1,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1082,
+            "nombre": "Jugador 12",
+            "dorsal": 12,
+            "fecha_nacimiento": "2015-01-12",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5082,
+              "partidos_jugados": 24,
+              "goles": 1,
+              "minutos": 360,
+              "tarjetas": 2,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1083,
+            "nombre": "Jugador 13",
+            "dorsal": 13,
+            "fecha_nacimiento": "2014-01-13",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5083,
+              "partidos_jugados": 26,
+              "goles": 2,
+              "minutos": 390,
+              "tarjetas": 0,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1084,
+            "nombre": "Jugador 14",
+            "dorsal": 14,
+            "fecha_nacimiento": "2015-01-14",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5084,
+              "partidos_jugados": 28,
+              "goles": 3,
+              "minutos": 420,
+              "tarjetas": 1,
+              "rendimiento_index": 6.5
+            }
+          }
+        ]
+      },
+      {
+        "id": 107,
+        "nombre": "Infantil A",
+        "categoria": "infantil",
+        "jugadores": [
+          {
+            "id": 1085,
+            "nombre": "Jugador 1",
+            "dorsal": 1,
+            "fecha_nacimiento": "2012-01-01",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5085,
+              "partidos_jugados": 2,
+              "goles": 0,
+              "minutos": 30,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1086,
+            "nombre": "Jugador 2",
+            "dorsal": 2,
+            "fecha_nacimiento": "2013-01-02",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5086,
+              "partidos_jugados": 4,
+              "goles": 1,
+              "minutos": 60,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1087,
+            "nombre": "Jugador 3",
+            "dorsal": 3,
+            "fecha_nacimiento": "2012-01-03",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5087,
+              "partidos_jugados": 6,
+              "goles": 2,
+              "minutos": 90,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1088,
+            "nombre": "Jugador 4",
+            "dorsal": 4,
+            "fecha_nacimiento": "2013-01-04",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5088,
+              "partidos_jugados": 8,
+              "goles": 3,
+              "minutos": 120,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1089,
+            "nombre": "Jugador 5",
+            "dorsal": 5,
+            "fecha_nacimiento": "2012-01-05",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5089,
+              "partidos_jugados": 10,
+              "goles": 4,
+              "minutos": 150,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1090,
+            "nombre": "Jugador 6",
+            "dorsal": 6,
+            "fecha_nacimiento": "2013-01-06",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5090,
+              "partidos_jugados": 12,
+              "goles": 0,
+              "minutos": 180,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1091,
+            "nombre": "Jugador 7",
+            "dorsal": 7,
+            "fecha_nacimiento": "2012-01-07",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5091,
+              "partidos_jugados": 14,
+              "goles": 1,
+              "minutos": 210,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1092,
+            "nombre": "Jugador 8",
+            "dorsal": 8,
+            "fecha_nacimiento": "2013-01-08",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5092,
+              "partidos_jugados": 16,
+              "goles": 2,
+              "minutos": 240,
+              "tarjetas": 1,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1093,
+            "nombre": "Jugador 9",
+            "dorsal": 9,
+            "fecha_nacimiento": "2012-01-09",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5093,
+              "partidos_jugados": 18,
+              "goles": 3,
+              "minutos": 270,
+              "tarjetas": 2,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1094,
+            "nombre": "Jugador 10",
+            "dorsal": 10,
+            "fecha_nacimiento": "2013-01-10",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5094,
+              "partidos_jugados": 20,
+              "goles": 4,
+              "minutos": 300,
+              "tarjetas": 0,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1095,
+            "nombre": "Jugador 11",
+            "dorsal": 11,
+            "fecha_nacimiento": "2012-01-11",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5095,
+              "partidos_jugados": 22,
+              "goles": 0,
+              "minutos": 330,
+              "tarjetas": 1,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1096,
+            "nombre": "Jugador 12",
+            "dorsal": 12,
+            "fecha_nacimiento": "2013-01-12",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5096,
+              "partidos_jugados": 24,
+              "goles": 1,
+              "minutos": 360,
+              "tarjetas": 2,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1097,
+            "nombre": "Jugador 13",
+            "dorsal": 13,
+            "fecha_nacimiento": "2012-01-13",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5097,
+              "partidos_jugados": 26,
+              "goles": 2,
+              "minutos": 390,
+              "tarjetas": 0,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1098,
+            "nombre": "Jugador 14",
+            "dorsal": 14,
+            "fecha_nacimiento": "2013-01-14",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5098,
+              "partidos_jugados": 28,
+              "goles": 3,
+              "minutos": 420,
+              "tarjetas": 1,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1099,
+            "nombre": "Jugador 15",
+            "dorsal": 15,
+            "fecha_nacimiento": "2012-01-15",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5099,
+              "partidos_jugados": 30,
+              "goles": 4,
+              "minutos": 450,
+              "tarjetas": 2,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1100,
+            "nombre": "Jugador 16",
+            "dorsal": 16,
+            "fecha_nacimiento": "2013-01-16",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5100,
+              "partidos_jugados": 32,
+              "goles": 0,
+              "minutos": 480,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1101,
+            "nombre": "Jugador 17",
+            "dorsal": 17,
+            "fecha_nacimiento": "2012-01-17",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5101,
+              "partidos_jugados": 34,
+              "goles": 1,
+              "minutos": 510,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1102,
+            "nombre": "Jugador 18",
+            "dorsal": 18,
+            "fecha_nacimiento": "2013-01-18",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5102,
+              "partidos_jugados": 36,
+              "goles": 2,
+              "minutos": 540,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1103,
+            "nombre": "Jugador 19",
+            "dorsal": 19,
+            "fecha_nacimiento": "2012-01-19",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5103,
+              "partidos_jugados": 38,
+              "goles": 3,
+              "minutos": 570,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1104,
+            "nombre": "Jugador 20",
+            "dorsal": 20,
+            "fecha_nacimiento": "2013-01-20",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5104,
+              "partidos_jugados": 40,
+              "goles": 4,
+              "minutos": 600,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1105,
+            "nombre": "Jugador 21",
+            "dorsal": 21,
+            "fecha_nacimiento": "2012-01-21",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5105,
+              "partidos_jugados": 42,
+              "goles": 0,
+              "minutos": 630,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1106,
+            "nombre": "Jugador 22",
+            "dorsal": 22,
+            "fecha_nacimiento": "2013-01-22",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5106,
+              "partidos_jugados": 44,
+              "goles": 1,
+              "minutos": 660,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "nombre": "Infantil B",
+        "categoria": "infantil",
+        "jugadores": [
+          {
+            "id": 1107,
+            "nombre": "Jugador 1",
+            "dorsal": 1,
+            "fecha_nacimiento": "2012-01-01",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5107,
+              "partidos_jugados": 2,
+              "goles": 0,
+              "minutos": 30,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1108,
+            "nombre": "Jugador 2",
+            "dorsal": 2,
+            "fecha_nacimiento": "2013-01-02",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5108,
+              "partidos_jugados": 4,
+              "goles": 1,
+              "minutos": 60,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1109,
+            "nombre": "Jugador 3",
+            "dorsal": 3,
+            "fecha_nacimiento": "2012-01-03",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5109,
+              "partidos_jugados": 6,
+              "goles": 2,
+              "minutos": 90,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1110,
+            "nombre": "Jugador 4",
+            "dorsal": 4,
+            "fecha_nacimiento": "2013-01-04",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5110,
+              "partidos_jugados": 8,
+              "goles": 3,
+              "minutos": 120,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1111,
+            "nombre": "Jugador 5",
+            "dorsal": 5,
+            "fecha_nacimiento": "2012-01-05",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5111,
+              "partidos_jugados": 10,
+              "goles": 4,
+              "minutos": 150,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1112,
+            "nombre": "Jugador 6",
+            "dorsal": 6,
+            "fecha_nacimiento": "2013-01-06",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5112,
+              "partidos_jugados": 12,
+              "goles": 0,
+              "minutos": 180,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1113,
+            "nombre": "Jugador 7",
+            "dorsal": 7,
+            "fecha_nacimiento": "2012-01-07",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5113,
+              "partidos_jugados": 14,
+              "goles": 1,
+              "minutos": 210,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1114,
+            "nombre": "Jugador 8",
+            "dorsal": 8,
+            "fecha_nacimiento": "2013-01-08",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5114,
+              "partidos_jugados": 16,
+              "goles": 2,
+              "minutos": 240,
+              "tarjetas": 1,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1115,
+            "nombre": "Jugador 9",
+            "dorsal": 9,
+            "fecha_nacimiento": "2012-01-09",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5115,
+              "partidos_jugados": 18,
+              "goles": 3,
+              "minutos": 270,
+              "tarjetas": 2,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1116,
+            "nombre": "Jugador 10",
+            "dorsal": 10,
+            "fecha_nacimiento": "2013-01-10",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5116,
+              "partidos_jugados": 20,
+              "goles": 4,
+              "minutos": 300,
+              "tarjetas": 0,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1117,
+            "nombre": "Jugador 11",
+            "dorsal": 11,
+            "fecha_nacimiento": "2012-01-11",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5117,
+              "partidos_jugados": 22,
+              "goles": 0,
+              "minutos": 330,
+              "tarjetas": 1,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1118,
+            "nombre": "Jugador 12",
+            "dorsal": 12,
+            "fecha_nacimiento": "2013-01-12",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5118,
+              "partidos_jugados": 24,
+              "goles": 1,
+              "minutos": 360,
+              "tarjetas": 2,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1119,
+            "nombre": "Jugador 13",
+            "dorsal": 13,
+            "fecha_nacimiento": "2012-01-13",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5119,
+              "partidos_jugados": 26,
+              "goles": 2,
+              "minutos": 390,
+              "tarjetas": 0,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1120,
+            "nombre": "Jugador 14",
+            "dorsal": 14,
+            "fecha_nacimiento": "2013-01-14",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5120,
+              "partidos_jugados": 28,
+              "goles": 3,
+              "minutos": 420,
+              "tarjetas": 1,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1121,
+            "nombre": "Jugador 15",
+            "dorsal": 15,
+            "fecha_nacimiento": "2012-01-15",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5121,
+              "partidos_jugados": 30,
+              "goles": 4,
+              "minutos": 450,
+              "tarjetas": 2,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1122,
+            "nombre": "Jugador 16",
+            "dorsal": 16,
+            "fecha_nacimiento": "2013-01-16",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5122,
+              "partidos_jugados": 32,
+              "goles": 0,
+              "minutos": 480,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1123,
+            "nombre": "Jugador 17",
+            "dorsal": 17,
+            "fecha_nacimiento": "2012-01-17",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5123,
+              "partidos_jugados": 34,
+              "goles": 1,
+              "minutos": 510,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1124,
+            "nombre": "Jugador 18",
+            "dorsal": 18,
+            "fecha_nacimiento": "2013-01-18",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5124,
+              "partidos_jugados": 36,
+              "goles": 2,
+              "minutos": 540,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1125,
+            "nombre": "Jugador 19",
+            "dorsal": 19,
+            "fecha_nacimiento": "2012-01-19",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5125,
+              "partidos_jugados": 38,
+              "goles": 3,
+              "minutos": 570,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1126,
+            "nombre": "Jugador 20",
+            "dorsal": 20,
+            "fecha_nacimiento": "2013-01-20",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5126,
+              "partidos_jugados": 40,
+              "goles": 4,
+              "minutos": 600,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1127,
+            "nombre": "Jugador 21",
+            "dorsal": 21,
+            "fecha_nacimiento": "2012-01-21",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5127,
+              "partidos_jugados": 42,
+              "goles": 0,
+              "minutos": 630,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1128,
+            "nombre": "Jugador 22",
+            "dorsal": 22,
+            "fecha_nacimiento": "2013-01-22",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5128,
+              "partidos_jugados": 44,
+              "goles": 1,
+              "minutos": 660,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "nombre": "Infantil C",
+        "categoria": "infantil",
+        "jugadores": [
+          {
+            "id": 1129,
+            "nombre": "Jugador 1",
+            "dorsal": 1,
+            "fecha_nacimiento": "2012-01-01",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5129,
+              "partidos_jugados": 2,
+              "goles": 0,
+              "minutos": 30,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1130,
+            "nombre": "Jugador 2",
+            "dorsal": 2,
+            "fecha_nacimiento": "2013-01-02",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5130,
+              "partidos_jugados": 4,
+              "goles": 1,
+              "minutos": 60,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1131,
+            "nombre": "Jugador 3",
+            "dorsal": 3,
+            "fecha_nacimiento": "2012-01-03",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5131,
+              "partidos_jugados": 6,
+              "goles": 2,
+              "minutos": 90,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1132,
+            "nombre": "Jugador 4",
+            "dorsal": 4,
+            "fecha_nacimiento": "2013-01-04",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5132,
+              "partidos_jugados": 8,
+              "goles": 3,
+              "minutos": 120,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1133,
+            "nombre": "Jugador 5",
+            "dorsal": 5,
+            "fecha_nacimiento": "2012-01-05",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5133,
+              "partidos_jugados": 10,
+              "goles": 4,
+              "minutos": 150,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1134,
+            "nombre": "Jugador 6",
+            "dorsal": 6,
+            "fecha_nacimiento": "2013-01-06",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5134,
+              "partidos_jugados": 12,
+              "goles": 0,
+              "minutos": 180,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1135,
+            "nombre": "Jugador 7",
+            "dorsal": 7,
+            "fecha_nacimiento": "2012-01-07",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5135,
+              "partidos_jugados": 14,
+              "goles": 1,
+              "minutos": 210,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1136,
+            "nombre": "Jugador 8",
+            "dorsal": 8,
+            "fecha_nacimiento": "2013-01-08",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5136,
+              "partidos_jugados": 16,
+              "goles": 2,
+              "minutos": 240,
+              "tarjetas": 1,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1137,
+            "nombre": "Jugador 9",
+            "dorsal": 9,
+            "fecha_nacimiento": "2012-01-09",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5137,
+              "partidos_jugados": 18,
+              "goles": 3,
+              "minutos": 270,
+              "tarjetas": 2,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1138,
+            "nombre": "Jugador 10",
+            "dorsal": 10,
+            "fecha_nacimiento": "2013-01-10",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5138,
+              "partidos_jugados": 20,
+              "goles": 4,
+              "minutos": 300,
+              "tarjetas": 0,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1139,
+            "nombre": "Jugador 11",
+            "dorsal": 11,
+            "fecha_nacimiento": "2012-01-11",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5139,
+              "partidos_jugados": 22,
+              "goles": 0,
+              "minutos": 330,
+              "tarjetas": 1,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1140,
+            "nombre": "Jugador 12",
+            "dorsal": 12,
+            "fecha_nacimiento": "2013-01-12",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5140,
+              "partidos_jugados": 24,
+              "goles": 1,
+              "minutos": 360,
+              "tarjetas": 2,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1141,
+            "nombre": "Jugador 13",
+            "dorsal": 13,
+            "fecha_nacimiento": "2012-01-13",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5141,
+              "partidos_jugados": 26,
+              "goles": 2,
+              "minutos": 390,
+              "tarjetas": 0,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1142,
+            "nombre": "Jugador 14",
+            "dorsal": 14,
+            "fecha_nacimiento": "2013-01-14",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5142,
+              "partidos_jugados": 28,
+              "goles": 3,
+              "minutos": 420,
+              "tarjetas": 1,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1143,
+            "nombre": "Jugador 15",
+            "dorsal": 15,
+            "fecha_nacimiento": "2012-01-15",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5143,
+              "partidos_jugados": 30,
+              "goles": 4,
+              "minutos": 450,
+              "tarjetas": 2,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1144,
+            "nombre": "Jugador 16",
+            "dorsal": 16,
+            "fecha_nacimiento": "2013-01-16",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5144,
+              "partidos_jugados": 32,
+              "goles": 0,
+              "minutos": 480,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1145,
+            "nombre": "Jugador 17",
+            "dorsal": 17,
+            "fecha_nacimiento": "2012-01-17",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5145,
+              "partidos_jugados": 34,
+              "goles": 1,
+              "minutos": 510,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1146,
+            "nombre": "Jugador 18",
+            "dorsal": 18,
+            "fecha_nacimiento": "2013-01-18",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5146,
+              "partidos_jugados": 36,
+              "goles": 2,
+              "minutos": 540,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1147,
+            "nombre": "Jugador 19",
+            "dorsal": 19,
+            "fecha_nacimiento": "2012-01-19",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5147,
+              "partidos_jugados": 38,
+              "goles": 3,
+              "minutos": 570,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1148,
+            "nombre": "Jugador 20",
+            "dorsal": 20,
+            "fecha_nacimiento": "2013-01-20",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5148,
+              "partidos_jugados": 40,
+              "goles": 4,
+              "minutos": 600,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1149,
+            "nombre": "Jugador 21",
+            "dorsal": 21,
+            "fecha_nacimiento": "2012-01-21",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5149,
+              "partidos_jugados": 42,
+              "goles": 0,
+              "minutos": 630,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1150,
+            "nombre": "Jugador 22",
+            "dorsal": 22,
+            "fecha_nacimiento": "2013-01-22",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5150,
+              "partidos_jugados": 44,
+              "goles": 1,
+              "minutos": 660,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "nombre": "Cadete A",
+        "categoria": "cadete",
+        "jugadores": [
+          {
+            "id": 1151,
+            "nombre": "Jugador 1",
+            "dorsal": 1,
+            "fecha_nacimiento": "2010-01-01",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5151,
+              "partidos_jugados": 2,
+              "goles": 0,
+              "minutos": 30,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1152,
+            "nombre": "Jugador 2",
+            "dorsal": 2,
+            "fecha_nacimiento": "2011-01-02",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5152,
+              "partidos_jugados": 4,
+              "goles": 1,
+              "minutos": 60,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1153,
+            "nombre": "Jugador 3",
+            "dorsal": 3,
+            "fecha_nacimiento": "2010-01-03",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5153,
+              "partidos_jugados": 6,
+              "goles": 2,
+              "minutos": 90,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1154,
+            "nombre": "Jugador 4",
+            "dorsal": 4,
+            "fecha_nacimiento": "2011-01-04",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5154,
+              "partidos_jugados": 8,
+              "goles": 3,
+              "minutos": 120,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1155,
+            "nombre": "Jugador 5",
+            "dorsal": 5,
+            "fecha_nacimiento": "2010-01-05",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5155,
+              "partidos_jugados": 10,
+              "goles": 4,
+              "minutos": 150,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1156,
+            "nombre": "Jugador 6",
+            "dorsal": 6,
+            "fecha_nacimiento": "2011-01-06",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5156,
+              "partidos_jugados": 12,
+              "goles": 0,
+              "minutos": 180,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1157,
+            "nombre": "Jugador 7",
+            "dorsal": 7,
+            "fecha_nacimiento": "2010-01-07",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5157,
+              "partidos_jugados": 14,
+              "goles": 1,
+              "minutos": 210,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1158,
+            "nombre": "Jugador 8",
+            "dorsal": 8,
+            "fecha_nacimiento": "2011-01-08",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5158,
+              "partidos_jugados": 16,
+              "goles": 2,
+              "minutos": 240,
+              "tarjetas": 1,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1159,
+            "nombre": "Jugador 9",
+            "dorsal": 9,
+            "fecha_nacimiento": "2010-01-09",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5159,
+              "partidos_jugados": 18,
+              "goles": 3,
+              "minutos": 270,
+              "tarjetas": 2,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1160,
+            "nombre": "Jugador 10",
+            "dorsal": 10,
+            "fecha_nacimiento": "2011-01-10",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5160,
+              "partidos_jugados": 20,
+              "goles": 4,
+              "minutos": 300,
+              "tarjetas": 0,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1161,
+            "nombre": "Jugador 11",
+            "dorsal": 11,
+            "fecha_nacimiento": "2010-01-11",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5161,
+              "partidos_jugados": 22,
+              "goles": 0,
+              "minutos": 330,
+              "tarjetas": 1,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1162,
+            "nombre": "Jugador 12",
+            "dorsal": 12,
+            "fecha_nacimiento": "2011-01-12",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5162,
+              "partidos_jugados": 24,
+              "goles": 1,
+              "minutos": 360,
+              "tarjetas": 2,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1163,
+            "nombre": "Jugador 13",
+            "dorsal": 13,
+            "fecha_nacimiento": "2010-01-13",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5163,
+              "partidos_jugados": 26,
+              "goles": 2,
+              "minutos": 390,
+              "tarjetas": 0,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1164,
+            "nombre": "Jugador 14",
+            "dorsal": 14,
+            "fecha_nacimiento": "2011-01-14",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5164,
+              "partidos_jugados": 28,
+              "goles": 3,
+              "minutos": 420,
+              "tarjetas": 1,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1165,
+            "nombre": "Jugador 15",
+            "dorsal": 15,
+            "fecha_nacimiento": "2010-01-15",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5165,
+              "partidos_jugados": 30,
+              "goles": 4,
+              "minutos": 450,
+              "tarjetas": 2,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1166,
+            "nombre": "Jugador 16",
+            "dorsal": 16,
+            "fecha_nacimiento": "2011-01-16",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5166,
+              "partidos_jugados": 32,
+              "goles": 0,
+              "minutos": 480,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1167,
+            "nombre": "Jugador 17",
+            "dorsal": 17,
+            "fecha_nacimiento": "2010-01-17",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5167,
+              "partidos_jugados": 34,
+              "goles": 1,
+              "minutos": 510,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1168,
+            "nombre": "Jugador 18",
+            "dorsal": 18,
+            "fecha_nacimiento": "2011-01-18",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5168,
+              "partidos_jugados": 36,
+              "goles": 2,
+              "minutos": 540,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1169,
+            "nombre": "Jugador 19",
+            "dorsal": 19,
+            "fecha_nacimiento": "2010-01-19",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5169,
+              "partidos_jugados": 38,
+              "goles": 3,
+              "minutos": 570,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1170,
+            "nombre": "Jugador 20",
+            "dorsal": 20,
+            "fecha_nacimiento": "2011-01-20",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5170,
+              "partidos_jugados": 40,
+              "goles": 4,
+              "minutos": 600,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1171,
+            "nombre": "Jugador 21",
+            "dorsal": 21,
+            "fecha_nacimiento": "2010-01-21",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5171,
+              "partidos_jugados": 42,
+              "goles": 0,
+              "minutos": 630,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1172,
+            "nombre": "Jugador 22",
+            "dorsal": 22,
+            "fecha_nacimiento": "2011-01-22",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5172,
+              "partidos_jugados": 44,
+              "goles": 1,
+              "minutos": 660,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          }
+        ]
+      },
+      {
+        "id": 111,
+        "nombre": "Cadete B",
+        "categoria": "cadete",
+        "jugadores": [
+          {
+            "id": 1173,
+            "nombre": "Jugador 1",
+            "dorsal": 1,
+            "fecha_nacimiento": "2010-01-01",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5173,
+              "partidos_jugados": 2,
+              "goles": 0,
+              "minutos": 30,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1174,
+            "nombre": "Jugador 2",
+            "dorsal": 2,
+            "fecha_nacimiento": "2011-01-02",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5174,
+              "partidos_jugados": 4,
+              "goles": 1,
+              "minutos": 60,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1175,
+            "nombre": "Jugador 3",
+            "dorsal": 3,
+            "fecha_nacimiento": "2010-01-03",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5175,
+              "partidos_jugados": 6,
+              "goles": 2,
+              "minutos": 90,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1176,
+            "nombre": "Jugador 4",
+            "dorsal": 4,
+            "fecha_nacimiento": "2011-01-04",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5176,
+              "partidos_jugados": 8,
+              "goles": 3,
+              "minutos": 120,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1177,
+            "nombre": "Jugador 5",
+            "dorsal": 5,
+            "fecha_nacimiento": "2010-01-05",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5177,
+              "partidos_jugados": 10,
+              "goles": 4,
+              "minutos": 150,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1178,
+            "nombre": "Jugador 6",
+            "dorsal": 6,
+            "fecha_nacimiento": "2011-01-06",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5178,
+              "partidos_jugados": 12,
+              "goles": 0,
+              "minutos": 180,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1179,
+            "nombre": "Jugador 7",
+            "dorsal": 7,
+            "fecha_nacimiento": "2010-01-07",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5179,
+              "partidos_jugados": 14,
+              "goles": 1,
+              "minutos": 210,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1180,
+            "nombre": "Jugador 8",
+            "dorsal": 8,
+            "fecha_nacimiento": "2011-01-08",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5180,
+              "partidos_jugados": 16,
+              "goles": 2,
+              "minutos": 240,
+              "tarjetas": 1,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1181,
+            "nombre": "Jugador 9",
+            "dorsal": 9,
+            "fecha_nacimiento": "2010-01-09",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5181,
+              "partidos_jugados": 18,
+              "goles": 3,
+              "minutos": 270,
+              "tarjetas": 2,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1182,
+            "nombre": "Jugador 10",
+            "dorsal": 10,
+            "fecha_nacimiento": "2011-01-10",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5182,
+              "partidos_jugados": 20,
+              "goles": 4,
+              "minutos": 300,
+              "tarjetas": 0,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1183,
+            "nombre": "Jugador 11",
+            "dorsal": 11,
+            "fecha_nacimiento": "2010-01-11",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5183,
+              "partidos_jugados": 22,
+              "goles": 0,
+              "minutos": 330,
+              "tarjetas": 1,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1184,
+            "nombre": "Jugador 12",
+            "dorsal": 12,
+            "fecha_nacimiento": "2011-01-12",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5184,
+              "partidos_jugados": 24,
+              "goles": 1,
+              "minutos": 360,
+              "tarjetas": 2,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1185,
+            "nombre": "Jugador 13",
+            "dorsal": 13,
+            "fecha_nacimiento": "2010-01-13",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5185,
+              "partidos_jugados": 26,
+              "goles": 2,
+              "minutos": 390,
+              "tarjetas": 0,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1186,
+            "nombre": "Jugador 14",
+            "dorsal": 14,
+            "fecha_nacimiento": "2011-01-14",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5186,
+              "partidos_jugados": 28,
+              "goles": 3,
+              "minutos": 420,
+              "tarjetas": 1,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1187,
+            "nombre": "Jugador 15",
+            "dorsal": 15,
+            "fecha_nacimiento": "2010-01-15",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5187,
+              "partidos_jugados": 30,
+              "goles": 4,
+              "minutos": 450,
+              "tarjetas": 2,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1188,
+            "nombre": "Jugador 16",
+            "dorsal": 16,
+            "fecha_nacimiento": "2011-01-16",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5188,
+              "partidos_jugados": 32,
+              "goles": 0,
+              "minutos": 480,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1189,
+            "nombre": "Jugador 17",
+            "dorsal": 17,
+            "fecha_nacimiento": "2010-01-17",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5189,
+              "partidos_jugados": 34,
+              "goles": 1,
+              "minutos": 510,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1190,
+            "nombre": "Jugador 18",
+            "dorsal": 18,
+            "fecha_nacimiento": "2011-01-18",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5190,
+              "partidos_jugados": 36,
+              "goles": 2,
+              "minutos": 540,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1191,
+            "nombre": "Jugador 19",
+            "dorsal": 19,
+            "fecha_nacimiento": "2010-01-19",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5191,
+              "partidos_jugados": 38,
+              "goles": 3,
+              "minutos": 570,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1192,
+            "nombre": "Jugador 20",
+            "dorsal": 20,
+            "fecha_nacimiento": "2011-01-20",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5192,
+              "partidos_jugados": 40,
+              "goles": 4,
+              "minutos": 600,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1193,
+            "nombre": "Jugador 21",
+            "dorsal": 21,
+            "fecha_nacimiento": "2010-01-21",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5193,
+              "partidos_jugados": 42,
+              "goles": 0,
+              "minutos": 630,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1194,
+            "nombre": "Jugador 22",
+            "dorsal": 22,
+            "fecha_nacimiento": "2011-01-22",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5194,
+              "partidos_jugados": 44,
+              "goles": 1,
+              "minutos": 660,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          }
+        ]
+      },
+      {
+        "id": 112,
+        "nombre": "Juvenil",
+        "categoria": "juvenil",
+        "jugadores": [
+          {
+            "id": 1195,
+            "nombre": "Jugador 1",
+            "dorsal": 1,
+            "fecha_nacimiento": "2007-01-01",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5195,
+              "partidos_jugados": 2,
+              "goles": 0,
+              "minutos": 30,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1196,
+            "nombre": "Jugador 2",
+            "dorsal": 2,
+            "fecha_nacimiento": "2008-01-02",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5196,
+              "partidos_jugados": 4,
+              "goles": 1,
+              "minutos": 60,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1197,
+            "nombre": "Jugador 3",
+            "dorsal": 3,
+            "fecha_nacimiento": "2009-01-03",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5197,
+              "partidos_jugados": 6,
+              "goles": 2,
+              "minutos": 90,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1198,
+            "nombre": "Jugador 4",
+            "dorsal": 4,
+            "fecha_nacimiento": "2007-01-04",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5198,
+              "partidos_jugados": 8,
+              "goles": 3,
+              "minutos": 120,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1199,
+            "nombre": "Jugador 5",
+            "dorsal": 5,
+            "fecha_nacimiento": "2008-01-05",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5199,
+              "partidos_jugados": 10,
+              "goles": 4,
+              "minutos": 150,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1200,
+            "nombre": "Jugador 6",
+            "dorsal": 6,
+            "fecha_nacimiento": "2009-01-06",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5200,
+              "partidos_jugados": 12,
+              "goles": 0,
+              "minutos": 180,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1201,
+            "nombre": "Jugador 7",
+            "dorsal": 7,
+            "fecha_nacimiento": "2007-01-07",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5201,
+              "partidos_jugados": 14,
+              "goles": 1,
+              "minutos": 210,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1202,
+            "nombre": "Jugador 8",
+            "dorsal": 8,
+            "fecha_nacimiento": "2008-01-08",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5202,
+              "partidos_jugados": 16,
+              "goles": 2,
+              "minutos": 240,
+              "tarjetas": 1,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1203,
+            "nombre": "Jugador 9",
+            "dorsal": 9,
+            "fecha_nacimiento": "2009-01-09",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5203,
+              "partidos_jugados": 18,
+              "goles": 3,
+              "minutos": 270,
+              "tarjetas": 2,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1204,
+            "nombre": "Jugador 10",
+            "dorsal": 10,
+            "fecha_nacimiento": "2007-01-10",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5204,
+              "partidos_jugados": 20,
+              "goles": 4,
+              "minutos": 300,
+              "tarjetas": 0,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1205,
+            "nombre": "Jugador 11",
+            "dorsal": 11,
+            "fecha_nacimiento": "2008-01-11",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5205,
+              "partidos_jugados": 22,
+              "goles": 0,
+              "minutos": 330,
+              "tarjetas": 1,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1206,
+            "nombre": "Jugador 12",
+            "dorsal": 12,
+            "fecha_nacimiento": "2009-01-12",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5206,
+              "partidos_jugados": 24,
+              "goles": 1,
+              "minutos": 360,
+              "tarjetas": 2,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1207,
+            "nombre": "Jugador 13",
+            "dorsal": 13,
+            "fecha_nacimiento": "2007-01-13",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5207,
+              "partidos_jugados": 26,
+              "goles": 2,
+              "minutos": 390,
+              "tarjetas": 0,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1208,
+            "nombre": "Jugador 14",
+            "dorsal": 14,
+            "fecha_nacimiento": "2008-01-14",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5208,
+              "partidos_jugados": 28,
+              "goles": 3,
+              "minutos": 420,
+              "tarjetas": 1,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1209,
+            "nombre": "Jugador 15",
+            "dorsal": 15,
+            "fecha_nacimiento": "2009-01-15",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5209,
+              "partidos_jugados": 30,
+              "goles": 4,
+              "minutos": 450,
+              "tarjetas": 2,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1210,
+            "nombre": "Jugador 16",
+            "dorsal": 16,
+            "fecha_nacimiento": "2007-01-16",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5210,
+              "partidos_jugados": 32,
+              "goles": 0,
+              "minutos": 480,
+              "tarjetas": 0,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1211,
+            "nombre": "Jugador 17",
+            "dorsal": 17,
+            "fecha_nacimiento": "2008-01-17",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5211,
+              "partidos_jugados": 34,
+              "goles": 1,
+              "minutos": 510,
+              "tarjetas": 1,
+              "rendimiento_index": 5.5
+            }
+          },
+          {
+            "id": 1212,
+            "nombre": "Jugador 18",
+            "dorsal": 18,
+            "fecha_nacimiento": "2009-01-18",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5212,
+              "partidos_jugados": 36,
+              "goles": 2,
+              "minutos": 540,
+              "tarjetas": 2,
+              "rendimiento_index": 6.0
+            }
+          },
+          {
+            "id": 1213,
+            "nombre": "Jugador 19",
+            "dorsal": 19,
+            "fecha_nacimiento": "2007-01-19",
+            "posicion": "medio",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5213,
+              "partidos_jugados": 38,
+              "goles": 3,
+              "minutos": 570,
+              "tarjetas": 0,
+              "rendimiento_index": 6.5
+            }
+          },
+          {
+            "id": 1214,
+            "nombre": "Jugador 20",
+            "dorsal": 20,
+            "fecha_nacimiento": "2008-01-20",
+            "posicion": "delantero",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5214,
+              "partidos_jugados": 40,
+              "goles": 4,
+              "minutos": 600,
+              "tarjetas": 1,
+              "rendimiento_index": 7.0
+            }
+          },
+          {
+            "id": 1215,
+            "nombre": "Jugador 21",
+            "dorsal": 21,
+            "fecha_nacimiento": "2009-01-21",
+            "posicion": "portero",
+            "estado_fisico": true,
+            "estadisticas": {
+              "id": 5215,
+              "partidos_jugados": 42,
+              "goles": 0,
+              "minutos": 630,
+              "tarjetas": 2,
+              "rendimiento_index": 5.0
+            }
+          },
+          {
+            "id": 1216,
+            "nombre": "Jugador 22",
+            "dorsal": 22,
+            "fecha_nacimiento": "2007-01-22",
+            "posicion": "defensa",
+            "estado_fisico": false,
+            "estadisticas": {
+              "id": 5216,
+              "partidos_jugados": 44,
+              "goles": 1,
+              "minutos": 660,
+              "tarjetas": 0,
+              "rendimiento_index": 5.5
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

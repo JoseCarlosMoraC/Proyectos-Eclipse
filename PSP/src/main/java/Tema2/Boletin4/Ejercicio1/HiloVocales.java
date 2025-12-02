@@ -56,8 +56,9 @@ public String toString() {
 }
 
 public void contarVocal(String vocal, String texto) {
-	for (String textoContar : texto) {
+/*	for (String textoContar : texto) {
 		
 	}
+}*/
 }
 }
