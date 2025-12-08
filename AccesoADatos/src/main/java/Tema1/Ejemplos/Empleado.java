@@ -3,55 +3,83 @@ package Tema1.Ejemplos;
 import java.util.Objects;
 
 public class Empleado {
-private int id;
-private String nombreCompleto;
+private String id;
+private String nombreApellido;
 private int edad;
 private String empresa;
 
-public Empleado(int id, String nombreCompleto, int edad, String empresa) {
+
+
+public Empleado() {
+	super();
+}
+
+
+
+public Empleado(String id, String nombreApellido, int edad, String empresa) {
 	super();
 	this.id = id;
-	this.nombreCompleto = nombreCompleto;
+	this.nombreApellido = nombreApellido;
 	this.edad = edad;
 	this.empresa = empresa;
 }
 
-public int getId() {
+
+
+public String getId() {
 	return id;
 }
 
-public void setId(int id) {
+
+
+public void setId(String id) {
 	this.id = id;
 }
 
-public String getNombreCompleto() {
-	return nombreCompleto;
+
+
+public String getNombreApellido() {
+	return nombreApellido;
 }
 
-public void setNombreCompleto(String nombreCompleto) {
-	this.nombreCompleto = nombreCompleto;
+
+
+public void setNombreApellido(String nombreApellido) {
+	this.nombreApellido = nombreApellido;
 }
+
+
 
 public int getEdad() {
 	return edad;
 }
 
+
+
 public void setEdad(int edad) {
 	this.edad = edad;
 }
+
+
 
 public String getEmpresa() {
 	return empresa;
 }
 
+
+
 public void setEmpresa(String empresa) {
 	this.empresa = empresa;
 }
 
+
+
 @Override
 public int hashCode() {
-	return Objects.hash(edad, empresa, id, nombreCompleto);
+	return Objects.hash(edad, empresa, id, nombreApellido);
 }
+
+
 
 @Override
 public boolean equals(Object obj) {
@@ -62,15 +90,19 @@ public boolean equals(Object obj) {
 	if (getClass() != obj.getClass())
 		return false;
 	Empleado other = (Empleado) obj;
-	return edad == other.edad && Objects.equals(empresa, other.empresa) && id == other.id
-			&& Objects.equals(nombreCompleto, other.nombreCompleto);
+	return edad == other.edad && Objects.equals(empresa, other.empresa) && Objects.equals(id, other.id)
+			&& Objects.equals(nombreApellido, other.nombreApellido);
 }
+
+
 
 @Override
 public String toString() {
-	return "Empleado [id=" + id + ", nombreCompleto=" + nombreCompleto + ", edad=" + edad + ", empresa=" + empresa
+	return "Empleado [id = " + id + ", nombreApellido = " + nombreApellido + ", edad = " + edad + ", empresa = " + empresa
 			+ "]";
 }
+
+
 
 
 
