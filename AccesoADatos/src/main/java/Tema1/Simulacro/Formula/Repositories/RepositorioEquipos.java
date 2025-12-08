@@ -1,5 +1,6 @@
 package Tema1.Simulacro.Formula.Repositories;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -100,4 +101,8 @@ public class RepositorioEquipos {
 
         return lista;
     }
+=======
+public class RepositorioEquipos {
+
+>>>>>>> 8c3952bc8e9faa626c6090ce1b50c2febeed66fe
 }

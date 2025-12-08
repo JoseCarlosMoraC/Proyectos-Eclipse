@@ -13,7 +13,10 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8c3952bc8e9faa626c6090ce1b50c2febeed66fe
 import Simulacro.BancoDeAlimentos.Models.CentroLogistico;
 import Simulacro.BancoDeAlimentos.Models.Tipo;
 import Simulacro.BancoDeAlimentos.Models.Trabajador;

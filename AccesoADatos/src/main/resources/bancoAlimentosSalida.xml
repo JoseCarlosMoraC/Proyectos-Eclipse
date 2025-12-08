@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<centros>
+    <centro idCentro="CL01">
+        <nombreCentro>Banco de Alimentos Sevilla</nombreCentro>
+        <ciudad>Sevilla</ciudad>
+        <numComedores>50</numComedores>
+        <trabajadores>
+            <trabajador dni="34567890C">
+                <nombre>Isabel Morales</nombre>
+                <dni>34567890C</dni>
+                <fechaNacimiento>1985-05-22</fechaNacimiento>
+                <tipo>ASALARIADO</tipo>
+                <idCentro>CL01</idCentro>
+            </trabajador>
+            <trabajador dni="87654321B">
+                <nombre>María González</nombre>
+                <dni>87654321B</dni>
+                <fechaNacimiento>1992-11-05</fechaNacimiento>
+                <tipo>VOLUNTARIO</tipo>
+                <idCentro>CL01</idCentro>
+            </trabajador>
+            <trabajador dni="12345678A">
+                <nombre>Juan Pérez</nombre>
+                <dni>12345678A</dni>
+                <fechaNacimiento>1980-04-12</fechaNacimiento>
+                <tipo>ASALARIADO</tipo>
+                <idCentro>CL01</idCentro>
+            </trabajador>
+            <trabajador dni="23456789D">
+                <nombre>Antonio Fernández</nombre>
+                <dni>23456789D</dni>
+                <fechaNacimiento>1977-03-14</fechaNacimiento>
+                <tipo>VOLUNTARIO</tipo>
+                <idCentro>CL01</idCentro>
+            </trabajador>
+        </trabajadores>
+    </centro>
+    <centro idCentro="CL02">
+        <nombreCentro>Banco de Alimentos Málaga</nombreCentro>
+        <ciudad>Málaga</ciudad>
+        <numComedores>35</numComedores>
+        <trabajadores>
+            <trabajador dni="11223344C">
+                <nombre>Pedro López</nombre>
+                <dni>11223344C</dni>
+                <fechaNacimiento>1975-08-23</fechaNacimiento>
+                <tipo>ASALARIADO</tipo>
+                <idCentro>CL02</idCentro>
+            </trabajador>
+            <trabajador dni="44332211D">
+                <nombre>Ana Torres</nombre>
+                <dni>44332211D</dni>
+                <fechaNacimiento>1988-03-30</fechaNacimiento>
+                <tipo>VOLUNTARIO</tipo>
+                <idCentro>CL02</idCentro>
+            </trabajador>
+            <trabajador dni="55667788F">
+                <nombre>Lucía Martín</nombre>
+                <dni>55667788F</dni>
+                <fechaNacimiento>1991-07-08</fechaNacimiento>
+                <tipo>ASALARIADO</tipo>
+                <idCentro>CL02</idCentro>
+            </trabajador>
+            <trabajador dni="66778899G">
+                <nombre>Francisco Ruiz</nombre>
+                <dni>66778899G</dni>
+                <fechaNacimiento>1984-12-19</fechaNacimiento>
+                <tipo>VOLUNTARIO</tipo>
+                <idCentro>CL02</idCentro>
+            </trabajador>
+        </trabajadores>
+    </centro>
+    <centro idCentro="CL03">
+        <nombreCentro>Banco de Alimentos Granada</nombreCentro>
+        <ciudad>Granada</ciudad>
+        <numComedores>28</numComedores>
+        <trabajadores>
+            <trabajador dni="55667788E">
+                <nombre>Laura Fernández</nombre>
+                <dni>55667788E</dni>
+                <fechaNacimiento>1995-06-14</fechaNacimiento>
+                <tipo>VOLUNTARIO</tipo>
+                <idCentro>CL03</idCentro>
+            </trabajador>
+            <trabajador dni="33445566F">
+                <nombre>Carlos Méndez</nombre>
+                <dni>33445566F</dni>
+                <fechaNacimiento>1982-01-10</fechaNacimiento>
+                <tipo>ASALARIADO</tipo>
+                <idCentro>CL03</idCentro>
+            </trabajador>
+            <trabajador dni="88990011I">
+                <nombre>Rafael Sánchez</nombre>
+                <dni>88990011I</dni>
+                <fechaNacimiento>1978-02-17</fechaNacimiento>
+                <tipo>ASALARIADO</tipo>
+                <idCentro>CL03</idCentro>
+            </trabajador>
+            <trabajador dni="77889900H">
+                <nombre>Elena Martín</nombre>
+                <dni>77889900H</dni>
+                <fechaNacimiento>1993-09-29</fechaNacimiento>
+                <tipo>VOLUNTARIO</tipo>
+                <idCentro>CL03</idCentro>
+            </trabajador>
+        </trabajadores>
+    </centro>
+    <centro idCentro="CL04">
+        <nombreCentro>Banco de Alimentos Córdoba</nombreCentro>
+        <ciudad>Córdoba</ciudad>
+        <numComedores>22</numComedores>
+        <trabajadores>
+            <trabajador dni="10111213K">
+                <nombre>Manuel Serrano</nombre>
+                <dni>10111213K</dni>
+                <fechaNacimiento>1983-04-01</fechaNacimiento>
+                <tipo>ASALARIADO</tipo>
+                <idCentro>CL04</idCentro>
+            </trabajador>
+            <trabajador dni="22334455H">
+                <nombre>Alberto García</nombre>
+                <dni>22334455H</dni>
+                <fechaNacimiento>1979-09-15</fechaNacimiento>
+                <tipo>ASALARIADO</tipo>
+                <idCentro>CL04</idCentro>
+            </trabajador>
+            <trabajador dni="99001122J">
+                <nombre>Julia Muñoz</nombre>
+                <dni>99001122J</dni>
+                <fechaNacimiento>1987-10-05</fechaNacimiento>
+                <tipo>VOLUNTARIO</tipo>
+                <idCentro>CL04</idCentro>
+            </trabajador>
+            <trabajador dni="99887766G">
+                <nombre>Elena Ruiz</nombre>
+                <dni>99887766G</dni>
+                <fechaNacimiento>1990-12-22</fechaNacimiento>
+                <tipo>VOLUNTARIO</tipo>
+                <idCentro>CL04</idCentro>
+            </trabajador>
+        </trabajadores>
+    </centro>
+</centros>
