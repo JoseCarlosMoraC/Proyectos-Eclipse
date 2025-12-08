@@ -2,74 +2,93 @@ package Tema1.Simulacro.Formula.Models;
 
 import java.util.Objects;
 
+/*
+ * Clase Piloto: cada piloto pertenece a un equipo (idEquipo).
+ * El enunciado pide relacionarlos después, por eso guardamos solo el id del equipo,
+ * sin tener el objeto Equipo aquí.
+ */
 public class Piloto {
-private int identificadorPiloto;
-private String nombre;
-private String pais;
-private int puntos;
+    private String identificadorPiloto; // ID único para igualdad en Set
+    private String nombrePiloto;
+    private int puntos;
+    private String identificadorEquipo; // Se usa para vincularlo al Equipo
+    private String pais;
 
-public Piloto(int identificadorPiloto, String nombre, String pais, int puntos) {
-	super();
-	this.identificadorPiloto = identificadorPiloto;
-	this.nombre = nombre;
-	this.pais = pais;
-	this.puntos = puntos;
-}
+    public Piloto() {
+    }
 
-public int getIdentificadorPiloto() {
-	return identificadorPiloto;
-}
+    public Piloto(String identificadorPiloto, String nombrePiloto, int puntos, String identificadorEquipo, String pais) {
+        super();
+        this.identificadorPiloto = identificadorPiloto;
+        this.nombrePiloto = nombrePiloto;
+        this.puntos = puntos;
+        this.identificadorEquipo = identificadorEquipo;
+        this.pais = pais;
+    }
 
-public void setIdentificadorPiloto(int identificadorPiloto) {
-	this.identificadorPiloto = identificadorPiloto;
-}
+    public String getIdentificadorPiloto() {
+        return identificadorPiloto;
+    }
 
-public String getNombre() {
-	return nombre;
-}
+    public void setIdentificadorPiloto(String identificadorPiloto) {
+        this.identificadorPiloto = identificadorPiloto;
+    }
 
-public void setNombre(String nombre) {
-	this.nombre = nombre;
-}
+    public String getNombrePiloto() {
+        return nombrePiloto;
+    }
 
-public String getPais() {
-	return pais;
-}
+    public void setNombrePiloto(String nombrePiloto) {
+        this.nombrePiloto = nombrePiloto;
+    }
 
-public void setPais(String pais) {
-	this.pais = pais;
-}
+    public int getPuntos() {
+        return puntos;
+    }
 
-public int getPuntos() {
-	return puntos;
-}
+    public void setPuntos(int puntos) {
+        this.puntos = puntos;
+    }
 
-public void setPuntos(int puntos) {
-	this.puntos = puntos;
-}
+    public String getIdentificadorEquipo() {
+        return identificadorEquipo;
+    }
 
-@Override
-public int hashCode() {
-	return Objects.hash(identificadorPiloto);
-}
+    public void setIdentificadorEquipo(String identificadorEquipo) {
+        this.identificadorEquipo = identificadorEquipo;
+    }
 
-@Override
-public boolean equals(Object obj) {
-	if (this == obj)
-		return true;
-	if (obj == null)
-		return false;
-	if (getClass() != obj.getClass())
-		return false;
-	Piloto other = (Piloto) obj;
-	return identificadorPiloto == other.identificadorPiloto;
-}
+    public String getPais() {
+        return pais;
+    }
 
-@Override
-public String toString() {
-	return "Piloto [identificadorPiloto=" + identificadorPiloto + ", nombre=" + nombre + ", pais=" + pais + ", puntos="
-			+ puntos + "]";
-}
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
 
+    /*
+     * Necesario para permitir uso en Set y evitar duplicados.
+     */
+    @Override
+    public int hashCode() {
+        return Objects.hash(identificadorPiloto);
+    }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Piloto other = (Piloto) obj;
+        return Objects.equals(identificadorPiloto, other.identificadorPiloto);
+    }
+
+    @Override
+    public String toString() {
+        return "Piloto [identificadorPiloto=" + identificadorPiloto + ", nombrePiloto=" + nombrePiloto + ", puntos="
+                + puntos + ", identificadorEquipo=" + identificadorEquipo + ", pais=" + pais + "]";
+    }
 }
