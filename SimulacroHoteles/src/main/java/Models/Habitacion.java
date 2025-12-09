@@ -14,6 +14,10 @@ public Habitacion(Tipo tipo, double precio, int capacidad, boolean disponible) {
 	this.disponible = disponible;
 }
 
+public Habitacion() {
+	// TODO Auto-generated constructor stub
+}
+
 public Tipo getTipo() {
 	return tipo;
 }
