@@ -7,6 +7,8 @@ import java.util.Locale;
 
 import Tema1.Pokemon.Pokemon;
 
+
+
 public class EscribirPokemonCsv {
 
 	//esta clase con el metodo sirve para escribir un csv de un fichero json

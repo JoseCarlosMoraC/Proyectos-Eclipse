@@ -1,0 +1,5 @@
+package Models;
+
+enum Tipo {
+SUITEJUNIOR, DOBLEESTANDAR, INDIVIDUAL
+	}
