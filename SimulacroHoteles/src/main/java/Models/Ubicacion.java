@@ -3,10 +3,10 @@ package Models;
 public class Ubicacion {
 private String calle;
 private int numero;
-private int codigoPostal;
+private String codigoPostal;
 private Coordenadas coordenadas;
 
-public Ubicacion(String calle, int numero, int codigoPostal, Coordenadas coordenadas) {
+public Ubicacion(String calle, int numero, String codigoPostal, Coordenadas coordenadas) {
 	super();
 	this.calle = calle;
 	this.numero = numero;
@@ -34,11 +34,11 @@ public void setNumero(int numero) {
 	this.numero = numero;
 }
 
-public int getCodigoPostal() {
+public String getCodigoPostal() {
 	return codigoPostal;
 }
 
-public void setCodigoPostal(int codigoPostal) {
+public void setCodigoPostal(String codigoPostal) {
 	this.codigoPostal = codigoPostal;
 }
 

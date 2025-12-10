@@ -64,7 +64,7 @@ public class HotelService {
 	public void agregarHabitacionPenthouse(String idHotel) {
 		Habitacion penthouse = new Habitacion();
 		// Acceder directamente a la constante del enum Tipo
-		penthouse.setTipo(Tipo.PENTHOUSE);
+		penthouse.setTipo(Tipo.Penthouse);
 		penthouse.setPrecio(500.00);
 		penthouse.setCapacidad(4);
 		penthouse.setDisponible(true);

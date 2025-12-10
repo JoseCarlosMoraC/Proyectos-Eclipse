@@ -1,88 +1,154 @@
 package Controllers;
 
-import java.time.LocalDate;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.mongodb.client.MongoDatabase;
 
 import Config.MongoDBConexion;
-import Models.Club;
-import Models.Equipo;
-import Models.Estadistica;
-import Models.Jugador;
-import Models.LocalDateAdapter;
-import Services.CoachXService;
-
 
 
 public class GestionaCoachX {
-	private static final Logger logger = LogManager.getLogger(GestionaCoachX.class);
+
+    private static final Logger logger = LogManager.getLogger(GestionaHoteles.class);
+
     public static void main(String[] args) {
+
+        // Conexión a MongoDB
         MongoDBConexion conexion = new MongoDBConexion();
-        MongoDatabase db = conexion.getDb();
+        MongoDatabase db = conexion.getDb();  // Obtenemos la conexión a la base de datos
 
-        CoachXService service = new CoachXService(db);
+        // Crear el servicio para interactuar con la base de datos
+        HotelService service = new HotelService(db);
 
-        Gson gson = new GsonBuilder()
-            .registerTypeAdapter(LocalDate.class, new LocalDateAdapter())
-            .create();
+        // Iniciar los ejercicios
+        logger.info("=== INICIO DE LA GESTIÓN DE HOTELES ===");
 
-        Estadistica stats = new Estadistica(1, 5, 2, 300, 0, 7.5);
-        Jugador jugador1 = new Jugador(101, "Juan Pérez", 10, LocalDate.of(2010, 5, 12), "delantero", true, stats);
-        Jugador jugador2 = new Jugador(102, "Ana López", 8, LocalDate.of(2011, 8, 23), "portero", true, stats);
-
-        Equipo equipo = new Equipo(201, "Prebenjamin A", "prebenjamin", List.of(jugador1, jugador2), null, null);
-
-        Club club = new Club(1, "Club Deportivo Municipal Gerena", "escudo.png", "contacto@cdmgerena.com", List.of(equipo));
-
-        service.save(club);
-        System.out.println("Club guardado: " + club.getNombre());
-
-        List<Club> clubes = service.read();
-        System.out.println("Clubes en la base de datos:");
-        String jsonClubes = gson.toJson(clubes);
-        System.out.println(jsonClubes); 
-
-        Club buscado = service.buscarClub(1);
-        if (buscado != null) {
-            logger.info("Club encontrado: " + buscado.getNombre());
-            logger.info("Detalles del club encontrado: " + gson.toJson(buscado));
+        // -----------------------------
+        // EJERCICIO 1: Listar todos los hoteles
+        logger.info("--- Listado de todos los hoteles ---");
+        List<Hotel> todosHoteles = service.read();  // Llamamos al método read() del servicio
+        for (Hotel h : todosHoteles) {
+            logger.info(h.getIdHotel() + " - " + h.getNombre() +
+                        " (" + h.getEstrellas() + " estrellas)");
         }
 
-        club.setContacto("CDMGerena@gmail.com");
-        service.actualizarClub(club);
-        logger.info("Club actualizado: " + club.getContacto());
-
-        List<Jugador> delanteros = service.getJugadoresPorPosicion("delantero");
-        System.out.println("Jugadores delanteros:");
-        for (Jugador j : delanteros) {
-        	logger.info(" - " + j.getNombre());
+        // -----------------------------
+        // EJERCICIO 2: Buscar hotel por ID
+        logger.info("--- Buscar hotel con ID h101 ---");
+        Hotel hotel101 = service.buscarHotel("h101");
+        if (hotel101 != null) {
+            logger.info("Encontrado: " + hotel101.getNombre() +
+                        " - " + hotel101.getUbicacion().getCalle());
+        } else {
+            logger.warn("Hotel h101 no encontrado.");
         }
 
-        List<Jugador> estadoFisico = service.getJugadoresPorEstadoFisico(true);
-        System.out.println("Jugadores en buen estado físico:");
-        for (Jugador j : estadoFisico) {
-        	logger.info(" - " + j.getNombre());
+        // -----------------------------
+        // EJERCICIO 3: Hoteles en Madrid (5 estrellas o mascotas)
+        logger.info("=== EJERCICIO 3: Hoteles en Madrid ===");
+        List<Hotel> hotelesMadrid = service.buscarHotelesMadrid();  // Llamamos al método buscarHotelesMadrid
+        logger.info("Hoteles encontrados en Madrid: " + hotelesMadrid.size());
+        for (Hotel h : hotelesMadrid) {
+            logger.info("- " + h.getNombre() + " (CP: " +
+                        h.getUbicacion().getCodigoPostal() + ", Estrellas: " +
+                        h.getEstrellas() + ", Mascotas: " + h.isAdmiteMascotas() + ")");
         }
 
-        List<Jugador> ordenNombre = service.ordenarJugadoresPorNombre();
-        System.out.println("Jugadores ordenados por nombre:");
-        for (Jugador j : ordenNombre) {
-        	logger.info(" - " + j.getNombre());
+        // -----------------------------
+        // EJERCICIO 4: Número de hoteles con Suite Junior
+        logger.info("=== EJERCICIO 4: Número de hoteles con Suite Junior ===");
+        int numHotelesSuite = service.getHotelesSuiteJuniorDisponibles();  // Llamamos al método getHotelesSuiteJuniorDisponibles
+        logger.info("Número de hoteles con Suite Junior: " + numHotelesSuite);
+
+        // -----------------------------
+        // EJERCICIO 5: Añadir Penthouse al hotel h101
+        logger.info("=== EJERCICIO 5: Añadir Penthouse al hotel h101 ===");
+        service.agregarHabitacionPenthouse("h101");  // Llamamos al método agregarHabitacionPenthouse
+        logger.info("Penthouse añadida correctamente al hotel h101.");
+
+        // Verificar habitaciones después de añadir la Penthouse
+        hotel101 = service.buscarHotel("h101");
+        if (hotel101 != null) {
+            logger.info("Habitaciones actuales en h101:");
+            for (Habitacion hab : hotel101.getHabitaciones()) {
+                logger.info("  - " + hab.getTipo() + ": " + hab.getPrecio() + "€");
+            }
         }
 
-        List<Jugador> ordenDorsal = service.ordenarJugadoresPorDorsal();
-        System.out.println("Jugadores ordenados por dorsal:");
-        for (Jugador j : ordenDorsal) {
-        	logger.info(" - " + j.getNombre() + " (dorsal " + j.getDorsal() + ")");
+        // -----------------------------
+        // EJERCICIO 6: Actualizar código postal de Gran Vía a 28013
+        logger.info("=== EJERCICIO 6: Actualizar código postal de Gran Vía a 28013 ===");
+        service.actualizarCodigoPostalGranVia("28013");  // Llamamos al método actualizarCodigoPostalGranVia
+        logger.info("Códigos postales de hoteles en Gran Vía actualizados a 28013.");
+
+        // Verificar actualización de código postal
+        hotel101 = service.buscarHotel("h101");
+        if (hotel101 != null) {
+            logger.info("Nuevo código postal de " + hotel101.getNombre() + ": " + 
+                        hotel101.getUbicacion().getCodigoPostal());
         }
 
-        service.borrarClub(1);
-        logger.info("Club borrado con ID 1");
+        // -----------------------------
+        // EJERCICIO 7: Actualizar precio habitación Individual en h101
+        logger.info("=== EJERCICIO 7: Actualizar precio de habitación Individual en h101 ===");
+        service.actualizarPrecioIndividualH101();  // Llamamos al método actualizarPrecioIndividualH101
+        logger.info("Precio de habitación Individual en h101 actualizado a 90.00€.");
+
+        // Verificar precio actualizado de la habitación Individual
+        hotel101 = service.buscarHotel("h101");
+        if (hotel101 != null) {
+            for (Habitacion hab : hotel101.getHabitaciones()) {
+                if ("Individual".equals(hab.getTipo())) {
+                    logger.info("Nuevo precio Individual: " + hab.getPrecio() + "€");
+                }
+            }
+        }
+
+        // -----------------------------
+        // EJERCICIO 8: Eliminar habitaciones > 300€ en Grand Hotel Central
+        logger.info("=== EJERCICIO 8: Eliminar habitaciones > 300€ en Grand Hotel Central ===");
+        service.eliminarHabitacionesCarasGrandHotel();  // Llamamos al método eliminarHabitacionesCarasGrandHotel
+        logger.info("Habitaciones con precio superior a 300€ eliminadas en Grand Hotel Central.");
+
+        // Verificar habitaciones restantes después de la eliminación
+        hotel101 = service.buscarHotel("Grand Hotel Central");
+        if (hotel101 != null) {
+            logger.info("Habitaciones restantes en Grand Hotel Central:");
+            for (Habitacion hab : hotel101.getHabitaciones()) {
+                logger.info("  - " + hab.getTipo() + ": " + hab.getPrecio() + "€");
+            }
+        }
+
+        // -----------------------------
+        // EJERCICIO 9: Calcular media de estrellas en Barcelona
+        logger.info("=== EJERCICIO 9: Calcular media de estrellas en Barcelona ===");
+        double mediaBarcelona = service.calcularMediaEstrellasBarcelona();  // Llamamos al método calcularMediaEstrellasBarcelona
+        logger.info(String.format("Media de estrellas en Barcelona: %.2f", mediaBarcelona));
+
+        // -----------------------------
+        // EJERCICIO 10: Eliminar habitaciones con precio > 300 del Grand Hotel Central
+        logger.info("=== EJERCICIO 10: Eliminar habitaciones > 300€ del Grand Hotel Central ===");
+        service.eliminarHabitacionesCaras("Grand Hotel Central", 300.00);  // Llamamos al método eliminarHabitacionesCaras con precio 300€
+        logger.info("Habitaciones con precio superior a 300€ eliminadas en Grand Hotel Central.");
+
+        // Verificar habitaciones restantes después de la eliminación
+        hotel101 = service.buscarHotel("Grand Hotel Central");
+        if (hotel101 != null) {
+            logger.info("Habitaciones restantes en Grand Hotel Central:");
+            for (Habitacion hab : hotel101.getHabitaciones()) {
+                logger.info("  - " + hab.getTipo() + ": " + hab.getPrecio() + "€");
+            }
+        }
+
+        // -----------------------------
+        // EJERCICIO 11: Calcular media de estrellas en Barcelona
+        logger.info("=== EJERCICIO 11: Calcular media de estrellas en Barcelona ===");
+        double mediaEstrellasBarcelona = service.calcularMediaEstrellasBarcelona();  // Llamamos al método calcularMediaEstrellasBarcelona
+        logger.info(String.format("Media de estrellas en Barcelona: %.2f", mediaEstrellasBarcelona));
+
+        logger.info("=== FIN DE LAS PRUEBAS ===");
     }
 }
