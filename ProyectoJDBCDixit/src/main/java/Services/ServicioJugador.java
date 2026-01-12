@@ -13,7 +13,6 @@ import Repositories.RepositorioJugadores;
 public class ServicioJugador {
 
     private static final Logger logger = LogManager.getLogger(ServicioJugador.class);
-
     private RepositorioJugadores repo;
 
     public ServicioJugador() throws MiExcepcion {
@@ -55,5 +54,75 @@ public class ServicioJugador {
             logger.error("Error al obtener puntuaciones: " + e.getMessage());
         }
         return listaPuntos;
+    }
+
+    // -------------------------
+    // MÉTODOS ADICIONALES PARA EXÁMENES
+    // -------------------------
+
+    // Buscar jugador por ID (sin break)
+    public List<Jugador> buscarJugadorPorId(int id) {
+        List<Jugador> lista = new ArrayList<>();
+        for(Jugador j : repo.getListaJugadores()) {
+            if(j.getId() == id) {
+                lista.add(j);
+            }
+        }
+        return lista;
+    }
+
+    // Buscar jugador por nombre
+    public List<Jugador> buscarJugadorPorNombre(String nombre) {
+        List<Jugador> lista = new ArrayList<>();
+        for(Jugador j : repo.getListaJugadores()) {
+            if(j.getNombre().equalsIgnoreCase(nombre)) {
+                lista.add(j);
+            }
+        }
+        return lista;
+    }
+
+    // Buscar jugador por email
+    public List<Jugador> buscarJugadorPorEmail(String email) {
+        List<Jugador> lista = new ArrayList<>();
+        for(Jugador j : repo.getListaJugadores()) {
+            if(j.getEmail().equalsIgnoreCase(email)) {
+                lista.add(j);
+            }
+        }
+        return lista;
+    }
+
+    // Obtener jugadores con puntuación mayor a un valor
+    public List<Jugador> jugadoresConPuntosMayorA(int puntos) {
+        List<Jugador> lista = new ArrayList<>();
+        for(Jugador j : repo.getListaJugadores()) {
+            if(j.getPuntosTotales() > puntos) {
+                lista.add(j);
+            }
+        }
+        return lista;
+    }
+
+    // Obtener jugadores con puntuación menor a un valor
+    public List<Jugador> jugadoresConPuntosMenorA(int puntos) {
+        List<Jugador> lista = new ArrayList<>();
+        for(Jugador j : repo.getListaJugadores()) {
+            if(j.getPuntosTotales() < puntos) {
+                lista.add(j);
+            }
+        }
+        return lista;
+    }
+
+    // Obtener jugadores con puntuación entre dos valores
+    public List<Jugador> jugadoresConPuntosEntre(int min, int max) {
+        List<Jugador> lista = new ArrayList<>();
+        for(Jugador j : repo.getListaJugadores()) {
+            if(j.getPuntosTotales() >= min && j.getPuntosTotales() <= max) {
+                lista.add(j);
+            }
+        }
+        return lista;
     }
 }

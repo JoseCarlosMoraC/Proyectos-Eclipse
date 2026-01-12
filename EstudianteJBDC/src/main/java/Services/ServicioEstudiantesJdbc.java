@@ -7,7 +7,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import Exceptions.MiExcepcion;
+import Models.Direccion;
 import Models.Estudiante;
+import Models.Score;
 import Repositories.RepositorioEstudiantesJdbc;
 
 public class ServicioEstudiantesJdbc {
@@ -36,6 +38,31 @@ public class ServicioEstudiantesJdbc {
         } catch (MiExcepcion ex) {
             logger.error("No se pudo añadir estudiante: " + ex.getMessage());
         }
+    }
+
+    public void updateEstudiante(Estudiante e) {
+        try {
+            repo.actualizarEstudiante(e);
+        } catch (MiExcepcion ex) {
+            logger.error("No se pudo actualizar estudiante: " + ex.getMessage());
+        }
+    }
+
+    public void deleteEstudiante(int id) {
+        try {
+            repo.eliminarEstudiante(id);
+        } catch (MiExcepcion ex) {
+            logger.error("No se pudo eliminar estudiante: " + ex.getMessage());
+        }
+    }
+
+    public Estudiante getEstudiante(int id) {
+        try {
+            return repo.getEstudiantePorId(id);
+        } catch (MiExcepcion ex) {
+            logger.error("No se pudo obtener estudiante por ID: " + ex.getMessage());
+        }
+        return null;
     }
 
     // ===== CONSULTAS =====
@@ -80,6 +107,90 @@ public class ServicioEstudiantesJdbc {
             lista = repo.numeroScoresPorTipo();
         } catch (MiExcepcion e) {
             logger.error("Error numero scores: " + e.getMessage());
+        }
+        return lista;
+    }
+
+    // ===== MÉTODOS EXTRA =====
+
+    // Ordenar estudiantes por nombre ascendente
+    public List<Estudiante> ordenarPorNombreAsc() {
+        List<Estudiante> lista = new ArrayList<>();
+        try {
+            lista = repo.ordenarPorNombreAsc();
+        } catch (MiExcepcion e) {
+            logger.error("Error ordenando por nombre asc: " + e.getMessage());
+        }
+        return lista;
+    }
+
+    // Ordenar estudiantes por nota descendente
+    public List<Estudiante> ordenarPorNotaDesc() {
+        List<Estudiante> lista = new ArrayList<>();
+        try {
+            lista = repo.ordenarPorNotaDesc();
+        } catch (MiExcepcion e) {
+            logger.error("Error ordenando por nota desc: " + e.getMessage());
+        }
+        return lista;
+    }
+
+    // Incrementar nota de un estudiante
+    public void incrementarNotaEstudiante(int id, double incremento) {
+        try {
+            repo.incrementarNota(id, incremento);
+        } catch (MiExcepcion e) {
+            logger.error("Error incrementando nota: " + e.getMessage());
+        }
+    }
+
+    // Buscar estudiantes por nombre parcial
+    public List<Estudiante> buscarEstudiantesPorNombre(String nombre) {
+        List<Estudiante> lista = new ArrayList<>();
+        try {
+            lista = repo.buscarEstudiantesPorNombre(nombre);
+        } catch (MiExcepcion e) {
+            logger.error("Error buscando estudiantes por nombre: " + e.getMessage());
+        }
+        return lista;
+    }
+
+    // ===== MÉTODOS DIRECCION =====
+
+    public void addDireccion(Direccion d) {
+        try {
+            repo.agregarDireccion(d);
+        } catch (MiExcepcion e) {
+            logger.error("Error añadiendo dirección: " + e.getMessage());
+        }
+    }
+
+    public List<Direccion> listarDirecciones(int estudianteId) {
+        List<Direccion> lista = new ArrayList<>();
+        try {
+            lista = repo.listarDirecciones(estudianteId);
+        } catch (MiExcepcion e) {
+            logger.error("Error listando direcciones: " + e.getMessage());
+        }
+        return lista;
+    }
+
+    // ===== MÉTODOS SCORE =====
+
+    public void addScore(Score s) {
+        try {
+            repo.agregarScore(s);
+        } catch (MiExcepcion e) {
+            logger.error("Error añadiendo score: " + e.getMessage());
+        }
+    }
+
+    public List<Score> listarScores(int estudianteId) {
+        List<Score> lista = new ArrayList<>();
+        try {
+            lista = repo.listarScores(estudianteId);
+        } catch (MiExcepcion e) {
+            logger.error("Error listando scores: " + e.getMessage());
         }
         return lista;
     }
