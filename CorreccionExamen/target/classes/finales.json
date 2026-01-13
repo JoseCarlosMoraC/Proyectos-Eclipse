@@ -1,0 +1,42 @@
+[
+  {
+    "id": 43,
+    "fecha": "2025-11-16",
+    "descripcion": "Semifinal 1",
+    "videojuego": "VALORANT",
+    "equipoGanador": {
+      "codigo": "KOI",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 47,
+    "fecha": "2025-11-18",
+    "descripcion": "Final VALORANT",
+    "videojuego": "VALORANT",
+    "equipoGanador": {
+      "codigo": "KOI",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 45,
+    "fecha": "2025-11-17",
+    "descripcion": "Semifinal 3",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "G2",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 50,
+    "fecha": "2025-11-20",
+    "descripcion": "Gran Final LOL No existe",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "NoExiste",
+      "numJugadores": 0
+    }
+  }
+]

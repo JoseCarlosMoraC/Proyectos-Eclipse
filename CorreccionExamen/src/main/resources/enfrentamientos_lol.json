@@ -1,0 +1,152 @@
+[
+  {
+    "id": 41,
+    "fecha": "2025-11-15",
+    "descripcion": "Cuartos 3",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "G2",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 45,
+    "fecha": "2025-11-17",
+    "descripcion": "Semifinal 3",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "G2",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 31,
+    "fecha": "2025-11-11",
+    "descripcion": "Octavos 1",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "G2",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 49,
+    "fecha": "2025-11-19",
+    "descripcion": "3er Puesto LOL",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "G2",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 50,
+    "fecha": "2025-11-20",
+    "descripcion": "Gran Final LOL No existe",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "NoExiste",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 13,
+    "fecha": "2025-11-05",
+    "descripcion": "Fase Grupos 13",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "KC",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 10,
+    "fecha": "2025-11-04",
+    "descripcion": "Fase Grupos 10",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "BDS",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 19,
+    "fecha": "2025-11-07",
+    "descripcion": "Fase Grupos 19",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "SEN",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 16,
+    "fecha": "2025-11-06",
+    "descripcion": "Fase Grupos 16",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "TSM",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 1,
+    "fecha": "2025-11-01",
+    "descripcion": "Fase Grupos 1",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "G2",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 7,
+    "fecha": "2025-11-03",
+    "descripcion": "Fase Grupos 7",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "RGE",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 4,
+    "fecha": "2025-11-02",
+    "descripcion": "Fase Grupos 4",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "VIT",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 25,
+    "fecha": "2025-11-09",
+    "descripcion": "Fase Grupos 25",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "RNG",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 22,
+    "fecha": "2025-11-08",
+    "descripcion": "Fase Grupos 22",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "T1",
+      "numJugadores": 0
+    }
+  },
+  {
+    "id": 28,
+    "fecha": "2025-11-10",
+    "descripcion": "Fase Grupos 28",
+    "videojuego": "LOL",
+    "equipoGanador": {
+      "codigo": "LNG",
+      "numJugadores": 0
+    }
+  }
+]

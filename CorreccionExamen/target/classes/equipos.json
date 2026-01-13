@@ -1,0 +1,188 @@
+[
+  {
+    "nombreCompleto": "G2 Esports",
+    "codigo": "G2",
+    "numJugadores": 5,
+    "emailContacto": "contact@g2esports.com"
+  },
+  {
+    "nombreCompleto": "KOI Team",
+    "codigo": "KOI",
+    "numJugadores": 6,
+    "emailContacto": "info@koi.gg"
+  },
+  {
+    "nombreCompleto": "Fnatic",
+    "codigo": "FNC",
+    "numJugadores": 5,
+    "emailContacto": "manager@fnatic.com"
+  },
+  {
+    "nombreCompleto": "Team Vitality",
+    "codigo": "VIT",
+    "numJugadores": 5,
+    "emailContacto": "hello@vitality.gg"
+  },
+  {
+    "nombreCompleto": "Team Heretics",
+    "codigo": "HRTS",
+    "numJugadores": 7,
+    "emailContacto": "info@heretics.com"
+  },
+  {
+    "nombreCompleto": "MAD Lions",
+    "codigo": "MAD",
+    "numJugadores": 5,
+    "emailContacto": "contact@madlions.com"
+  },
+  {
+    "nombreCompleto": "Rogue",
+    "codigo": "RGE",
+    "numJugadores": 5,
+    "emailContacto": "info@rogue.gg"
+  },
+  {
+    "nombreCompleto": "SK Gaming",
+    "codigo": "SK",
+    "numJugadores": 6,
+    "emailContacto": "info@sk-gaming.com"
+  },
+  {
+    "nombreCompleto": "Excel Esports",
+    "codigo": "XL",
+    "numJugadores": 5,
+    "emailContacto": "contact@xl.gg"
+  },
+  {
+    "nombreCompleto": "Team BDS",
+    "codigo": "BDS",
+    "numJugadores": 5,
+    "emailContacto": "contact@teambds.ch"
+  },
+  {
+    "nombreCompleto": "Astralis",
+    "codigo": "AST",
+    "numJugadores": 5,
+    "emailContacto": "info@astralis.gg"
+  },
+  {
+    "nombreCompleto": "Misfits Gaming",
+    "codigo": "MSF",
+    "numJugadores": 6,
+    "emailContacto": "contact@misfitsgaming.gg"
+  },
+  {
+    "nombreCompleto": "Karmine Corp",
+    "codigo": "KC",
+    "numJugadores": 5,
+    "emailContacto": "contact@karminecorp.fr"
+  },
+  {
+    "nombreCompleto": "Team Liquid",
+    "codigo": "TH",
+    "numJugadores": 5,
+    "emailContacto": "info@teamliquid.com"
+  },
+  {
+    "nombreCompleto": "Cloud9",
+    "codigo": "C9",
+    "numJugadores": 5,
+    "emailContacto": "info@cloud9.gg"
+  },
+  {
+    "nombreCompleto": "TSM",
+    "codigo": "TSM",
+    "numJugadores": 5,
+    "emailContacto": "contact@tsm.gg"
+  },
+  {
+    "nombreCompleto": "Team Liquid",
+    "codigo": "TL",
+    "numJugadores": 5,
+    "emailContacto": "support@teamliquid.com"
+  },
+  {
+    "nombreCompleto": "NRG Esports",
+    "codigo": "NRG",
+    "numJugadores": 6,
+    "emailContacto": "contact@nrg.gg"
+  },
+  {
+    "nombreCompleto": "Sentinels",
+    "codigo": "SEN",
+    "numJugadores": 5,
+    "emailContacto": "info@sentinels.gg"
+  },
+  {
+    "nombreCompleto": "LOUD",
+    "codigo": "LOUD",
+    "numJugadores": 5,
+    "emailContacto": "contato@loud.gg"
+  },
+  {
+    "nombreCompleto": "Gen.G",
+    "codigo": "GEN",
+    "numJugadores": 5,
+    "emailContacto": "contact@geng.gg"
+  },
+  {
+    "nombreCompleto": "T1",
+    "codigo": "T1",
+    "numJugadores": 5,
+    "emailContacto": "contact@t1.gg"
+  },
+  {
+    "nombreCompleto": "DRX",
+    "codigo": "DRX",
+    "numJugadores": 5,
+    "emailContacto": "contact@drx.gg"
+  },
+  {
+    "nombreCompleto": "EDward Gaming",
+    "codigo": "EDG",
+    "numJugadores": 6,
+    "emailContacto": "contact@edg.gg"
+  },
+  {
+    "nombreCompleto": "Royal Never Give Up",
+    "codigo": "RNG",
+    "numJugadores": 5,
+    "emailContacto": "contact@rng.gg"
+  },
+  {
+    "nombreCompleto": "FunPlus Phoenix",
+    "codigo": "FPX",
+    "numJugadores": 5,
+    "emailContacto": "contact@fpx.gg"
+  },
+  {
+    "nombreCompleto": "Invictus Gaming",
+    "codigo": "IG",
+    "numJugadores": 5,
+    "emailContacto": "contact@ig.gg"
+  },
+  {
+    "nombreCompleto": "LNG Esports",
+    "codigo": "LNG",
+    "numJugadores": 5,
+    "emailContacto": "contact@lng.gg"
+  },
+  {
+    "nombreCompleto": "Top Esports",
+    "codigo": "TES",
+    "numJugadores": 5,
+    "emailContacto": "contact@tes.gg"
+  },
+  {
+    "nombreCompleto": "JD Gaming",
+    "codigo": "JDG",
+    "numJugadores": 5,
+    "emailContacto": "contact@jdg.gg"
+  },
+  {
+    "nombreCompleto": "Repetido",
+    "codigo": "JDG",
+    "numJugadores": 5,
+    "emailContacto": "repe@repe.es"
+  }
+]

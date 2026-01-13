@@ -1,0 +1,195 @@
+2026-01-13 08:55:15.061 [main] INFO  Controller.GestionaTorneo - ========== INICIANDO GESTIÓN DE TORNEO ==========
+2026-01-13 08:55:15.063 [main] INFO  Controller.GestionaTorneo - 
+--- CARGANDO DATOS DESDE XML ---
+2026-01-13 08:55:15.076 [main] INFO  Controller.GestionaTorneo - Equipos cargados: 30
+2026-01-13 08:55:15.083 [main] INFO  Controller.GestionaTorneo - Enfrentamientos cargados: 20
+2026-01-13 08:55:15.083 [main] INFO  Controller.GestionaTorneo - 
+--- CONVIRTIENDO DATOS A JSON ---
+2026-01-13 08:55:15.112 [main] INFO  Utils.TorneoAJSON - Archivo JSON generado correctamente: equipos.json
+2026-01-13 08:55:15.115 [main] INFO  Utils.TorneoAJSON - Archivo JSON generado correctamente: enfrentamientos.json
+2026-01-13 08:55:15.115 [main] INFO  Controller.GestionaTorneo - 
+--- CONSULTAS DE EQUIPOS ---
+2026-01-13 08:55:15.116 [main] INFO  Controller.GestionaTorneo - Equipo G2: Equipo [nombreCompleto=G2 Esports, codigo=G2, numJugadores=5, emailContacto=contact@g2esports.com]
+2026-01-13 08:55:15.116 [main] INFO  Controller.GestionaTorneo - Equipos que contienen 'Team': 6
+2026-01-13 08:55:15.116 [main] INFO  Controller.GestionaTorneo - Equipos con 6+ jugadores: 6
+2026-01-13 08:55:15.116 [main] INFO  Controller.GestionaTorneo -   - KOI Team (6 jugadores)
+2026-01-13 08:55:15.116 [main] INFO  Controller.GestionaTorneo -   - Team Heretics (7 jugadores)
+2026-01-13 08:55:15.116 [main] INFO  Controller.GestionaTorneo -   - NRG Esports (6 jugadores)
+2026-01-13 08:55:15.116 [main] INFO  Controller.GestionaTorneo -   - EDward Gaming (6 jugadores)
+2026-01-13 08:55:15.116 [main] INFO  Controller.GestionaTorneo -   - SK Gaming (6 jugadores)
+2026-01-13 08:55:15.116 [main] INFO  Controller.GestionaTorneo -   - Misfits Gaming (6 jugadores)
+2026-01-13 08:55:15.116 [main] INFO  Controller.GestionaTorneo - Equipo con más jugadores: Team Heretics (7)
+2026-01-13 08:55:15.117 [main] INFO  Controller.GestionaTorneo - Equipo con menos jugadores: Astralis (5)
+2026-01-13 08:55:15.117 [main] INFO  Controller.GestionaTorneo - Promedio de jugadores por equipo: 5,23
+2026-01-13 08:55:15.117 [main] INFO  Controller.GestionaTorneo - 
+--- CONSULTAS DE ENFRENTAMIENTOS ---
+2026-01-13 08:55:15.117 [main] INFO  Controller.GestionaTorneo - Victorias de G2: 5
+2026-01-13 08:55:15.117 [main] INFO  Controller.GestionaTorneo -   - Cuartos 3 (LOL) - 2025-11-15
+2026-01-13 08:55:15.117 [main] INFO  Controller.GestionaTorneo -   - Semifinal 3 (LOL) - 2025-11-17
+2026-01-13 08:55:15.117 [main] INFO  Controller.GestionaTorneo -   - Octavos 1 (LOL) - 2025-11-11
+2026-01-13 08:55:15.117 [main] INFO  Controller.GestionaTorneo -   - 3er Puesto LOL (LOL) - 2025-11-19
+2026-01-13 08:55:15.118 [main] INFO  Controller.GestionaTorneo -   - Fase Grupos 1 (LOL) - 2025-11-01
+2026-01-13 08:55:15.118 [main] INFO  Controller.GestionaTorneo - Enfrentamientos de LOL: 15
+2026-01-13 08:55:15.118 [main] INFO  Controller.GestionaTorneo - Enfrentamientos de VALORANT: 4
+2026-01-13 08:55:15.118 [main] INFO  Controller.GestionaTorneo - Enfrentamientos de CSGO: 1
+2026-01-13 08:55:15.118 [main] INFO  Controller.GestionaTorneo - Enfrentamientos del 2025-11-01: 1
+2026-01-13 08:55:15.118 [main] INFO  Controller.GestionaTorneo - Finales del torneo: 4
+2026-01-13 08:55:15.118 [main] INFO  Controller.GestionaTorneo -   - Semifinal 1 - Ganador: KOI
+2026-01-13 08:55:15.118 [main] INFO  Controller.GestionaTorneo -   - Final VALORANT - Ganador: KOI
+2026-01-13 08:55:15.119 [main] INFO  Controller.GestionaTorneo -   - Semifinal 3 - Ganador: G2
+2026-01-13 08:55:15.119 [main] INFO  Controller.GestionaTorneo -   - Gran Final LOL No existe - Ganador: NoExiste
+2026-01-13 08:55:15.119 [main] INFO  Controller.GestionaTorneo - 
+--- ESTADÍSTICAS Y RANKINGS ---
+2026-01-13 08:55:15.119 [main] INFO  Controller.GestionaTorneo - Estadísticas de victorias:
+2026-01-13 08:55:15.119 [main] INFO  Controller.GestionaTorneo -   - VIT: 1 victorias
+2026-01-13 08:55:15.119 [main] INFO  Controller.GestionaTorneo -   - AST: 1 victorias
+2026-01-13 08:55:15.119 [main] INFO  Controller.GestionaTorneo -   - KOI: 3 victorias
+2026-01-13 08:55:15.119 [main] INFO  Controller.GestionaTorneo -   - LNG: 1 victorias
+2026-01-13 08:55:15.120 [main] INFO  Controller.GestionaTorneo -   - RNG: 1 victorias
+2026-01-13 08:55:15.120 [main] INFO  Controller.GestionaTorneo -   - G2: 5 victorias
+2026-01-13 08:55:15.120 [main] INFO  Controller.GestionaTorneo -   - TSM: 1 victorias
+2026-01-13 08:55:15.120 [main] INFO  Controller.GestionaTorneo -   - BDS: 1 victorias
+2026-01-13 08:55:15.120 [main] INFO  Controller.GestionaTorneo -   - LOUD: 1 victorias
+2026-01-13 08:55:15.120 [main] INFO  Controller.GestionaTorneo -   - RGE: 1 victorias
+2026-01-13 08:55:15.120 [main] INFO  Controller.GestionaTorneo -   - NoExiste: 1 victorias
+2026-01-13 08:55:15.120 [main] INFO  Controller.GestionaTorneo -   - KC: 1 victorias
+2026-01-13 08:55:15.120 [main] INFO  Controller.GestionaTorneo -   - SEN: 1 victorias
+2026-01-13 08:55:15.121 [main] INFO  Controller.GestionaTorneo -   - T1: 1 victorias
+2026-01-13 08:55:15.121 [main] INFO  Controller.GestionaTorneo - 
+Ranking de equipos por victorias:
+2026-01-13 08:55:15.121 [main] INFO  Controller.GestionaTorneo -   1. G2 - 5 victorias
+2026-01-13 08:55:15.121 [main] INFO  Controller.GestionaTorneo -   2. KOI - 3 victorias
+2026-01-13 08:55:15.121 [main] INFO  Controller.GestionaTorneo -   3. VIT - 1 victorias
+2026-01-13 08:55:15.122 [main] INFO  Controller.GestionaTorneo -   4. AST - 1 victorias
+2026-01-13 08:55:15.122 [main] INFO  Controller.GestionaTorneo -   5. LNG - 1 victorias
+2026-01-13 08:55:15.122 [main] INFO  Controller.GestionaTorneo -   6. RNG - 1 victorias
+2026-01-13 08:55:15.122 [main] INFO  Controller.GestionaTorneo -   7. TSM - 1 victorias
+2026-01-13 08:55:15.122 [main] INFO  Controller.GestionaTorneo -   8. BDS - 1 victorias
+2026-01-13 08:55:15.122 [main] INFO  Controller.GestionaTorneo -   9. LOUD - 1 victorias
+2026-01-13 08:55:15.122 [main] INFO  Controller.GestionaTorneo -   10. RGE - 1 victorias
+2026-01-13 08:55:15.122 [main] INFO  Controller.GestionaTorneo -   11. NoExiste - 1 victorias
+2026-01-13 08:55:15.122 [main] INFO  Controller.GestionaTorneo -   12. KC - 1 victorias
+2026-01-13 08:55:15.122 [main] INFO  Controller.GestionaTorneo -   13. SEN - 1 victorias
+2026-01-13 08:55:15.123 [main] INFO  Controller.GestionaTorneo -   14. T1 - 1 victorias
+2026-01-13 08:55:15.123 [main] INFO  Controller.GestionaTorneo - 
+Top 3 equipos:
+2026-01-13 08:55:15.123 [main] INFO  Controller.GestionaTorneo -   1. G2 - 5 victorias
+2026-01-13 08:55:15.123 [main] INFO  Controller.GestionaTorneo -   2. KOI - 3 victorias
+2026-01-13 08:55:15.123 [main] INFO  Controller.GestionaTorneo -   3. VIT - 1 victorias
+2026-01-13 08:55:15.123 [main] INFO  Controller.GestionaTorneo - 
+Equipo campeón: G2
+2026-01-13 08:55:15.123 [main] INFO  Controller.GestionaTorneo - Equipos sin victorias: 17
+2026-01-13 08:55:15.123 [main] INFO  Controller.GestionaTorneo -   - HRTS
+2026-01-13 08:55:15.123 [main] INFO  Controller.GestionaTorneo -   - MAD
+2026-01-13 08:55:15.124 [main] INFO  Controller.GestionaTorneo -   - GEN
+2026-01-13 08:55:15.124 [main] INFO  Controller.GestionaTorneo -   - XL
+2026-01-13 08:55:15.124 [main] INFO  Controller.GestionaTorneo -   - TH
+2026-01-13 08:55:15.124 [main] INFO  Controller.GestionaTorneo -   - TL
+2026-01-13 08:55:15.124 [main] INFO  Controller.GestionaTorneo -   - FNC
+2026-01-13 08:55:15.124 [main] INFO  Controller.GestionaTorneo -   - TES
+2026-01-13 08:55:15.124 [main] INFO  Controller.GestionaTorneo -   - NRG
+2026-01-13 08:55:15.124 [main] INFO  Controller.GestionaTorneo -   - EDG
+2026-01-13 08:55:15.124 [main] INFO  Controller.GestionaTorneo -   - DRX
+2026-01-13 08:55:15.125 [main] INFO  Controller.GestionaTorneo -   - FPX
+2026-01-13 08:55:15.125 [main] INFO  Controller.GestionaTorneo -   - JDG
+2026-01-13 08:55:15.125 [main] INFO  Controller.GestionaTorneo -   - C9
+2026-01-13 08:55:15.125 [main] INFO  Controller.GestionaTorneo -   - SK
+2026-01-13 08:55:15.125 [main] INFO  Controller.GestionaTorneo -   - IG
+2026-01-13 08:55:15.125 [main] INFO  Controller.GestionaTorneo -   - MSF
+2026-01-13 08:55:15.125 [main] INFO  Controller.GestionaTorneo - 
+Estadísticas por videojuego:
+2026-01-13 08:55:15.125 [main] INFO  Controller.GestionaTorneo -   - CSGO: 1 enfrentamientos
+2026-01-13 08:55:15.126 [main] INFO  Controller.GestionaTorneo -   - VALORANT: 4 enfrentamientos
+2026-01-13 08:55:15.126 [main] INFO  Controller.GestionaTorneo -   - LOL: 15 enfrentamientos
+2026-01-13 08:55:15.126 [main] INFO  Controller.GestionaTorneo - Videojuego más popular: LOL
+2026-01-13 08:55:15.126 [main] INFO  Controller.GestionaTorneo - 
+--- INFORMACIÓN DETALLADA DE EQUIPOS ---
+2026-01-13 08:55:15.126 [main] INFO  Controller.GestionaTorneo - 
+=== INFORMACIÓN DEL EQUIPO ===
+Código: G2
+Nombre: G2 Esports
+Email: contact@g2esports.com
+Jugadores: 5
+Victorias: 5
+
+2026-01-13 08:55:15.126 [main] INFO  Controller.GestionaTorneo - 
+=== INFORMACIÓN DEL EQUIPO ===
+Código: KOI
+Nombre: KOI Team
+Email: info@koi.gg
+Jugadores: 6
+Victorias: 3
+
+2026-01-13 08:55:15.126 [main] INFO  Controller.GestionaTorneo - 
+=== INFORMACIÓN DEL EQUIPO ===
+Código: FNC
+Nombre: Fnatic
+Email: manager@fnatic.com
+Jugadores: 5
+Victorias: 0
+
+2026-01-13 08:55:15.126 [main] INFO  Controller.GestionaTorneo - 
+=== INFORMACIÓN DEL EQUIPO ===
+Código: T1
+Nombre: T1
+Email: contact@t1.gg
+Jugadores: 5
+Victorias: 1
+
+2026-01-13 08:55:15.126 [main] INFO  Controller.GestionaTorneo - 
+--- VICTORIAS POR VIDEOJUEGO ---
+2026-01-13 08:55:15.126 [main] INFO  Controller.GestionaTorneo - Victorias de G2:
+2026-01-13 08:55:15.126 [main] INFO  Controller.GestionaTorneo -   - LOL: 5
+2026-01-13 08:55:15.127 [main] INFO  Controller.GestionaTorneo -   - VALORANT: 0
+2026-01-13 08:55:15.127 [main] INFO  Controller.GestionaTorneo -   - CSGO: 0
+2026-01-13 08:55:15.127 [main] INFO  Controller.GestionaTorneo - 
+--- ENFRENTAMIENTOS AGRUPADOS ---
+2026-01-13 08:55:15.127 [main] INFO  Controller.GestionaTorneo - Enfrentamientos agrupados por videojuego:
+2026-01-13 08:55:15.127 [main] INFO  Controller.GestionaTorneo -   - CSGO: 1 enfrentamientos
+2026-01-13 08:55:15.127 [main] INFO  Controller.GestionaTorneo -   - VALORANT: 4 enfrentamientos
+2026-01-13 08:55:15.127 [main] INFO  Controller.GestionaTorneo -   - LOL: 15 enfrentamientos
+2026-01-13 08:55:15.127 [main] INFO  Controller.GestionaTorneo - 
+Primeras 5 fechas con enfrentamientos:
+2026-01-13 08:55:15.127 [main] INFO  Controller.GestionaTorneo -   - 2025-11-15: 1 enfrentamientos
+2026-01-13 08:55:15.127 [main] INFO  Controller.GestionaTorneo -   - 2025-11-04: 1 enfrentamientos
+2026-01-13 08:55:15.127 [main] INFO  Controller.GestionaTorneo -   - 2025-11-14: 1 enfrentamientos
+2026-01-13 08:55:15.128 [main] INFO  Controller.GestionaTorneo -   - 2025-11-03: 1 enfrentamientos
+2026-01-13 08:55:15.128 [main] INFO  Controller.GestionaTorneo -   - 2025-11-17: 1 enfrentamientos
+2026-01-13 08:55:15.128 [main] INFO  Controller.GestionaTorneo - 
+=== ESTADÍSTICAS GENERALES DEL TORNEO ===
+Total de equipos: 30
+Total de enfrentamientos: 20
+Promedio jugadores por equipo: 5,23
+
+Enfrentamientos por videojuego:
+- LOL: 15
+- VALORANT: 4
+- CSGO: 1
+
+Equipo con más victorias: G2
+
+2026-01-13 08:55:15.128 [main] INFO  Controller.GestionaTorneo - 
+--- LISTADOS ORDENADOS ---
+2026-01-13 08:55:15.128 [main] INFO  Controller.GestionaTorneo - Primeros 5 equipos ordenados alfabéticamente:
+2026-01-13 08:55:15.129 [main] INFO  Controller.GestionaTorneo -   - Astralis
+2026-01-13 08:55:15.129 [main] INFO  Controller.GestionaTorneo -   - Cloud9
+2026-01-13 08:55:15.129 [main] INFO  Controller.GestionaTorneo -   - DRX
+2026-01-13 08:55:15.129 [main] INFO  Controller.GestionaTorneo -   - EDward Gaming
+2026-01-13 08:55:15.129 [main] INFO  Controller.GestionaTorneo -   - Excel Esports
+2026-01-13 08:55:15.129 [main] INFO  Controller.GestionaTorneo - 
+Primeros 5 enfrentamientos cronológicamente:
+2026-01-13 08:55:15.129 [main] INFO  Controller.GestionaTorneo -   - 2025-11-01: Fase Grupos 1
+2026-01-13 08:55:15.129 [main] INFO  Controller.GestionaTorneo -   - 2025-11-02: Fase Grupos 4
+2026-01-13 08:55:15.130 [main] INFO  Controller.GestionaTorneo -   - 2025-11-03: Fase Grupos 7
+2026-01-13 08:55:15.130 [main] INFO  Controller.GestionaTorneo -   - 2025-11-04: Fase Grupos 10
+2026-01-13 08:55:15.130 [main] INFO  Controller.GestionaTorneo -   - 2025-11-05: Fase Grupos 13
+2026-01-13 08:55:15.130 [main] INFO  Controller.GestionaTorneo - 
+--- EXPORTANDO DATOS FILTRADOS A JSON ---
+2026-01-13 08:55:15.131 [main] INFO  Utils.TorneoAJSON - Archivo JSON generado correctamente: enfrentamientos_lol.json
+2026-01-13 08:55:15.131 [main] INFO  Controller.GestionaTorneo - Enfrentamientos de LOL exportados a enfrentamientos_lol.json
+2026-01-13 08:55:15.132 [main] INFO  Utils.TorneoAJSON - Archivo JSON generado correctamente: equipos_grandes.json
+2026-01-13 08:55:15.132 [main] INFO  Controller.GestionaTorneo - Equipos grandes exportados a equipos_grandes.json
+2026-01-13 08:55:15.133 [main] INFO  Utils.TorneoAJSON - Archivo JSON generado correctamente: finales.json
+2026-01-13 08:55:15.133 [main] INFO  Controller.GestionaTorneo - Finales exportadas a finales.json
+2026-01-13 08:55:15.133 [main] INFO  Controller.GestionaTorneo - 
+========== GESTIÓN DE TORNEO FINALIZADA CORRECTAMENTE ==========

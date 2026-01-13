@@ -1,0 +1,38 @@
+[
+  {
+    "nombreCompleto": "KOI Team",
+    "codigo": "KOI",
+    "numJugadores": 6,
+    "emailContacto": "info@koi.gg"
+  },
+  {
+    "nombreCompleto": "Team Heretics",
+    "codigo": "HRTS",
+    "numJugadores": 7,
+    "emailContacto": "info@heretics.com"
+  },
+  {
+    "nombreCompleto": "NRG Esports",
+    "codigo": "NRG",
+    "numJugadores": 6,
+    "emailContacto": "contact@nrg.gg"
+  },
+  {
+    "nombreCompleto": "EDward Gaming",
+    "codigo": "EDG",
+    "numJugadores": 6,
+    "emailContacto": "contact@edg.gg"
+  },
+  {
+    "nombreCompleto": "SK Gaming",
+    "codigo": "SK",
+    "numJugadores": 6,
+    "emailContacto": "info@sk-gaming.com"
+  },
+  {
+    "nombreCompleto": "Misfits Gaming",
+    "codigo": "MSF",
+    "numJugadores": 6,
+    "emailContacto": "contact@misfitsgaming.gg"
+  }
+]
