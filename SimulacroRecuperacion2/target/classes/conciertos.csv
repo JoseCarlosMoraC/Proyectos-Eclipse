@@ -1,0 +1,51 @@
+ID,Fecha,Descripcion,Genero,Artista Cabecera,Codigo Cabecera
+1,2025-06-01,Apertura Festival - Escenario Principal,ROCK,null,LP
+2,2025-06-01,Noche Indie - Escenario Alternativo,ROCK,null,TSTM
+3,2025-06-01,Pop Internacional - Escenario Pop,POP,null,TS
+4,2025-06-02,Rock Clasico - Escenario Principal,ROCK,null,RHCP
+5,2025-06-02,Electronic Night - Escenario Dance,ELECTRONICA,null,DAFT
+6,2025-06-02,Acustico Especial - Escenario Intimo,POP,null,ED
+7,2025-06-03,Rock Alternativo - Escenario Principal,ROCK,null,FOO
+8,2025-06-03,EDM Fiesta - Escenario Dance,ELECTRONICA,null,CALVIN
+9,2025-06-03,Pop Stars - Escenario Pop,POP,null,BILLIE
+10,2025-06-04,Rock Progresivo - Escenario Principal,ROCK,null,MUSE
+11,2025-06-04,K-Pop Fever - Escenario Pop,POP,null,BTS
+12,2025-06-04,Techno Session - Escenario Dance,ELECTRONICA,null,AVII
+13,2025-06-05,Indie Britanico - Escenario Alternativo,ROCK,null,AJ
+14,2025-06-05,Pop Melodico - Escenario Principal,POP,null,COLD
+15,2025-06-05,House Party - Escenario Dance,ELECTRONICA,null,MART
+16,2025-06-06,Rock Epico - Escenario Principal,ROCK,null,IM
+17,2025-06-06,Leyendas del Rock - Escenario Clasico,ROCK,null,QN
+18,2025-06-06,Trance Journey - Escenario Dance,ELECTRONICA,null,TIESTO
+19,2025-06-07,Hard Rock - Escenario Principal,ROCK,null,ACDC
+20,2025-06-07,Divas del Pop - Escenario Pop,POP,null,ARIANA
+21,2025-06-07,Dubstep Night - Escenario Dance,ELECTRONICA,null,SKRILL
+22,2025-06-08,Rock Legendario - Escenario Principal,ROCK,null,GUNS
+23,2025-06-08,RnB Soul - Escenario Pop,POP,null,WEEKND
+24,2025-06-08,Progressive House - Escenario Dance,ELECTRONICA,null,DEADM
+25,2025-06-09,Baladas Pop - Escenario Intimo,POP,null,ADELE
+26,2025-06-09,Hip Hop y Pop - Escenario Principal,POP,null,DRAKE
+27,2025-06-09,EDM Sunrise - Escenario Dance,ELECTRONICA,null,CALVIN
+28,2025-06-10,Rock Potente - Escenario Principal,ROCK,null,LP
+29,2025-06-10,Pop Icon - Escenario Pop,POP,null,BEY
+30,2025-06-10,Electronic Paradise - Escenario Dance,ELECTRONICA,null,TIESTO
+31,2025-06-11,Indie Rock - Escenario Alternativo,ROCK,null,TSTM
+32,2025-06-11,Pop Sensation - Escenario Principal,POP,null,RIHANA
+33,2025-06-11,Electro Beats - Escenario Dance,ELECTRONICA,null,MART
+34,2025-06-12,Alternative Rock - Escenario Principal,ROCK,null,MUSE
+35,2025-06-12,Urban Pop - Escenario Pop,POP,null,POST
+36,2025-06-12,Bass Drop - Escenario Dance,ELECTRONICA,null,SKRILL
+37,2025-06-13,Rock Sinfonico - Escenario Principal,ROCK,null,FOO
+38,2025-06-13,Trap y Pop - Escenario Pop,POP,null,TRAVIS
+39,2025-06-13,Future Bass - Escenario Dance,ELECTRONICA,null,DEADM
+40,2025-06-14,Rock Britanico - Escenario Principal,ROCK,null,AJ
+41,2025-06-14,Singer-Songwriter - Escenario Intimo,POP,null,TS
+42,2025-06-14,Big Room - Escenario Dance,ELECTRONICA,null,MART
+43,2025-06-15,Gran Final Rock - Escenario Principal,ROCK,null,LP
+44,2025-06-15,Pop Finale - Escenario Pop,POP,null,TS
+45,2025-06-15,Closing Party - Escenario Dance,ELECTRONICA,null,CALVIN
+46,2025-06-16,After Party Rock,ROCK,null,RHCP
+47,2025-06-16,After Party Pop,POP,null,BILLIE
+48,2025-06-16,After Party Electronic,ELECTRONICA,null,TIESTO
+49,2025-06-17,Concierto Especial Rock,ROCK,null,IM
+50,2025-06-18,Concierto Sin Artista,POP,null,NOEXISTE

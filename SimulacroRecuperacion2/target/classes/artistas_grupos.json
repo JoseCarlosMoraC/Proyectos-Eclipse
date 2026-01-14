@@ -1,0 +1,68 @@
+[
+  {
+    "nombreArtistico": "Imagine Dragons",
+    "codigo": "IM",
+    "numIntegrantes": 4,
+    "emailManager": "manager@imaginedragons.com"
+  },
+  {
+    "nombreArtistico": "Foo Fighters",
+    "codigo": "FOO",
+    "numIntegrantes": 6,
+    "emailManager": "manager@foofighters.com"
+  },
+  {
+    "nombreArtistico": "Arctic Monkeys",
+    "codigo": "AJ",
+    "numIntegrantes": 4,
+    "emailManager": "info@arcticmonkeys.com"
+  },
+  {
+    "nombreArtistico": "Coldplay",
+    "codigo": "COLD",
+    "numIntegrantes": 4,
+    "emailManager": "manager@coldplay.com"
+  },
+  {
+    "nombreArtistico": "ACDC",
+    "codigo": "ACDC",
+    "numIntegrantes": 5,
+    "emailManager": "manager@acdc.com"
+  },
+  {
+    "nombreArtistico": "BTS",
+    "codigo": "BTS",
+    "numIntegrantes": 7,
+    "emailManager": "contact@bts.com"
+  },
+  {
+    "nombreArtistico": "Linkin Park",
+    "codigo": "LP",
+    "numIntegrantes": 6,
+    "emailManager": "manager@linkinpark.com"
+  },
+  {
+    "nombreArtistico": "Red Hot Chili Peppers",
+    "codigo": "RHCP",
+    "numIntegrantes": 4,
+    "emailManager": "contact@rhcp.com"
+  },
+  {
+    "nombreArtistico": "The Strokes",
+    "codigo": "TSTM",
+    "numIntegrantes": 5,
+    "emailManager": "info@thestrokes.com"
+  },
+  {
+    "nombreArtistico": "Guns N Roses",
+    "codigo": "GUNS",
+    "numIntegrantes": 5,
+    "emailManager": "info@gunsnroses.com"
+  },
+  {
+    "nombreArtistico": "Queen",
+    "codigo": "QN",
+    "numIntegrantes": 4,
+    "emailManager": "contact@queen.com"
+  }
+]

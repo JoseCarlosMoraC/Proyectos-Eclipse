@@ -1,0 +1,188 @@
+[
+  {
+    "nombreArtistico": "Linkin Park",
+    "codigo": "LP",
+    "numIntegrantes": 6,
+    "emailManager": "manager@linkinpark.com"
+  },
+  {
+    "nombreArtistico": "The Strokes",
+    "codigo": "TSTM",
+    "numIntegrantes": 5,
+    "emailManager": "info@thestrokes.com"
+  },
+  {
+    "nombreArtistico": "Red Hot Chili Peppers",
+    "codigo": "RHCP",
+    "numIntegrantes": 4,
+    "emailManager": "contact@rhcp.com"
+  },
+  {
+    "nombreArtistico": "Foo Fighters",
+    "codigo": "FOO",
+    "numIntegrantes": 6,
+    "emailManager": "manager@foofighters.com"
+  },
+  {
+    "nombreArtistico": "Muse",
+    "codigo": "MUSE",
+    "numIntegrantes": 3,
+    "emailManager": "info@muse.mu"
+  },
+  {
+    "nombreArtistico": "Taylor Swift",
+    "codigo": "TS",
+    "numIntegrantes": 1,
+    "emailManager": "contact@taylorswift.com"
+  },
+  {
+    "nombreArtistico": "Ed Sheeran",
+    "codigo": "ED",
+    "numIntegrantes": 1,
+    "emailManager": "manager@edsheeran.com"
+  },
+  {
+    "nombreArtistico": "Billie Eilish",
+    "codigo": "BILLIE",
+    "numIntegrantes": 1,
+    "emailManager": "info@billieeilish.com"
+  },
+  {
+    "nombreArtistico": "BTS",
+    "codigo": "BTS",
+    "numIntegrantes": 7,
+    "emailManager": "contact@bts.com"
+  },
+  {
+    "nombreArtistico": "Coldplay",
+    "codigo": "COLD",
+    "numIntegrantes": 4,
+    "emailManager": "manager@coldplay.com"
+  },
+  {
+    "nombreArtistico": "Daft Punk",
+    "codigo": "DAFT",
+    "numIntegrantes": 2,
+    "emailManager": "info@daftpunk.com"
+  },
+  {
+    "nombreArtistico": "Calvin Harris",
+    "codigo": "CALVIN",
+    "numIntegrantes": 1,
+    "emailManager": "contact@calvinharris.com"
+  },
+  {
+    "nombreArtistico": "Avicii",
+    "codigo": "AVII",
+    "numIntegrantes": 1,
+    "emailManager": "manager@avicii.com"
+  },
+  {
+    "nombreArtistico": "Martin Garrix",
+    "codigo": "MART",
+    "numIntegrantes": 1,
+    "emailManager": "info@martingarrix.com"
+  },
+  {
+    "nombreArtistico": "Tiesto",
+    "codigo": "TIESTO",
+    "numIntegrantes": 1,
+    "emailManager": "contact@tiesto.com"
+  },
+  {
+    "nombreArtistico": "Imagine Dragons",
+    "codigo": "IM",
+    "numIntegrantes": 4,
+    "emailManager": "manager@imaginedragons.com"
+  },
+  {
+    "nombreArtistico": "Arctic Monkeys",
+    "codigo": "AJ",
+    "numIntegrantes": 4,
+    "emailManager": "info@arcticmonkeys.com"
+  },
+  {
+    "nombreArtistico": "Queen",
+    "codigo": "QN",
+    "numIntegrantes": 4,
+    "emailManager": "contact@queen.com"
+  },
+  {
+    "nombreArtistico": "ACDC",
+    "codigo": "ACDC",
+    "numIntegrantes": 5,
+    "emailManager": "manager@acdc.com"
+  },
+  {
+    "nombreArtistico": "Guns N Roses",
+    "codigo": "GUNS",
+    "numIntegrantes": 5,
+    "emailManager": "info@gunsnroses.com"
+  },
+  {
+    "nombreArtistico": "Ariana Grande",
+    "codigo": "ARIANA",
+    "numIntegrantes": 1,
+    "emailManager": "contact@arianagrande.com"
+  },
+  {
+    "nombreArtistico": "Drake",
+    "codigo": "DRAKE",
+    "numIntegrantes": 1,
+    "emailManager": "manager@drake.com"
+  },
+  {
+    "nombreArtistico": "Adele",
+    "codigo": "ADELE",
+    "numIntegrantes": 1,
+    "emailManager": "info@adele.com"
+  },
+  {
+    "nombreArtistico": "Beyonce",
+    "codigo": "BEY",
+    "numIntegrantes": 1,
+    "emailManager": "contact@beyonce.com"
+  },
+  {
+    "nombreArtistico": "Rihanna",
+    "codigo": "RIHANA",
+    "numIntegrantes": 1,
+    "emailManager": "manager@rihanna.com"
+  },
+  {
+    "nombreArtistico": "The Weeknd",
+    "codigo": "WEEKND",
+    "numIntegrantes": 1,
+    "emailManager": "info@theweeknd.com"
+  },
+  {
+    "nombreArtistico": "Post Malone",
+    "codigo": "POST",
+    "numIntegrantes": 1,
+    "emailManager": "contact@postmalone.com"
+  },
+  {
+    "nombreArtistico": "Travis Scott",
+    "codigo": "TRAVIS",
+    "numIntegrantes": 1,
+    "emailManager": "manager@travisscott.com"
+  },
+  {
+    "nombreArtistico": "Skrillex",
+    "codigo": "SKRILL",
+    "numIntegrantes": 1,
+    "emailManager": "info@skrillex.com"
+  },
+  {
+    "nombreArtistico": "Deadmau5",
+    "codigo": "DEADM",
+    "numIntegrantes": 1,
+    "emailManager": "contact@deadmau5.com"
+  },
+  {
+    "nombreArtistico": "Repetido",
+    "codigo": "DEADM",
+    "numIntegrantes": 1,
+    "emailManager": "repe@repe.es"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "codigo": "MCR",
+    "nombre": "My Chemical Romance",
+    "paisOrigen": "USA",
+    "numIntegrantes": 4,
+    "emailContacto": "contact@mcr.com"
+  },
+  {
+    "codigo": "MUSE",
+    "nombre": "Muse",
+    "paisOrigen": "UK",
+    "numIntegrantes": 3,
+    "emailContacto": "info@muse.mu"
+  },
+  {
+    "codigo": "DAFT",
+    "nombre": "Daft Punk",
+    "paisOrigen": "France",
+    "numIntegrantes": 2,
+    "emailContacto": "contact@daftpunk.com"
+  },
+  {
+    "codigo": "EMINEM",
+    "nombre": "Eminem",
+    "paisOrigen": "USA",
+    "numIntegrantes": 1,
+    "emailContacto": "info@eminem.com"
+  },
+  {
+    "codigo": "JAZZ5",
+    "nombre": "The Jazz Collective",
+    "paisOrigen": "USA",
+    "numIntegrantes": 5,
+    "emailContacto": "contact@jazzcollective.com"
+  },
+  {
+    "codigo": "FOO",
+    "nombre": "Foo Fighters",
+    "paisOrigen": "USA",
+    "numIntegrantes": 6,
+    "emailContacto": "info@foofighters.com"
+  },
+  {
+    "codigo": "COLDPLAY",
+    "nombre": "Coldplay",
+    "paisOrigen": "UK",
+    "numIntegrantes": 4,
+    "emailContacto": "contact@coldplay.com"
+  },
+  {
+    "codigo": "AVICII",
+    "nombre": "Avicii",
+    "paisOrigen": "Sweden",
+    "numIntegrantes": 1,
+    "emailContacto": "info@avicii.com"
+  },
+  {
+    "codigo": "KENDRICK",
+    "nombre": "Kendrick Lamar",
+    "paisOrigen": "USA",
+    "numIntegrantes": 1,
+    "emailContacto": "contact@kendricklamar.com"
+  },
+  {
+    "codigo": "MILES",
+    "nombre": "Miles Davis Tribute",
+    "paisOrigen": "USA",
+    "numIntegrantes": 7,
+    "emailContacto": "tribute@milesdavis.com"
+  },
+  {
+    "codigo": "LINKIN",
+    "nombre": "Linkin Park",
+    "paisOrigen": "USA",
+    "numIntegrantes": 5,
+    "emailContacto": "info@linkinpark.com"
+  },
+  {
+    "codigo": "ARIANA",
+    "nombre": "Ariana Grande",
+    "paisOrigen": "USA",
+    "numIntegrantes": 1,
+    "emailContacto": "contact@arianagrande.com"
+  },
+  {
+    "codigo": "MARTIN",
+    "nombre": "Martin Garrix",
+    "paisOrigen": "Netherlands",
+    "numIntegrantes": 1,
+    "emailContacto": "info@martingarrix.com"
+  },
+  {
+    "codigo": "TRAVIS",
+    "nombre": "Travis Scott",
+    "paisOrigen": "USA",
+    "numIntegrantes": 1,
+    "emailContacto": "contact@travisscott.com"
+  },
+  {
+    "codigo": "HERBIE",
+    "nombre": "Herbie Hancock",
+    "paisOrigen": "USA",
+    "numIntegrantes": 1,
+    "emailContacto": "info@herbiehancock.com"
+  }
+]

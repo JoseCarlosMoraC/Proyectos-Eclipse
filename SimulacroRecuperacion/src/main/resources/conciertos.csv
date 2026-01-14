@@ -1,0 +1,21 @@
+ID,Fecha,Escenario,Genero,Banda Headliner,Codigo Banda
+1,2025-06-15,Main Stage,ROCK,null,MCR
+2,2025-06-15,Electronic Arena,ELECTRONICA,null,DAFT
+3,2025-06-15,Urban Stage,HIPHOP,null,EMINEM
+4,2025-06-16,Main Stage,ROCK,null,MUSE
+5,2025-06-16,Jazz Pavilion,JAZZ,null,JAZZ5
+6,2025-06-16,Pop Arena,POP,null,COLDPLAY
+7,2025-06-17,Main Stage,ROCK,null,FOO
+8,2025-06-17,Electronic Arena,ELECTRONICA,null,AVICII
+9,2025-06-17,Urban Stage,HIPHOP,null,KENDRICK
+10,2025-06-18,Jazz Pavilion,JAZZ,null,MILES
+11,2025-06-18,Main Stage,ROCK,null,LINKIN
+12,2025-06-18,Pop Arena,POP,null,ARIANA
+13,2025-06-19,Electronic Arena,ELECTRONICA,null,MARTIN
+14,2025-06-19,Urban Stage,HIPHOP,null,TRAVIS
+15,2025-06-19,Jazz Pavilion,JAZZ,null,HERBIE
+16,2025-06-20,Main Stage,ROCK,null,MCR
+17,2025-06-20,Main Stage,ROCK,null,MUSE
+18,2025-06-20,Pop Arena,POP,null,COLDPLAY
+19,2025-06-21,Main Stage,ROCK,null,FOO
+20,2025-06-21,Electronic Arena,ELECTRONICA,null,DAFT

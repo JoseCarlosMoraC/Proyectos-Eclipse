@@ -14,9 +14,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import Simulacro.BancoDeAlimentos.Models.CentroLogistico;
-import Simulacro.BancoDeAlimentos.Models.Tipo;
-import Simulacro.BancoDeAlimentos.Models.Trabajador;
+
 
 // Esta clase se encarga de LEER el XML usando DOM
 // y convertir los nodos en objetos CentroLogistico y Trabajador.

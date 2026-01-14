@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "fecha": "2025-06-01",
+    "descripcion": "Apertura Festival - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "LP",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 2,
+    "fecha": "2025-06-01",
+    "descripcion": "Noche Indie - Escenario Alternativo",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "TSTM",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 3,
+    "fecha": "2025-06-01",
+    "descripcion": "Pop Internacional - Escenario Pop",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "TS",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 4,
+    "fecha": "2025-06-02",
+    "descripcion": "Rock Clasico - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "RHCP",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 5,
+    "fecha": "2025-06-02",
+    "descripcion": "Electronic Night - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "DAFT",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 6,
+    "fecha": "2025-06-02",
+    "descripcion": "Acustico Especial - Escenario Intimo",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "ED",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 7,
+    "fecha": "2025-06-03",
+    "descripcion": "Rock Alternativo - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "FOO",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 8,
+    "fecha": "2025-06-03",
+    "descripcion": "EDM Fiesta - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "CALVIN",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 9,
+    "fecha": "2025-06-03",
+    "descripcion": "Pop Stars - Escenario Pop",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "BILLIE",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 10,
+    "fecha": "2025-06-04",
+    "descripcion": "Rock Progresivo - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "MUSE",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 11,
+    "fecha": "2025-06-04",
+    "descripcion": "K-Pop Fever - Escenario Pop",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "BTS",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 12,
+    "fecha": "2025-06-04",
+    "descripcion": "Techno Session - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "AVII",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 13,
+    "fecha": "2025-06-05",
+    "descripcion": "Indie Britanico - Escenario Alternativo",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "AJ",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 14,
+    "fecha": "2025-06-05",
+    "descripcion": "Pop Melodico - Escenario Principal",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "COLD",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 15,
+    "fecha": "2025-06-05",
+    "descripcion": "House Party - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "MART",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 16,
+    "fecha": "2025-06-06",
+    "descripcion": "Rock Epico - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "IM",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 17,
+    "fecha": "2025-06-06",
+    "descripcion": "Leyendas del Rock - Escenario Clasico",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "QN",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 18,
+    "fecha": "2025-06-06",
+    "descripcion": "Trance Journey - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "TIESTO",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 19,
+    "fecha": "2025-06-07",
+    "descripcion": "Hard Rock - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "ACDC",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 20,
+    "fecha": "2025-06-07",
+    "descripcion": "Divas del Pop - Escenario Pop",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "ARIANA",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 21,
+    "fecha": "2025-06-07",
+    "descripcion": "Dubstep Night - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "SKRILL",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 22,
+    "fecha": "2025-06-08",
+    "descripcion": "Rock Legendario - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "GUNS",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 23,
+    "fecha": "2025-06-08",
+    "descripcion": "RnB Soul - Escenario Pop",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "WEEKND",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 24,
+    "fecha": "2025-06-08",
+    "descripcion": "Progressive House - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "DEADM",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 25,
+    "fecha": "2025-06-09",
+    "descripcion": "Baladas Pop - Escenario Intimo",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "ADELE",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 26,
+    "fecha": "2025-06-09",
+    "descripcion": "Hip Hop y Pop - Escenario Principal",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "DRAKE",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 27,
+    "fecha": "2025-06-09",
+    "descripcion": "EDM Sunrise - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "CALVIN",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 28,
+    "fecha": "2025-06-10",
+    "descripcion": "Rock Potente - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "LP",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 29,
+    "fecha": "2025-06-10",
+    "descripcion": "Pop Icon - Escenario Pop",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "BEY",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 30,
+    "fecha": "2025-06-10",
+    "descripcion": "Electronic Paradise - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "TIESTO",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 31,
+    "fecha": "2025-06-11",
+    "descripcion": "Indie Rock - Escenario Alternativo",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "TSTM",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 32,
+    "fecha": "2025-06-11",
+    "descripcion": "Pop Sensation - Escenario Principal",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "RIHANA",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 33,
+    "fecha": "2025-06-11",
+    "descripcion": "Electro Beats - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "MART",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 34,
+    "fecha": "2025-06-12",
+    "descripcion": "Alternative Rock - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "MUSE",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 35,
+    "fecha": "2025-06-12",
+    "descripcion": "Urban Pop - Escenario Pop",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "POST",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 36,
+    "fecha": "2025-06-12",
+    "descripcion": "Bass Drop - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "SKRILL",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 37,
+    "fecha": "2025-06-13",
+    "descripcion": "Rock Sinfonico - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "FOO",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 38,
+    "fecha": "2025-06-13",
+    "descripcion": "Trap y Pop - Escenario Pop",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "TRAVIS",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 39,
+    "fecha": "2025-06-13",
+    "descripcion": "Future Bass - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "DEADM",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 40,
+    "fecha": "2025-06-14",
+    "descripcion": "Rock Britanico - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "AJ",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 41,
+    "fecha": "2025-06-14",
+    "descripcion": "Singer-Songwriter - Escenario Intimo",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "TS",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 42,
+    "fecha": "2025-06-14",
+    "descripcion": "Big Room - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "MART",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 43,
+    "fecha": "2025-06-15",
+    "descripcion": "Gran Final Rock - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "LP",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 44,
+    "fecha": "2025-06-15",
+    "descripcion": "Pop Finale - Escenario Pop",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "TS",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 45,
+    "fecha": "2025-06-15",
+    "descripcion": "Closing Party - Escenario Dance",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "CALVIN",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 46,
+    "fecha": "2025-06-16",
+    "descripcion": "After Party Rock",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "RHCP",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 47,
+    "fecha": "2025-06-16",
+    "descripcion": "After Party Pop",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "BILLIE",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 48,
+    "fecha": "2025-06-16",
+    "descripcion": "After Party Electronic",
+    "genero": "ELECTRONICA",
+    "artistaCabecera": {
+      "codigo": "TIESTO",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 49,
+    "fecha": "2025-06-17",
+    "descripcion": "Concierto Especial Rock",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "IM",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 50,
+    "fecha": "2025-06-18",
+    "descripcion": "Concierto Sin Artista",
+    "genero": "POP",
+    "artistaCabecera": {
+      "codigo": "NOEXISTE",
+      "numIntegrantes": 0
+    }
+  }
+]

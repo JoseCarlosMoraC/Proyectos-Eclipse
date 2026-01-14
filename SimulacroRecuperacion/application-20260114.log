@@ -1,0 +1,141 @@
+2026-01-14 08:20:02.770 [main] INFO  Controller.GestionaLiveFest - ========== INICIANDO GESTIÓN DE LIVEFEST ==========
+2026-01-14 08:20:02.772 [main] INFO  Controller.GestionaLiveFest - 
+--- APARTADO 2: CARGA DE DATOS DESDE XML ---
+2026-01-14 08:20:02.774 [main] ERROR Utils.XMLDomLiveFest - C:\Users\alumno\Desktop\DAM\Proyectos Eclipse\SimulacroRecuperacion\src\main\java\LiveFest\Utils\livefest.xml (El sistema no puede encontrar la ruta especificada)
+2026-01-14 08:20:02.774 [main] ERROR Controller.GestionaLiveFest - Error inesperado: Cannot invoke "org.w3c.dom.Document.getElementsByTagName(String)" because "doc" is null
+2026-01-14 08:20:18.838 [main] INFO  Controller.GestionaLiveFest - ========== INICIANDO GESTIÓN DE LIVEFEST ==========
+2026-01-14 08:20:18.840 [main] INFO  Controller.GestionaLiveFest - 
+--- APARTADO 2: CARGA DE DATOS DESDE XML ---
+2026-01-14 08:20:18.848 [main] INFO  Utils.LiveFestAJson - Bandas leídas desde XML: 15
+2026-01-14 08:20:18.854 [main] INFO  Utils.LiveFestAJson - Conciertos leídos desde XML: 20
+2026-01-14 08:20:18.854 [main] INFO  Controller.GestionaLiveFest - Bandas cargadas: 15
+2026-01-14 08:20:18.854 [main] INFO  Controller.GestionaLiveFest - Conciertos cargados: 20
+2026-01-14 08:20:18.854 [main] INFO  Controller.GestionaLiveFest - 
+--- APARTADO 3: GENERACIÓN DE JSON ---
+2026-01-14 08:20:18.855 [main] INFO  Controller.GestionaLiveFest - Conciertos de MCR: 2
+2026-01-14 08:20:18.882 [main] INFO  Utils.LiveFestAJson - Archivo JSON generado correctamente: conciertos_MCR.json
+2026-01-14 08:20:18.882 [main] INFO  Controller.GestionaLiveFest - JSON generado correctamente para conciertos de MCR
+2026-01-14 08:20:18.882 [main] INFO  Controller.GestionaLiveFest - 
+--- CONVIRTIENDO DATOS A JSON ---
+2026-01-14 08:20:18.884 [main] INFO  Utils.LiveFestAJson - Archivo JSON generado correctamente: bandas.json
+2026-01-14 08:20:18.902 [main] INFO  Utils.LiveFestAJson - Archivo JSON generado correctamente: conciertos.json
+2026-01-14 08:20:18.902 [main] INFO  Controller.GestionaLiveFest - 
+--- CONSULTAS DE BANDAS ---
+2026-01-14 08:20:18.902 [main] INFO  Controller.GestionaLiveFest - Banda MCR: Banda [codigo=MCR, nombre=My Chemical Romance, paisOrigen=USA, numIntegrantes=4, emailContacto=contact@mcr.com]
+2026-01-14 08:20:18.902 [main] INFO  Controller.GestionaLiveFest - Bandas de USA: 10
+2026-01-14 08:20:18.903 [main] INFO  Controller.GestionaLiveFest -   - Miles Davis Tribute (7 integrantes)
+2026-01-14 08:20:18.903 [main] INFO  Controller.GestionaLiveFest -   - Foo Fighters (6 integrantes)
+2026-01-14 08:20:18.903 [main] INFO  Controller.GestionaLiveFest -   - Travis Scott (1 integrantes)
+2026-01-14 08:20:18.903 [main] INFO  Controller.GestionaLiveFest -   - Linkin Park (5 integrantes)
+2026-01-14 08:20:18.903 [main] INFO  Controller.GestionaLiveFest -   - Herbie Hancock (1 integrantes)
+2026-01-14 08:20:18.903 [main] INFO  Controller.GestionaLiveFest -   - Eminem (1 integrantes)
+2026-01-14 08:20:18.903 [main] INFO  Controller.GestionaLiveFest -   - Kendrick Lamar (1 integrantes)
+2026-01-14 08:20:18.903 [main] INFO  Controller.GestionaLiveFest -   - Ariana Grande (1 integrantes)
+2026-01-14 08:20:18.903 [main] INFO  Controller.GestionaLiveFest -   - The Jazz Collective (5 integrantes)
+2026-01-14 08:20:18.903 [main] INFO  Controller.GestionaLiveFest -   - My Chemical Romance (4 integrantes)
+2026-01-14 08:20:18.904 [main] INFO  Controller.GestionaLiveFest - Bandas con 4+ integrantes: 6
+2026-01-14 08:20:18.904 [main] INFO  Controller.GestionaLiveFest - 
+--- CONSULTAS DE CONCIERTOS ---
+2026-01-14 08:20:18.904 [main] INFO  Controller.GestionaLiveFest - Conciertos de ROCK: 7
+2026-01-14 08:20:18.904 [main] INFO  Controller.GestionaLiveFest - Conciertos de ELECTRONICA: 4
+2026-01-14 08:20:18.904 [main] INFO  Controller.GestionaLiveFest - Conciertos del 2025-06-15: 3
+2026-01-14 08:20:18.904 [main] INFO  Controller.GestionaLiveFest - Conciertos en Main Stage: 7
+2026-01-14 08:20:18.904 [main] INFO  Controller.GestionaLiveFest - 
+--- ESTADÍSTICAS Y RANKINGS ---
+2026-01-14 08:20:18.904 [main] INFO  Controller.GestionaLiveFest - Estadísticas de conciertos por banda:
+2026-01-14 08:20:18.905 [main] INFO  Controller.GestionaLiveFest -   - MILES: 1 conciertos
+2026-01-14 08:20:18.905 [main] INFO  Controller.GestionaLiveFest -   - MARTIN: 1 conciertos
+2026-01-14 08:20:18.905 [main] INFO  Controller.GestionaLiveFest -   - TRAVIS: 1 conciertos
+2026-01-14 08:20:18.905 [main] INFO  Controller.GestionaLiveFest -   - AVICII: 1 conciertos
+2026-01-14 08:20:18.905 [main] INFO  Controller.GestionaLiveFest -   - LINKIN: 1 conciertos
+2026-01-14 08:20:18.905 [main] INFO  Controller.GestionaLiveFest -   - HERBIE: 1 conciertos
+2026-01-14 08:20:18.905 [main] INFO  Controller.GestionaLiveFest -   - FOO: 2 conciertos
+2026-01-14 08:20:18.905 [main] INFO  Controller.GestionaLiveFest -   - EMINEM: 1 conciertos
+2026-01-14 08:20:18.905 [main] INFO  Controller.GestionaLiveFest -   - KENDRICK: 1 conciertos
+2026-01-14 08:20:18.905 [main] INFO  Controller.GestionaLiveFest -   - ARIANA: 1 conciertos
+2026-01-14 08:20:18.905 [main] INFO  Controller.GestionaLiveFest -   - JAZZ5: 1 conciertos
+2026-01-14 08:20:18.905 [main] INFO  Controller.GestionaLiveFest -   - DAFT: 2 conciertos
+2026-01-14 08:20:18.906 [main] INFO  Controller.GestionaLiveFest -   - COLDPLAY: 2 conciertos
+2026-01-14 08:20:18.906 [main] INFO  Controller.GestionaLiveFest -   - MCR: 2 conciertos
+2026-01-14 08:20:18.906 [main] INFO  Controller.GestionaLiveFest -   - MUSE: 2 conciertos
+2026-01-14 08:20:18.906 [main] INFO  Controller.GestionaLiveFest - 
+Ranking de bandas por conciertos:
+2026-01-14 08:20:18.906 [main] INFO  Controller.GestionaLiveFest -   1. FOO - 2 conciertos
+2026-01-14 08:20:18.907 [main] INFO  Controller.GestionaLiveFest -   2. DAFT - 2 conciertos
+2026-01-14 08:20:18.907 [main] INFO  Controller.GestionaLiveFest -   3. COLDPLAY - 2 conciertos
+2026-01-14 08:20:18.907 [main] INFO  Controller.GestionaLiveFest -   4. MCR - 2 conciertos
+2026-01-14 08:20:18.907 [main] INFO  Controller.GestionaLiveFest -   5. MUSE - 2 conciertos
+2026-01-14 08:20:18.907 [main] INFO  Controller.GestionaLiveFest -   6. MILES - 1 conciertos
+2026-01-14 08:20:18.907 [main] INFO  Controller.GestionaLiveFest -   7. MARTIN - 1 conciertos
+2026-01-14 08:20:18.907 [main] INFO  Controller.GestionaLiveFest -   8. TRAVIS - 1 conciertos
+2026-01-14 08:20:18.907 [main] INFO  Controller.GestionaLiveFest -   9. AVICII - 1 conciertos
+2026-01-14 08:20:18.907 [main] INFO  Controller.GestionaLiveFest -   10. LINKIN - 1 conciertos
+2026-01-14 08:20:18.907 [main] INFO  Controller.GestionaLiveFest -   11. HERBIE - 1 conciertos
+2026-01-14 08:20:18.907 [main] INFO  Controller.GestionaLiveFest -   12. EMINEM - 1 conciertos
+2026-01-14 08:20:18.908 [main] INFO  Controller.GestionaLiveFest -   13. KENDRICK - 1 conciertos
+2026-01-14 08:20:18.908 [main] INFO  Controller.GestionaLiveFest -   14. ARIANA - 1 conciertos
+2026-01-14 08:20:18.908 [main] INFO  Controller.GestionaLiveFest -   15. JAZZ5 - 1 conciertos
+2026-01-14 08:20:18.908 [main] INFO  Controller.GestionaLiveFest - 
+Banda con más conciertos: FOO
+2026-01-14 08:20:18.908 [main] INFO  Controller.GestionaLiveFest - 
+Estadísticas por género:
+2026-01-14 08:20:18.908 [main] INFO  Controller.GestionaLiveFest -   - ROCK: 7 conciertos
+2026-01-14 08:20:18.908 [main] INFO  Controller.GestionaLiveFest -   - POP: 3 conciertos
+2026-01-14 08:20:18.909 [main] INFO  Controller.GestionaLiveFest -   - JAZZ: 3 conciertos
+2026-01-14 08:20:18.909 [main] INFO  Controller.GestionaLiveFest -   - HIPHOP: 3 conciertos
+2026-01-14 08:20:18.909 [main] INFO  Controller.GestionaLiveFest -   - ELECTRONICA: 4 conciertos
+2026-01-14 08:20:18.909 [main] INFO  Controller.GestionaLiveFest - 
+--- INFORMACIÓN DETALLADA DE BANDAS ---
+2026-01-14 08:20:18.909 [main] INFO  Controller.GestionaLiveFest - 
+=== INFORMACIÓN DE LA BANDA ===
+Código: MCR
+Nombre: My Chemical Romance
+País: USA
+Integrantes: 4
+Email: contact@mcr.com
+Conciertos: 2
+
+2026-01-14 08:20:18.909 [main] INFO  Controller.GestionaLiveFest - 
+=== INFORMACIÓN DE LA BANDA ===
+Código: MUSE
+Nombre: Muse
+País: UK
+Integrantes: 3
+Email: info@muse.mu
+Conciertos: 2
+
+2026-01-14 08:20:18.909 [main] INFO  Controller.GestionaLiveFest - 
+=== INFORMACIÓN DE LA BANDA ===
+Código: DAFT
+Nombre: Daft Punk
+País: France
+Integrantes: 2
+Email: contact@daftpunk.com
+Conciertos: 2
+
+2026-01-14 08:20:18.909 [main] INFO  Controller.GestionaLiveFest - 
+=== ESTADÍSTICAS GENERALES LIVEFEST ===
+Total de bandas: 15
+Total de conciertos: 20
+
+Conciertos por género:
+- ROCK: 7
+- POP: 3
+- ELECTRONICA: 4
+- HIPHOP: 3
+- JAZZ: 3
+
+Banda con más conciertos: FOO
+
+2026-01-14 08:20:18.910 [main] INFO  Controller.GestionaLiveFest - 
+--- EXPORTANDO DATOS A CSV ---
+2026-01-14 08:20:18.913 [main] INFO  Utils.CreacionCSV - CSV de bandas generado correctamente: bandas.csv
+2026-01-14 08:20:18.948 [main] INFO  Controller.GestionaLiveFest - Bandas exportadas a CSV
+2026-01-14 08:20:18.950 [main] INFO  Utils.CreacionCSV - CSV de conciertos generado correctamente: conciertos.csv
+2026-01-14 08:20:18.950 [main] INFO  Controller.GestionaLiveFest - Conciertos exportados a CSV
+2026-01-14 08:20:18.951 [main] INFO  Utils.CreacionCSV - CSV detallado generado correctamente: conciertos_detallados.csv
+2026-01-14 08:20:18.951 [main] INFO  Controller.GestionaLiveFest - Conciertos detallados exportados a CSV
+2026-01-14 08:20:18.952 [main] INFO  Utils.CreacionCSV - CSV de ranking generado correctamente: ranking_bandas.csv
+2026-01-14 08:20:18.953 [main] INFO  Controller.GestionaLiveFest - Ranking de bandas exportado a CSV
+2026-01-14 08:20:18.953 [main] INFO  Controller.GestionaLiveFest - 
+========== GESTIÓN DE LIVEFEST FINALIZADA CORRECTAMENTE ==========

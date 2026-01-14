@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "fecha": "2025-06-01",
+    "descripcion": "Apertura Festival - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "LP",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 28,
+    "fecha": "2025-06-10",
+    "descripcion": "Rock Potente - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "LP",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 43,
+    "fecha": "2025-06-15",
+    "descripcion": "Gran Final Rock - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "LP",
+      "numIntegrantes": 0
+    }
+  }
+]

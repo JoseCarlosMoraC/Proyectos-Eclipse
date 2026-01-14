@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "fecha": "2025-06-15",
+    "escenario": "Main Stage",
+    "generoMusical": "ROCK",
+    "bandaHeadliner": {
+      "codigo": "MCR",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 16,
+    "fecha": "2025-06-20",
+    "escenario": "Main Stage",
+    "generoMusical": "ROCK",
+    "bandaHeadliner": {
+      "codigo": "MCR",
+      "numIntegrantes": 0
+    }
+  }
+]

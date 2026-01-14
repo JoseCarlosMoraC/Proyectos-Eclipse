@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<festival>
+    <concierto>
+        <id>1</id>
+        <fecha>2024-06-15</fecha>
+        <descripcion>apertura del festival con gran actuación</descripcion>
+        <grupo>
+            <codigo>GRP001</codigo>
+            <nombre>vetusta morla</nombre>
+            <numIntegrantes>6</numIntegrantes>
+            <email>contacto@vetustamorla.com</email>
+        </grupo>
+        <escenario>PRINCIPAL</escenario>
+    </concierto>
+
+    <concierto>
+        <id>2</id>
+        <fecha>2024-06-16</fecha>
+        <descripcion>sesión indie en el escenario alternativo</descripcion>
+        <grupo>
+            <codigo>GRP002</codigo>
+            <nombre>izal</nombre>
+            <numIntegrantes>5</numIntegrantes>
+            <email>info@izalband.com</email>
+        </grupo>
+        <escenario>ALTERNATIVO</escenario>
+    </concierto>
+
+    <concierto>
+        <id>3</id>
+        <fecha>2024-06-17</fecha>
+        <descripcion>concierto sorpresa en la madrugada</descripcion>
+        <grupo>
+            <codigo>GRP003</codigo>
+            <nombre>miss caffeina</nombre>
+            <numIntegrantes>4</numIntegrantes>
+            <email>contacto@misscaffeina.com</email>
+        </grupo>
+        <escenario>SECUNDARIO</escenario>
+    </concierto>
+
+    <concierto>
+        <id>4</id>
+        <fecha>2024-06-18</fecha>
+        <descripcion>show acústico especial</descripcion>
+        <grupo>
+            <codigo>GRP004</codigo>
+            <nombre>la m.o.d.a.</nombre>
+            <numIntegrantes>7</numIntegrantes>
+            <email>booking@lamoda.com</email>
+        </grupo>
+        <escenario>ALTERNATIVO</escenario>
+    </concierto>
+
+    <concierto>
+        <id>5</id>
+        <fecha>2024-06-19</fecha>
+        <descripcion>concierto con efectos visuales y luces</descripcion>
+        <grupo>
+            <codigo>GRP005</codigo>
+            <nombre>love of lesbian</nombre>
+            <numIntegrantes>6</numIntegrantes>
+            <email>management@loveoflesbian.com</email>
+        </grupo>
+        <escenario>PRINCIPAL</escenario>
+    </concierto>
+
+    <concierto>
+        <id>6</id>
+        <fecha>2024-06-20</fecha>
+        <descripcion>sesión electrónica indie</descripcion>
+        <grupo>
+            <codigo>GRP006</codigo>
+            <nombre>dorian</nombre>
+            <numIntegrantes>5</numIntegrantes>
+            <email>info@dorianmusic.com</email>
+        </grupo>
+        <escenario>SECUNDARIO</escenario>
+    </concierto>
+
+    <concierto>
+        <id>7</id>
+        <fecha>2024-06-21</fecha>
+        <descripcion>clausura del festival con los mejores éxitos</descripcion>
+        <grupo>
+            <codigo>GRP007</codigo>
+            <nombre>sidonie</nombre>
+            <numIntegrantes>3</numIntegrantes>
+            <email>sidonie@management.com</email>
+        </grupo>
+        <escenario>PRINCIPAL</escenario>
+    </concierto>
+
+    <concierto>
+        <id>8</id>
+        <fecha>2024-06-22</fecha>
+        <descripcion>show especial con invitados sorpresa</descripcion>
+        <grupo>
+            <codigo>GRP008</codigo>
+            <nombre>fuel fandango</nombre>
+            <numIntegrantes>2</numIntegrantes>
+            <email>contact@fuelfandango.com</email>
+        </grupo>
+        <escenario>ALTERNATIVO</escenario>
+    </concierto>
+
+    <concierto>
+        <id>9</id>
+        <fecha>2024-06-23</fecha>
+        <descripcion>noche de rock alternativo</descripcion>
+        <grupo>
+            <codigo>GRP009</codigo>
+            <nombre>second</nombre>
+            <numIntegrantes>4</numIntegrantes>
+            <email>second@bandmail.com</email>
+        </grupo>
+        <escenario>SECUNDARIO</escenario>
+    </concierto>
+
+    <concierto>
+        <id>10</id>
+        <fecha>2024-06-24</fecha>
+        <descripcion>fiesta de despedida con banda estrella</descripcion>
+        <grupo>
+            <codigo>GRP010</codigo>
+            <nombre>supersubmarina</nombre>
+            <numIntegrantes>4</numIntegrantes>
+            <email>contacto@supersubmarina.com</email>
+        </grupo>
+        <escenario>PRINCIPAL</escenario>
+    </concierto>
+</festival>

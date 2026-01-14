@@ -1,0 +1,290 @@
+2026-01-14 09:19:56.721 [main] INFO  Controller.GestionaLiveFest - ========== INICIANDO GESTIÓN DE LIVEFEST ==========
+2026-01-14 09:19:56.723 [main] INFO  Controller.GestionaLiveFest - 
+--- APARTADO 2: CARGA DE DATOS DESDE XML ---
+2026-01-14 09:19:56.734 [main] ERROR Utils.XMLDomLiveFest - La referencia a la entidad "B" debe finalizar en el delimitador ';'.
+2026-01-14 09:19:56.735 [main] ERROR Controller.GestionaLiveFest - Error inesperado: Cannot invoke "org.w3c.dom.Document.getElementsByTagName(String)" because "doc" is null
+2026-01-14 09:20:37.875 [main] INFO  Controller.GestionaLiveFest - ========== INICIANDO GESTIÓN DE LIVEFEST ==========
+2026-01-14 09:20:37.877 [main] INFO  Controller.GestionaLiveFest - 
+--- APARTADO 2: CARGA DE DATOS DESDE XML ---
+2026-01-14 09:20:37.888 [main] ERROR Utils.XMLDomLiveFest - La referencia a la entidad "B" debe finalizar en el delimitador ';'.
+2026-01-14 09:20:37.889 [main] ERROR Controller.GestionaLiveFest - Error inesperado: Cannot invoke "org.w3c.dom.Document.getElementsByTagName(String)" because "doc" is null
+2026-01-14 09:23:53.520 [main] INFO  Controller.GestionaLiveFest - ========== INICIANDO GESTIÓN DE LIVEFEST ==========
+2026-01-14 09:23:53.522 [main] INFO  Controller.GestionaLiveFest - 
+--- APARTADO 2: CARGA DE DATOS DESDE XML ---
+2026-01-14 09:23:53.534 [main] ERROR Utils.XMLDomLiveFest - La referencia a la entidad "B" debe finalizar en el delimitador ';'.
+2026-01-14 09:23:53.534 [main] ERROR Controller.GestionaLiveFest - Error inesperado: Cannot invoke "org.w3c.dom.Document.getElementsByTagName(String)" because "doc" is null
+2026-01-14 09:24:05.899 [main] INFO  Controller.GestionaLiveFest - ========== INICIANDO GESTIÓN DE LIVEFEST ==========
+2026-01-14 09:24:05.901 [main] INFO  Controller.GestionaLiveFest - 
+--- APARTADO 2: CARGA DE DATOS DESDE XML ---
+2026-01-14 09:24:05.912 [main] ERROR Utils.XMLDomLiveFest - La referencia a la entidad "B" debe finalizar en el delimitador ';'.
+2026-01-14 09:24:05.912 [main] ERROR Controller.GestionaLiveFest - Error inesperado: Cannot invoke "org.w3c.dom.Document.getElementsByTagName(String)" because "doc" is null
+2026-01-14 09:25:28.527 [main] INFO  Controller.GestionaLiveFest - ========== INICIANDO GESTIÓN DE LIVEFEST ==========
+2026-01-14 09:25:28.529 [main] INFO  Controller.GestionaLiveFest - 
+--- APARTADO 2: CARGA DE DATOS DESDE XML ---
+2026-01-14 09:25:28.541 [main] ERROR Utils.XMLDomLiveFest - La referencia a la entidad "B" debe finalizar en el delimitador ';'.
+2026-01-14 09:25:28.541 [main] ERROR Controller.GestionaLiveFest - Error inesperado: Cannot invoke "org.w3c.dom.Document.getElementsByTagName(String)" because "doc" is null
+2026-01-14 09:27:47.169 [main] INFO  Controller.GestionaLiveFest - ========== INICIANDO GESTIÓN DE LIVEFEST ==========
+2026-01-14 09:27:47.171 [main] INFO  Controller.GestionaLiveFest - 
+--- APARTADO 2: CARGA DE DATOS DESDE XML ---
+2026-01-14 09:27:47.183 [main] INFO  Utils.LiveFestAJSON - Artistas leídos desde XML: 31
+2026-01-14 09:27:47.190 [main] INFO  Utils.LiveFestAJSON - Conciertos leídos desde XML: 50
+2026-01-14 09:27:47.192 [main] INFO  Controller.GestionaLiveFest - Artistas cargados: 30
+2026-01-14 09:27:47.192 [main] INFO  Controller.GestionaLiveFest - Conciertos cargados: 18
+2026-01-14 09:27:47.192 [main] INFO  Controller.GestionaLiveFest - 
+========== MOSTRANDO TODOS LOS ARTISTAS CARGADOS ==========
+2026-01-14 09:27:47.192 [main] INFO  Controller.GestionaLiveFest - Total de artistas: 30
+2026-01-14 09:27:47.192 [main] INFO  Controller.GestionaLiveFest - -----------------------------------------------------------
+2026-01-14 09:27:47.192 [main] INFO  Controller.GestionaLiveFest - Código: TIESTO     | Nombre: Tiesto                         | Integrantes:  1 | Email: contact@tiesto.com
+2026-01-14 09:27:47.193 [main] INFO  Controller.GestionaLiveFest - Código: IM         | Nombre: Imagine Dragons                | Integrantes:  4 | Email: manager@imaginedragons.com
+2026-01-14 09:27:47.193 [main] INFO  Controller.GestionaLiveFest - Código: FOO        | Nombre: Foo Fighters                   | Integrantes:  6 | Email: manager@foofighters.com
+2026-01-14 09:27:47.193 [main] INFO  Controller.GestionaLiveFest - Código: TRAVIS     | Nombre: Travis Scott                   | Integrantes:  1 | Email: manager@travisscott.com
+2026-01-14 09:27:47.193 [main] INFO  Controller.GestionaLiveFest - Código: SKRILL     | Nombre: Skrillex                       | Integrantes:  1 | Email: info@skrillex.com
+2026-01-14 09:27:47.193 [main] INFO  Controller.GestionaLiveFest - Código: AJ         | Nombre: Arctic Monkeys                 | Integrantes:  4 | Email: info@arcticmonkeys.com
+2026-01-14 09:27:47.193 [main] INFO  Controller.GestionaLiveFest - Código: DRAKE      | Nombre: Drake                          | Integrantes:  1 | Email: manager@drake.com
+2026-01-14 09:27:47.194 [main] INFO  Controller.GestionaLiveFest - Código: BILLIE     | Nombre: Billie Eilish                  | Integrantes:  1 | Email: info@billieeilish.com
+2026-01-14 09:27:47.194 [main] INFO  Controller.GestionaLiveFest - Código: ARIANA     | Nombre: Ariana Grande                  | Integrantes:  1 | Email: contact@arianagrande.com
+2026-01-14 09:27:47.194 [main] INFO  Controller.GestionaLiveFest - Código: RIHANA     | Nombre: Rihanna                        | Integrantes:  1 | Email: manager@rihanna.com
+2026-01-14 09:27:47.194 [main] INFO  Controller.GestionaLiveFest - Código: BEY        | Nombre: Beyonce                        | Integrantes:  1 | Email: contact@beyonce.com
+2026-01-14 09:27:47.194 [main] INFO  Controller.GestionaLiveFest - Código: MART       | Nombre: Martin Garrix                  | Integrantes:  1 | Email: info@martingarrix.com
+2026-01-14 09:27:47.194 [main] INFO  Controller.GestionaLiveFest - Código: DEADM      | Nombre: Deadmau5                       | Integrantes:  1 | Email: contact@deadmau5.com
+2026-01-14 09:27:47.194 [main] INFO  Controller.GestionaLiveFest - Código: POST       | Nombre: Post Malone                    | Integrantes:  1 | Email: contact@postmalone.com
+2026-01-14 09:27:47.194 [main] INFO  Controller.GestionaLiveFest - Código: COLD       | Nombre: Coldplay                       | Integrantes:  4 | Email: manager@coldplay.com
+2026-01-14 09:27:47.195 [main] INFO  Controller.GestionaLiveFest - Código: TS         | Nombre: Taylor Swift                   | Integrantes:  1 | Email: contact@taylorswift.com
+2026-01-14 09:27:47.195 [main] INFO  Controller.GestionaLiveFest - Código: ACDC       | Nombre: ACDC                           | Integrantes:  5 | Email: manager@acdc.com
+2026-01-14 09:27:47.195 [main] INFO  Controller.GestionaLiveFest - Código: CALVIN     | Nombre: Calvin Harris                  | Integrantes:  1 | Email: contact@calvinharris.com
+2026-01-14 09:27:47.195 [main] INFO  Controller.GestionaLiveFest - Código: BTS        | Nombre: BTS                            | Integrantes:  7 | Email: contact@bts.com
+2026-01-14 09:27:47.195 [main] INFO  Controller.GestionaLiveFest - Código: LP         | Nombre: Linkin Park                    | Integrantes:  6 | Email: manager@linkinpark.com
+2026-01-14 09:27:47.195 [main] INFO  Controller.GestionaLiveFest - Código: RHCP       | Nombre: Red Hot Chili Peppers          | Integrantes:  4 | Email: contact@rhcp.com
+2026-01-14 09:27:47.195 [main] INFO  Controller.GestionaLiveFest - Código: ADELE      | Nombre: Adele                          | Integrantes:  1 | Email: info@adele.com
+2026-01-14 09:27:47.196 [main] INFO  Controller.GestionaLiveFest - Código: AVII       | Nombre: Avicii                         | Integrantes:  1 | Email: manager@avicii.com
+2026-01-14 09:27:47.196 [main] INFO  Controller.GestionaLiveFest - Código: WEEKND     | Nombre: The Weeknd                     | Integrantes:  1 | Email: info@theweeknd.com
+2026-01-14 09:27:47.196 [main] INFO  Controller.GestionaLiveFest - Código: TSTM       | Nombre: The Strokes                    | Integrantes:  5 | Email: info@thestrokes.com
+2026-01-14 09:27:47.196 [main] INFO  Controller.GestionaLiveFest - Código: GUNS       | Nombre: Guns N Roses                   | Integrantes:  5 | Email: info@gunsnroses.com
+2026-01-14 09:27:47.196 [main] INFO  Controller.GestionaLiveFest - Código: DAFT       | Nombre: Daft Punk                      | Integrantes:  2 | Email: info@daftpunk.com
+2026-01-14 09:27:47.196 [main] INFO  Controller.GestionaLiveFest - Código: QN         | Nombre: Queen                          | Integrantes:  4 | Email: contact@queen.com
+2026-01-14 09:27:47.196 [main] INFO  Controller.GestionaLiveFest - Código: MUSE       | Nombre: Muse                           | Integrantes:  3 | Email: info@muse.mu
+2026-01-14 09:27:47.196 [main] INFO  Controller.GestionaLiveFest - Código: ED         | Nombre: Ed Sheeran                     | Integrantes:  1 | Email: manager@edsheeran.com
+2026-01-14 09:27:47.197 [main] INFO  Controller.GestionaLiveFest - 
+========== MOSTRANDO TODOS LOS CONCIERTOS CARGADOS ==========
+2026-01-14 09:27:47.197 [main] INFO  Controller.GestionaLiveFest - Total de conciertos: 18
+2026-01-14 09:27:47.197 [main] INFO  Controller.GestionaLiveFest - -----------------------------------------------------------
+2026-01-14 09:27:47.197 [main] INFO  Controller.GestionaLiveFest - ID:   1 | Fecha: 2025-06-01 | Género: ROCK        | Artista: LP         | Apertura Festival - Escenario Principal
+2026-01-14 09:27:47.197 [main] INFO  Controller.GestionaLiveFest - ID:   7 | Fecha: 2025-06-03 | Género: ROCK        | Artista: FOO        | Rock Alternativo - Escenario Principal
+2026-01-14 09:27:47.197 [main] INFO  Controller.GestionaLiveFest - ID:   4 | Fecha: 2025-06-02 | Género: ROCK        | Artista: RHCP       | Rock Clasico - Escenario Principal
+2026-01-14 09:27:47.197 [main] INFO  Controller.GestionaLiveFest - ID:  13 | Fecha: 2025-06-05 | Género: ROCK        | Artista: AJ         | Indie Britanico - Escenario Alternativo
+2026-01-14 09:27:47.197 [main] INFO  Controller.GestionaLiveFest - ID:  10 | Fecha: 2025-06-04 | Género: ROCK        | Artista: MUSE       | Rock Progresivo - Escenario Principal
+2026-01-14 09:27:47.198 [main] INFO  Controller.GestionaLiveFest - ID:  28 | Fecha: 2025-06-10 | Género: ROCK        | Artista: LP         | Rock Potente - Escenario Principal
+2026-01-14 09:27:47.198 [main] INFO  Controller.GestionaLiveFest - ID:  34 | Fecha: 2025-06-12 | Género: ROCK        | Artista: MUSE       | Alternative Rock - Escenario Principal
+2026-01-14 09:27:47.198 [main] INFO  Controller.GestionaLiveFest - ID:  31 | Fecha: 2025-06-11 | Género: ROCK        | Artista: TSTM       | Indie Rock - Escenario Alternativo
+2026-01-14 09:27:47.198 [main] INFO  Controller.GestionaLiveFest - ID:  40 | Fecha: 2025-06-14 | Género: ROCK        | Artista: AJ         | Rock Britanico - Escenario Principal
+2026-01-14 09:27:47.198 [main] INFO  Controller.GestionaLiveFest - ID:  37 | Fecha: 2025-06-13 | Género: ROCK        | Artista: FOO        | Rock Sinfonico - Escenario Principal
+2026-01-14 09:27:47.198 [main] INFO  Controller.GestionaLiveFest - ID:  46 | Fecha: 2025-06-16 | Género: ROCK        | Artista: RHCP       | After Party Rock
+2026-01-14 09:27:47.198 [main] INFO  Controller.GestionaLiveFest - ID:  43 | Fecha: 2025-06-15 | Género: ROCK        | Artista: LP         | Gran Final Rock - Escenario Principal
+2026-01-14 09:27:47.199 [main] INFO  Controller.GestionaLiveFest - ID:  19 | Fecha: 2025-06-07 | Género: ROCK        | Artista: ACDC       | Hard Rock - Escenario Principal
+2026-01-14 09:27:47.199 [main] INFO  Controller.GestionaLiveFest - ID:  16 | Fecha: 2025-06-06 | Género: ROCK        | Artista: IM         | Rock Epico - Escenario Principal
+2026-01-14 09:27:47.199 [main] INFO  Controller.GestionaLiveFest - ID:  25 | Fecha: 2025-06-09 | Género: POP         | Artista: ADELE      | Baladas Pop - Escenario Intimo
+2026-01-14 09:27:47.199 [main] INFO  Controller.GestionaLiveFest - ID:  22 | Fecha: 2025-06-08 | Género: ROCK        | Artista: GUNS       | Rock Legendario - Escenario Principal
+2026-01-14 09:27:47.199 [main] INFO  Controller.GestionaLiveFest - ID:  50 | Fecha: 2025-06-18 | Género: POP         | Artista: NOEXISTE   | Concierto Sin Artista
+2026-01-14 09:27:47.199 [main] INFO  Controller.GestionaLiveFest - ID:  49 | Fecha: 2025-06-17 | Género: ROCK        | Artista: IM         | Concierto Especial Rock
+2026-01-14 09:27:47.199 [main] INFO  Controller.GestionaLiveFest - 
+--- APARTADO 3: GENERACIÓN DE JSON ---
+2026-01-14 09:27:47.199 [main] INFO  Controller.GestionaLiveFest - Conciertos de LP: 3
+2026-01-14 09:27:47.226 [main] INFO  Utils.LiveFestAJSON - Archivo JSON generado correctamente: conciertos_LP.json
+2026-01-14 09:27:47.226 [main] INFO  Controller.GestionaLiveFest - JSON generado correctamente para conciertos de LP
+2026-01-14 09:27:47.226 [main] INFO  Controller.GestionaLiveFest - 
+--- CONVIRTIENDO DATOS A JSON ---
+2026-01-14 09:27:47.228 [main] INFO  Utils.LiveFestAJSON - Archivo JSON generado correctamente: artistas.json
+2026-01-14 09:27:47.230 [main] INFO  Utils.LiveFestAJSON - Archivo JSON generado correctamente: conciertos.json
+2026-01-14 09:27:47.230 [main] INFO  Controller.GestionaLiveFest - 
+--- CONSULTAS DE ARTISTAS ---
+2026-01-14 09:27:47.230 [main] INFO  Controller.GestionaLiveFest - Artista LP: Artista [nombreArtistico=Linkin Park, codigo=LP, numIntegrantes=6, emailManager=manager@linkinpark.com]
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest - Artistas que contienen 'The': 2
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest - Artistas con 4+ integrantes: 11
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest -   - Imagine Dragons (4 integrantes)
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest -   - Foo Fighters (6 integrantes)
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest -   - Arctic Monkeys (4 integrantes)
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest -   - Coldplay (4 integrantes)
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest -   - ACDC (5 integrantes)
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest -   - BTS (7 integrantes)
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest -   - Linkin Park (6 integrantes)
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest -   - Red Hot Chili Peppers (4 integrantes)
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest -   - The Strokes (5 integrantes)
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest -   - Guns N Roses (5 integrantes)
+2026-01-14 09:27:47.231 [main] INFO  Controller.GestionaLiveFest -   - Queen (4 integrantes)
+2026-01-14 09:27:47.232 [main] INFO  Controller.GestionaLiveFest - Artista con más integrantes: BTS (7)
+2026-01-14 09:27:47.232 [main] INFO  Controller.GestionaLiveFest - Artista con menos integrantes: Tiesto (1)
+2026-01-14 09:27:47.232 [main] INFO  Controller.GestionaLiveFest - Promedio de integrantes por artista: 2,53
+2026-01-14 09:27:47.232 [main] INFO  Controller.GestionaLiveFest - 
+--- CONSULTAS DE CONCIERTOS ---
+2026-01-14 09:27:47.232 [main] INFO  Controller.GestionaLiveFest - Actuaciones de LP: 3
+2026-01-14 09:27:47.232 [main] INFO  Controller.GestionaLiveFest -   - Apertura Festival - Escenario Principal (ROCK) - 2025-06-01
+2026-01-14 09:27:47.232 [main] INFO  Controller.GestionaLiveFest -   - Rock Potente - Escenario Principal (ROCK) - 2025-06-10
+2026-01-14 09:27:47.232 [main] INFO  Controller.GestionaLiveFest -   - Gran Final Rock - Escenario Principal (ROCK) - 2025-06-15
+2026-01-14 09:27:47.232 [main] INFO  Controller.GestionaLiveFest - Conciertos de ROCK: 16
+2026-01-14 09:27:47.233 [main] INFO  Controller.GestionaLiveFest - Conciertos de POP: 2
+2026-01-14 09:27:47.233 [main] INFO  Controller.GestionaLiveFest - Conciertos de ELECTRONICA: 0
+2026-01-14 09:27:47.233 [main] INFO  Controller.GestionaLiveFest - Conciertos del 2025-06-01: 1
+2026-01-14 09:27:47.233 [main] INFO  Controller.GestionaLiveFest - Finales del festival: 1
+2026-01-14 09:27:47.233 [main] INFO  Controller.GestionaLiveFest -   - Gran Final Rock - Escenario Principal - Artista: LP
+2026-01-14 09:27:47.233 [main] INFO  Controller.GestionaLiveFest - 
+--- ESTADÍSTICAS Y RANKINGS ---
+2026-01-14 09:27:47.233 [main] INFO  Controller.GestionaLiveFest - Estadísticas de actuaciones:
+2026-01-14 09:27:47.233 [main] INFO  Controller.GestionaLiveFest -   - GUNS: 1 actuaciones
+2026-01-14 09:27:47.233 [main] INFO  Controller.GestionaLiveFest -   - LP: 3 actuaciones
+2026-01-14 09:27:47.233 [main] INFO  Controller.GestionaLiveFest -   - IM: 2 actuaciones
+2026-01-14 09:27:47.234 [main] INFO  Controller.GestionaLiveFest -   - RHCP: 2 actuaciones
+2026-01-14 09:27:47.234 [main] INFO  Controller.GestionaLiveFest -   - FOO: 2 actuaciones
+2026-01-14 09:27:47.234 [main] INFO  Controller.GestionaLiveFest -   - ADELE: 1 actuaciones
+2026-01-14 09:27:47.234 [main] INFO  Controller.GestionaLiveFest -   - AJ: 2 actuaciones
+2026-01-14 09:27:47.234 [main] INFO  Controller.GestionaLiveFest -   - MUSE: 2 actuaciones
+2026-01-14 09:27:47.234 [main] INFO  Controller.GestionaLiveFest -   - TSTM: 1 actuaciones
+2026-01-14 09:27:47.234 [main] INFO  Controller.GestionaLiveFest -   - ACDC: 1 actuaciones
+2026-01-14 09:27:47.234 [main] INFO  Controller.GestionaLiveFest -   - NOEXISTE: 1 actuaciones
+2026-01-14 09:27:47.234 [main] INFO  Controller.GestionaLiveFest - 
+Ranking de artistas por actuaciones:
+2026-01-14 09:27:47.235 [main] INFO  Controller.GestionaLiveFest -   1. LP - 3 actuaciones
+2026-01-14 09:27:47.235 [main] INFO  Controller.GestionaLiveFest -   2. IM - 2 actuaciones
+2026-01-14 09:27:47.235 [main] INFO  Controller.GestionaLiveFest -   3. RHCP - 2 actuaciones
+2026-01-14 09:27:47.235 [main] INFO  Controller.GestionaLiveFest -   4. FOO - 2 actuaciones
+2026-01-14 09:27:47.235 [main] INFO  Controller.GestionaLiveFest -   5. AJ - 2 actuaciones
+2026-01-14 09:27:47.235 [main] INFO  Controller.GestionaLiveFest -   6. MUSE - 2 actuaciones
+2026-01-14 09:27:47.235 [main] INFO  Controller.GestionaLiveFest -   7. GUNS - 1 actuaciones
+2026-01-14 09:27:47.236 [main] INFO  Controller.GestionaLiveFest -   8. ADELE - 1 actuaciones
+2026-01-14 09:27:47.236 [main] INFO  Controller.GestionaLiveFest -   9. TSTM - 1 actuaciones
+2026-01-14 09:27:47.236 [main] INFO  Controller.GestionaLiveFest -   10. ACDC - 1 actuaciones
+2026-01-14 09:27:47.236 [main] INFO  Controller.GestionaLiveFest -   11. NOEXISTE - 1 actuaciones
+2026-01-14 09:27:47.236 [main] INFO  Controller.GestionaLiveFest - 
+Top 3 artistas:
+2026-01-14 09:27:47.236 [main] INFO  Controller.GestionaLiveFest -   1. LP - 3 actuaciones
+2026-01-14 09:27:47.236 [main] INFO  Controller.GestionaLiveFest -   2. IM - 2 actuaciones
+2026-01-14 09:27:47.237 [main] INFO  Controller.GestionaLiveFest -   3. RHCP - 2 actuaciones
+2026-01-14 09:27:47.237 [main] INFO  Controller.GestionaLiveFest - 
+Artista estrella: LP
+2026-01-14 09:27:47.237 [main] INFO  Controller.GestionaLiveFest - Artistas sin actuaciones: 20
+2026-01-14 09:27:47.237 [main] INFO  Controller.GestionaLiveFest -   - TIESTO
+2026-01-14 09:27:47.238 [main] INFO  Controller.GestionaLiveFest -   - TRAVIS
+2026-01-14 09:27:47.238 [main] INFO  Controller.GestionaLiveFest -   - SKRILL
+2026-01-14 09:27:47.238 [main] INFO  Controller.GestionaLiveFest -   - DRAKE
+2026-01-14 09:27:47.238 [main] INFO  Controller.GestionaLiveFest -   - BILLIE
+2026-01-14 09:27:47.238 [main] INFO  Controller.GestionaLiveFest -   - ARIANA
+2026-01-14 09:27:47.238 [main] INFO  Controller.GestionaLiveFest -   - RIHANA
+2026-01-14 09:27:47.238 [main] INFO  Controller.GestionaLiveFest -   - BEY
+2026-01-14 09:27:47.238 [main] INFO  Controller.GestionaLiveFest -   - MART
+2026-01-14 09:27:47.238 [main] INFO  Controller.GestionaLiveFest -   - DEADM
+2026-01-14 09:27:47.238 [main] INFO  Controller.GestionaLiveFest -   - POST
+2026-01-14 09:27:47.238 [main] INFO  Controller.GestionaLiveFest -   - COLD
+2026-01-14 09:27:47.238 [main] INFO  Controller.GestionaLiveFest -   - TS
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest -   - CALVIN
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest -   - BTS
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest -   - AVII
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest -   - WEEKND
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest -   - DAFT
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest -   - QN
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest -   - ED
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest - 
+Estadísticas por género musical:
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest -   - ROCK: 16 conciertos
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest -   - POP: 2 conciertos
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest - Género más popular: ROCK
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest - 
+--- INFORMACIÓN DETALLADA DE ARTISTAS ---
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest - 
+=== INFORMACIÓN DEL ARTISTA ===
+Código: LP
+Nombre: Linkin Park
+Email Manager: manager@linkinpark.com
+Integrantes: 6
+Actuaciones: 3
+
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest - 
+=== INFORMACIÓN DEL ARTISTA ===
+Código: TS
+Nombre: Taylor Swift
+Email Manager: contact@taylorswift.com
+Integrantes: 1
+Actuaciones: 0
+
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest - 
+=== INFORMACIÓN DEL ARTISTA ===
+Código: CALVIN
+Nombre: Calvin Harris
+Email Manager: contact@calvinharris.com
+Integrantes: 1
+Actuaciones: 0
+
+2026-01-14 09:27:47.239 [main] INFO  Controller.GestionaLiveFest - 
+=== INFORMACIÓN DEL ARTISTA ===
+Código: MUSE
+Nombre: Muse
+Email Manager: info@muse.mu
+Integrantes: 3
+Actuaciones: 2
+
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest - 
+--- ACTUACIONES POR GÉNERO MUSICAL ---
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest - Actuaciones de LP:
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest -   - ROCK: 3
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest -   - POP: 0
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest -   - ELECTRONICA: 0
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest - 
+--- CONCIERTOS AGRUPADOS ---
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest - Conciertos agrupados por género:
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest -   - ROCK: 16 conciertos
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest -   - POP: 2 conciertos
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest - 
+Primeras 5 fechas con conciertos:
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest -   - 2025-06-11: 1 conciertos
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest -   - 2025-06-10: 1 conciertos
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest -   - 2025-06-02: 1 conciertos
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest -   - 2025-06-13: 1 conciertos
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest -   - 2025-06-01: 1 conciertos
+2026-01-14 09:27:47.240 [main] INFO  Controller.GestionaLiveFest - 
+=== ESTADÍSTICAS GENERALES DEL LIVEFEST ===
+Total de artistas: 30
+Total de conciertos: 18
+Promedio integrantes por artista: 2,53
+
+Conciertos por género musical:
+- ROCK: 16
+- POP: 2
+- ELECTRONICA: 0
+
+Artista con más actuaciones: LP
+
+2026-01-14 09:27:47.241 [main] INFO  Controller.GestionaLiveFest - 
+--- LISTADOS ORDENADOS ---
+2026-01-14 09:27:47.241 [main] INFO  Controller.GestionaLiveFest - Primeros 5 artistas ordenados alfabéticamente:
+2026-01-14 09:27:47.241 [main] INFO  Controller.GestionaLiveFest -   - ACDC
+2026-01-14 09:27:47.241 [main] INFO  Controller.GestionaLiveFest -   - Adele
+2026-01-14 09:27:47.241 [main] INFO  Controller.GestionaLiveFest -   - Arctic Monkeys
+2026-01-14 09:27:47.241 [main] INFO  Controller.GestionaLiveFest -   - Ariana Grande
+2026-01-14 09:27:47.241 [main] INFO  Controller.GestionaLiveFest -   - Avicii
+2026-01-14 09:27:47.242 [main] INFO  Controller.GestionaLiveFest - 
+Primeros 5 conciertos cronológicamente:
+2026-01-14 09:27:47.242 [main] INFO  Controller.GestionaLiveFest -   - 2025-06-01: Apertura Festival - Escenario Principal
+2026-01-14 09:27:47.242 [main] INFO  Controller.GestionaLiveFest -   - 2025-06-02: Rock Clasico - Escenario Principal
+2026-01-14 09:27:47.242 [main] INFO  Controller.GestionaLiveFest -   - 2025-06-03: Rock Alternativo - Escenario Principal
+2026-01-14 09:27:47.242 [main] INFO  Controller.GestionaLiveFest -   - 2025-06-04: Rock Progresivo - Escenario Principal
+2026-01-14 09:27:47.242 [main] INFO  Controller.GestionaLiveFest -   - 2025-06-05: Indie Britanico - Escenario Alternativo
+2026-01-14 09:27:47.242 [main] INFO  Controller.GestionaLiveFest - 
+--- EXPORTANDO DATOS FILTRADOS A JSON ---
+2026-01-14 09:27:47.243 [main] INFO  Utils.LiveFestAJSON - Archivo JSON generado correctamente: conciertos_rock.json
+2026-01-14 09:27:47.243 [main] INFO  Controller.GestionaLiveFest - Conciertos de ROCK exportados a conciertos_rock.json
+2026-01-14 09:27:47.244 [main] INFO  Utils.LiveFestAJSON - Archivo JSON generado correctamente: artistas_grupos.json
+2026-01-14 09:27:47.244 [main] INFO  Controller.GestionaLiveFest - Grupos grandes exportados a artistas_grupos.json
+2026-01-14 09:27:47.245 [main] INFO  Utils.LiveFestAJSON - Archivo JSON generado correctamente: finales.json
+2026-01-14 09:27:47.245 [main] INFO  Controller.GestionaLiveFest - Finales exportadas a finales.json
+2026-01-14 09:27:47.245 [main] INFO  Controller.GestionaLiveFest - 
+--- EXPORTANDO DATOS A CSV ---
+2026-01-14 09:27:47.250 [main] INFO  Utils.CreacionCSV - CSV de artistas generado correctamente: artistas.csv
+2026-01-14 09:27:47.251 [main] INFO  Controller.GestionaLiveFest - Artistas exportados a CSV
+2026-01-14 09:27:47.254 [main] INFO  Utils.CreacionCSV - CSV de conciertos generado correctamente: conciertos.csv
+2026-01-14 09:27:47.254 [main] INFO  Controller.GestionaLiveFest - Conciertos exportados a CSV
+2026-01-14 09:27:47.256 [main] INFO  Utils.CreacionCSV - CSV detallado de conciertos generado correctamente: conciertos_detallados.csv
+2026-01-14 09:27:47.257 [main] INFO  Controller.GestionaLiveFest - Conciertos detallados exportados a CSV
+2026-01-14 09:27:47.257 [main] INFO  Utils.CreacionCSV - CSV de estadísticas de actuaciones generado correctamente: estadisticas_actuaciones.csv
+2026-01-14 09:27:47.257 [main] INFO  Controller.GestionaLiveFest - Estadísticas de actuaciones exportadas a CSV
+2026-01-14 09:27:47.258 [main] INFO  Utils.CreacionCSV - CSV de ranking generado correctamente: ranking_artistas.csv
+2026-01-14 09:27:47.258 [main] INFO  Controller.GestionaLiveFest - Ranking de artistas exportado a CSV
+2026-01-14 09:27:47.258 [main] INFO  Controller.GestionaLiveFest - 
+========== GESTIÓN DE LIVEFEST FINALIZADA CORRECTAMENTE ==========

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "fecha": "2025-06-01",
+    "descripcion": "Apertura Festival - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "LP",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 7,
+    "fecha": "2025-06-03",
+    "descripcion": "Rock Alternativo - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "FOO",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 4,
+    "fecha": "2025-06-02",
+    "descripcion": "Rock Clasico - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "RHCP",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 13,
+    "fecha": "2025-06-05",
+    "descripcion": "Indie Britanico - Escenario Alternativo",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "AJ",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 10,
+    "fecha": "2025-06-04",
+    "descripcion": "Rock Progresivo - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "MUSE",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 28,
+    "fecha": "2025-06-10",
+    "descripcion": "Rock Potente - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "LP",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 34,
+    "fecha": "2025-06-12",
+    "descripcion": "Alternative Rock - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "MUSE",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 31,
+    "fecha": "2025-06-11",
+    "descripcion": "Indie Rock - Escenario Alternativo",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "TSTM",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 40,
+    "fecha": "2025-06-14",
+    "descripcion": "Rock Britanico - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "AJ",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 37,
+    "fecha": "2025-06-13",
+    "descripcion": "Rock Sinfonico - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "FOO",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 46,
+    "fecha": "2025-06-16",
+    "descripcion": "After Party Rock",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "RHCP",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 43,
+    "fecha": "2025-06-15",
+    "descripcion": "Gran Final Rock - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "LP",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 19,
+    "fecha": "2025-06-07",
+    "descripcion": "Hard Rock - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "ACDC",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 16,
+    "fecha": "2025-06-06",
+    "descripcion": "Rock Epico - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "IM",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 22,
+    "fecha": "2025-06-08",
+    "descripcion": "Rock Legendario - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "GUNS",
+      "numIntegrantes": 0
+    }
+  },
+  {
+    "id": 49,
+    "fecha": "2025-06-17",
+    "descripcion": "Concierto Especial Rock",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "IM",
+      "numIntegrantes": 0
+    }
+  }
+]

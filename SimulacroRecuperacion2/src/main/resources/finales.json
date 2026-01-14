@@ -1,0 +1,12 @@
+[
+  {
+    "id": 43,
+    "fecha": "2025-06-15",
+    "descripcion": "Gran Final Rock - Escenario Principal",
+    "genero": "ROCK",
+    "artistaCabecera": {
+      "codigo": "LP",
+      "numIntegrantes": 0
+    }
+  }
+]

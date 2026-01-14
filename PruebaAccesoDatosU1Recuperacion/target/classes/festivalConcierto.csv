@@ -1,0 +1,11 @@
+ID Concierto,Fecha,Descripcion,Codigo,Nombre,Num Integrantes,Email,Escenario
+1,2024-06-15,apertura del festival con gran actuación,GRP001,vetusta morla,6,contacto@vetustamorla.com,PRINCIPAL
+2,2024-06-16,sesión indie en el escenario alternativo,GRP002,izal,5,info@izalband.com,ALTERNATIVO
+3,2024-06-17,concierto sorpresa en la madrugada,GRP003,miss caffeina,4,contacto@misscaffeina.com,SECUNDARIO
+4,2024-06-18,show acústico especial,GRP004,la m.o.d.a.,7,booking@lamoda.com,ALTERNATIVO
+5,2024-06-19,concierto con efectos visuales y luces,GRP005,love of lesbian,6,management@loveoflesbian.com,PRINCIPAL
+6,2024-06-20,sesión electrónica indie,GRP006,dorian,5,info@dorianmusic.com,SECUNDARIO
+7,2024-06-21,clausura del festival con los mejores éxitos,GRP007,sidonie,3,sidonie@management.com,PRINCIPAL
+8,2024-06-22,show especial con invitados sorpresa,GRP008,fuel fandango,2,contact@fuelfandango.com,ALTERNATIVO
+9,2024-06-23,noche de rock alternativo,GRP009,second,4,second@bandmail.com,SECUNDARIO
+10,2024-06-24,fiesta de despedida con banda estrella,GRP010,supersubmarina,4,contacto@supersubmarina.com,PRINCIPAL
