@@ -17,7 +17,6 @@ import Models.Enfrentamiento;
 import Models.Equipo;
 
 
-
 public class TorneoAJSON {
     
     private static final Logger logger = LogManager.getLogger(TorneoAJSON.class);
@@ -26,9 +25,8 @@ public class TorneoAJSON {
     
     /**
      * Lee equipos desde XML (usando XMLDomEsports)
-     * XML esperado: código, nombreCompleto, email, numJugadores
      */
-    public List<Equipo> leeEquiposXml(String ruta) throws Exception {
+    public List<Equipo> leerXmlEquipos(String ruta) throws Exception {
         XMLDomEsports lectorXML = new XMLDomEsports();
         List<Equipo> listaEquipos = lectorXML.leerEquipoDesdeXML(ruta);
         logger.info("Equipos leídos desde XML: " + listaEquipos.size());
@@ -37,9 +35,8 @@ public class TorneoAJSON {
     
     /**
      * Lee enfrentamientos desde XML (usando XMLDomEsports)
-     * XML esperado: id, fecha, descripcion, videojuego, equipoGanador
      */
-    public List<Enfrentamiento> leeEnfrentamientosXml(String ruta) throws Exception {
+    public List<Enfrentamiento> leerXmlEnfrentamientos(String ruta) throws Exception {
         XMLDomEsports lectorXML = new XMLDomEsports();
         List<Enfrentamiento> listaEnfrentamientos = lectorXML.leerEnfrentamientoDesdeXML(ruta);
         logger.info("Enfrentamientos leídos desde XML: " + listaEnfrentamientos.size());
@@ -57,13 +54,14 @@ public class TorneoAJSON {
             fichero = new FileWriter(rutaResources + nombreFichero);
             fichero.write(json);
         } catch (IOException e) {
+            logger.error("Error al escribir equipos: " + e.getMessage());
             e.printStackTrace();
         } finally {
             if (fichero != null) {
                 try {
                     fichero.close();
                 } catch (IOException e) {
-                    logger.error("Error al escribir equipos");
+                    logger.error("Error al cerrar archivo de equipos");
                 }           
             }       
         }
@@ -81,17 +79,25 @@ public class TorneoAJSON {
             fichero = new FileWriter(rutaResources + nombreFichero);
             fichero.write(json);
         } catch (IOException e) {
+            logger.error("Error al escribir enfrentamientos: " + e.getMessage());
             e.printStackTrace();
         } finally {
             if (fichero != null) {
                 try {
                     fichero.close();
                 } catch (IOException e) {
-                    logger.error("Error al escribir enfrentamientos");
+                    logger.error("Error al cerrar archivo de enfrentamientos");
                 }           
             }       
         }
         logger.info("Archivo JSON generado correctamente: " + nombreFichero);
+    }
+    
+    /**
+     * APARTADO 3: Genera JSON con lista de enfrentamientos ganados por un equipo
+     */
+    public void generaJson(List<Enfrentamiento> listaGanados, String nombreFichero) {
+        escribeEnfrentamientosJson(listaGanados, nombreFichero);
     }
     
     /**

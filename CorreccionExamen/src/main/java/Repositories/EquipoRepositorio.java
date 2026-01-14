@@ -10,6 +10,7 @@ import Exception.TorneoException;
 import Models.Equipo;
 import Services.TorneoService;
 
+
 public class EquipoRepositorio {
     private TorneoService equiServicio;
 
@@ -35,7 +36,7 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Obtiene un equipo por su código
+     * Obtiene un equipo por su código usando Iterator
      */
     public Equipo getEquipo(String codigo) throws TorneoException {
         boolean encontrado = false;
@@ -58,10 +59,20 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Agrega un equipo a la lista
+     * Agrega un equipo a la lista usando Iterator para verificar
      */
     public void agregarEquipo(Equipo equipo) throws TorneoException {
-        if (equiServicio.getListaEquipos().contains(equipo)) {
+        boolean existe = false;
+        
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext() && !existe) {
+            Equipo e = it.next();
+            if (e.getCodigo().equalsIgnoreCase(equipo.getCodigo())) {
+                existe = true;
+            }
+        }
+        
+        if (existe) {
             throw new TorneoException("Ya existe el equipo con código: " + equipo.getCodigo());
         }
         
@@ -69,38 +80,70 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Elimina un equipo por su código
+     * Elimina un equipo por su código usando Iterator
      */
     public void eliminarEquipo(String codigo) throws TorneoException {
-        Equipo equipo = getEquipo(codigo);
-        equiServicio.getListaEquipos().remove(equipo);
+        boolean encontrado = false;
+        
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext() && !encontrado) {
+            Equipo e = it.next();
+            if (e.getCodigo().equalsIgnoreCase(codigo)) {
+                it.remove(); // Usar remove del Iterator
+                encontrado = true;
+            }
+        }
+        
+        if (!encontrado) {
+            throw new TorneoException("No se encuentra el equipo con código: " + codigo);
+        }
     }
 
     /**
-     * Actualiza los datos de un equipo
+     * Actualiza los datos de un equipo usando Iterator
      */
     public void actualizarEquipo(Equipo equipoActualizado) throws TorneoException {
-        Equipo equipoExistente = getEquipo(equipoActualizado.getCodigo());
+        boolean encontrado = false;
         
-        equipoExistente.setNombreCompleto(equipoActualizado.getNombreCompleto());
-        equipoExistente.setEmailContacto(equipoActualizado.getEmailContacto());
-        equipoExistente.setNumJugadores(equipoActualizado.getNumJugadores());
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext() && !encontrado) {
+            Equipo e = it.next();
+            if (e.getCodigo().equalsIgnoreCase(equipoActualizado.getCodigo())) {
+                e.setNombreCompleto(equipoActualizado.getNombreCompleto());
+                e.setEmailContacto(equipoActualizado.getEmailContacto());
+                e.setNumJugadores(equipoActualizado.getNumJugadores());
+                encontrado = true;
+            }
+        }
+        
+        if (!encontrado) {
+            throw new TorneoException("No se encuentra el equipo con código: " + equipoActualizado.getCodigo());
+        }
     }
 
     /**
-     * Obtiene todos los equipos
+     * Obtiene todos los equipos usando Iterator
      */
     public List<Equipo> getTodosLosEquipos() {
-        return new ArrayList<>(equiServicio.getListaEquipos());
+        List<Equipo> lista = new ArrayList<>();
+        
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext()) {
+            lista.add(it.next());
+        }
+        
+        return lista;
     }
 
     /**
-     * Filtra equipos por número mínimo de jugadores
+     * Filtra equipos por número mínimo de jugadores usando Iterator
      */
     public List<Equipo> getEquiposPorNumJugadores(int numMinimo) {
         List<Equipo> equiposFiltrados = new ArrayList<>();
         
-        for (Equipo e : equiServicio.getListaEquipos()) {
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext()) {
+            Equipo e = it.next();
             if (e.getNumJugadores() >= numMinimo) {
                 equiposFiltrados.add(e);
             }
@@ -110,12 +153,14 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Busca equipos por nombre (contiene texto)
+     * Busca equipos por nombre usando Iterator
      */
     public List<Equipo> buscarEquiposPorNombre(String texto) {
         List<Equipo> equiposEncontrados = new ArrayList<>();
         
-        for (Equipo e : equiServicio.getListaEquipos()) {
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext()) {
+            Equipo e = it.next();
             if (e.getNombreCompleto().toLowerCase().contains(texto.toLowerCase())) {
                 equiposEncontrados.add(e);
             }
@@ -125,7 +170,7 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Obtiene el equipo con más jugadores
+     * Obtiene el equipo con más jugadores usando Iterator
      */
     public Equipo getEquipoConMasJugadores() throws TorneoException {
         if (equiServicio.getListaEquipos().isEmpty()) {
@@ -135,7 +180,9 @@ public class EquipoRepositorio {
         Equipo equipoMax = null;
         int maxJugadores = 0;
 
-        for (Equipo e : equiServicio.getListaEquipos()) {
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext()) {
+            Equipo e = it.next();
             if (e.getNumJugadores() > maxJugadores) {
                 maxJugadores = e.getNumJugadores();
                 equipoMax = e;
@@ -146,7 +193,7 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Obtiene el equipo con menos jugadores
+     * Obtiene el equipo con menos jugadores usando Iterator
      */
     public Equipo getEquipoConMenosJugadores() throws TorneoException {
         if (equiServicio.getListaEquipos().isEmpty()) {
@@ -156,7 +203,9 @@ public class EquipoRepositorio {
         Equipo equipoMin = null;
         int minJugadores = Integer.MAX_VALUE;
 
-        for (Equipo e : equiServicio.getListaEquipos()) {
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext()) {
+            Equipo e = it.next();
             if (e.getNumJugadores() < minJugadores) {
                 minJugadores = e.getNumJugadores();
                 equipoMin = e;
@@ -167,7 +216,7 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Calcula el promedio de jugadores por equipo
+     * Calcula el promedio de jugadores por equipo usando Iterator
      */
     public double getPromedioJugadoresPorEquipo() throws TorneoException {
         if (equiServicio.getListaEquipos().isEmpty()) {
@@ -175,11 +224,16 @@ public class EquipoRepositorio {
         }
 
         int totalJugadores = 0;
-        for (Equipo e : equiServicio.getListaEquipos()) {
+        int contador = 0;
+        
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext()) {
+            Equipo e = it.next();
             totalJugadores += e.getNumJugadores();
+            contador++;
         }
 
-        return (double) totalJugadores / equiServicio.getListaEquipos().size();
+        return (double) totalJugadores / contador;
     }
 
     /**
@@ -190,22 +244,32 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Verifica si existe un equipo con un código específico
+     * Verifica si existe un equipo con un código específico usando Iterator
      */
     public boolean existeEquipo(String codigo) {
-        for (Equipo e : equiServicio.getListaEquipos()) {
+        boolean existe = false;
+        
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext() && !existe) {
+            Equipo e = it.next();
             if (e.getCodigo().equalsIgnoreCase(codigo)) {
-                return true;
+                existe = true;
             }
         }
-        return false;
+        
+        return existe;
     }
 
     /**
-     * Obtiene equipos ordenados por número de jugadores (ascendente)
+     * Obtiene equipos ordenados por número de jugadores usando Iterator
      */
     public List<Equipo> getEquiposOrdenadosPorJugadores() {
-        List<Equipo> equiposOrdenados = new ArrayList<>(equiServicio.getListaEquipos());
+        List<Equipo> equiposOrdenados = new ArrayList<>();
+        
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext()) {
+            equiposOrdenados.add(it.next());
+        }
         
         equiposOrdenados.sort((e1, e2) -> Integer.compare(e1.getNumJugadores(), e2.getNumJugadores()));
         
@@ -213,10 +277,15 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Obtiene equipos ordenados por nombre alfabéticamente
+     * Obtiene equipos ordenados por nombre alfabéticamente usando Iterator
      */
     public List<Equipo> getEquiposOrdenadosPorNombre() {
-        List<Equipo> equiposOrdenados = new ArrayList<>(equiServicio.getListaEquipos());
+        List<Equipo> equiposOrdenados = new ArrayList<>();
+        
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext()) {
+            equiposOrdenados.add(it.next());
+        }
         
         equiposOrdenados.sort((e1, e2) -> e1.getNombreCompleto().compareToIgnoreCase(e2.getNombreCompleto()));
         
@@ -224,12 +293,14 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Obtiene equipos con un número exacto de jugadores
+     * Obtiene equipos con un número exacto de jugadores usando Iterator
      */
     public List<Equipo> getEquiposPorNumeroExactoJugadores(int numero) {
         List<Equipo> equiposFiltrados = new ArrayList<>();
         
-        for (Equipo e : equiServicio.getListaEquipos()) {
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext()) {
+            Equipo e = it.next();
             if (e.getNumJugadores() == numero) {
                 equiposFiltrados.add(e);
             }
@@ -239,12 +310,14 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Obtiene estadísticas de equipos por número de jugadores
+     * Obtiene estadísticas de equipos por número de jugadores usando Iterator
      */
     public Map<Integer, Integer> getEstadisticasPorNumJugadores() {
         Map<Integer, Integer> estadisticas = new HashMap<>();
         
-        for (Equipo e : equiServicio.getListaEquipos()) {
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext()) {
+            Equipo e = it.next();
             int numJugadores = e.getNumJugadores();
             estadisticas.put(numJugadores, estadisticas.getOrDefault(numJugadores, 0) + 1);
         }
@@ -253,12 +326,14 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Obtiene la lista de códigos de todos los equipos
+     * Obtiene la lista de códigos de todos los equipos usando Iterator
      */
     public List<String> getCodigosEquipos() {
         List<String> codigos = new ArrayList<>();
         
-        for (Equipo e : equiServicio.getListaEquipos()) {
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext()) {
+            Equipo e = it.next();
             codigos.add(e.getCodigo());
         }
         
@@ -266,17 +341,38 @@ public class EquipoRepositorio {
     }
 
     /**
-     * Busca equipos por dominio de email
+     * Busca equipos por dominio de email usando Iterator
      */
     public List<Equipo> getEquiposPorDominioEmail(String dominio) {
         List<Equipo> equiposFiltrados = new ArrayList<>();
         
-        for (Equipo e : equiServicio.getListaEquipos()) {
+        Iterator<Equipo> it = equiServicio.getListaEquipos().iterator();
+        while (it.hasNext()) {
+            Equipo e = it.next();
             if (e.getEmailContacto().toLowerCase().contains(dominio.toLowerCase())) {
                 equiposFiltrados.add(e);
             }
         }
         
         return equiposFiltrados;
-    
-}}
+    }
+
+    /**
+     * Agrega una lista de equipos al repositorio usando Iterator
+     * Captura e imprime excepciones a nivel de log
+     */
+    public void agregarListaEquipos(List<Equipo> equipos) {
+        org.apache.logging.log4j.Logger logger = org.apache.logging.log4j.LogManager.getLogger(EquipoRepositorio.class);
+        
+        Iterator<Equipo> it = equipos.iterator();
+        while (it.hasNext()) {
+            Equipo equipo = it.next();
+            try {
+                agregarEquipo(equipo);
+                logger.info("Equipo agregado correctamente: " + equipo.getCodigo());
+            } catch (TorneoException e) {
+                logger.error("Error al agregar equipo " + equipo.getCodigo() + ": " + e.getMessage());
+            }
+        }
+    }
+}

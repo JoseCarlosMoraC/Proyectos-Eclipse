@@ -12,6 +12,7 @@ import Models.Videojuego;
 import Repositories.EnfrentamientoRepositorio;
 import Repositories.EquipoRepositorio;
 
+
 public class TorneoService {
     private EnfrentamientoRepositorio repoEnfrentamiento;
     private EquipoRepositorio repoEquipo;
@@ -453,5 +454,19 @@ public class TorneoService {
         }
         
         return videojuegoMax;
+    }
+
+    /**
+     * Agrega una lista de equipos usando el repositorio
+     */
+    public void agregarListaEquipos(List<Equipo> equipos) {
+        repoEquipo.agregarListaEquipos(equipos);
+    }
+
+    /**
+     * Agrega una lista de enfrentamientos usando el repositorio
+     */
+    public void agregarListaEnfrentamientos(List<Enfrentamiento> enfrentamientos) {
+        repoEnfrentamiento.agregarListaEnfrentamientos(enfrentamientos);
     }
 }

@@ -2,6 +2,7 @@ package Repositories;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -9,7 +10,6 @@ import Exception.TorneoException;
 import Models.Enfrentamiento;
 import Models.Videojuego;
 import Services.TorneoService;
-
 
 
 public class EnfrentamientoRepositorio {
@@ -32,23 +32,35 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Agrega un enfrentamiento
+     * Agrega un enfrentamiento usando Iterator para verificar
      */
     public void agregarEnfrentamiento(Enfrentamiento enfrentamiento) throws TorneoException {
-        if (enfrentamientoServicio.getListaEnfrentamientos().contains(enfrentamiento)) {
-            throw new TorneoException("El enfrentamiento ya existe");
+        boolean existe = false;
+        
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext() && !existe) {
+            Enfrentamiento e = it.next();
+            if (e.getId() == enfrentamiento.getId()) {
+                existe = true;
+            }
+        }
+        
+        if (existe) {
+            throw new TorneoException("El enfrentamiento ya existe con ID: " + enfrentamiento.getId());
         }
         
         enfrentamientoServicio.getListaEnfrentamientos().add(enfrentamiento);
     }
 
     /**
-     * Obtiene enfrentamientos ganados por un equipo
+     * Obtiene enfrentamientos ganados por un equipo usando Iterator
      */
     public List<Enfrentamiento> getEnfrentamientosPorEquipo(String codigoEquipo) throws TorneoException {
         List<Enfrentamiento> enfrentamientosPorEquipo = new ArrayList<>();
         
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            Enfrentamiento e = it.next();
             if (e.getEquipoGanador() != null && 
                 e.getEquipoGanador().getCodigo().equalsIgnoreCase(codigoEquipo)) {
                 enfrentamientosPorEquipo.add(e);
@@ -63,52 +75,94 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Obtiene un enfrentamiento por su ID
+     * Obtiene un enfrentamiento por su ID usando Iterator
      */
     public Enfrentamiento getEnfrentamientoPorId(int id) throws TorneoException {
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        boolean encontrado = false;
+        Enfrentamiento enfrentamiento = null;
+        
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext() && !encontrado) {
+            Enfrentamiento e = it.next();
             if (e.getId() == id) {
-                return e;
+                encontrado = true;
+                enfrentamiento = e;
             }
         }
         
-        throw new TorneoException("No se encontró ningún enfrentamiento con ID: " + id);
+        if (!encontrado) {
+            throw new TorneoException("No se encontró ningún enfrentamiento con ID: " + id);
+        }
+        
+        return enfrentamiento;
     }
 
     /**
-     * Elimina un enfrentamiento por su ID
+     * Elimina un enfrentamiento por su ID usando Iterator
      */
     public void eliminarEnfrentamiento(int id) throws TorneoException {
-        Enfrentamiento enfrentamiento = getEnfrentamientoPorId(id);
-        enfrentamientoServicio.getListaEnfrentamientos().remove(enfrentamiento);
+        boolean encontrado = false;
+        
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext() && !encontrado) {
+            Enfrentamiento e = it.next();
+            if (e.getId() == id) {
+                it.remove(); // Usar remove del Iterator
+                encontrado = true;
+            }
+        }
+        
+        if (!encontrado) {
+            throw new TorneoException("No se encontró el enfrentamiento con ID: " + id);
+        }
     }
 
     /**
-     * Actualiza un enfrentamiento
+     * Actualiza un enfrentamiento usando Iterator
      */
     public void actualizarEnfrentamiento(Enfrentamiento enfrentamientoActualizado) throws TorneoException {
-        Enfrentamiento enfrentamientoExistente = getEnfrentamientoPorId(enfrentamientoActualizado.getId());
+        boolean encontrado = false;
         
-        enfrentamientoExistente.setFecha(enfrentamientoActualizado.getFecha());
-        enfrentamientoExistente.setDescripcion(enfrentamientoActualizado.getDescripcion());
-        enfrentamientoExistente.setVideojuego(enfrentamientoActualizado.getVideojuego());
-        enfrentamientoExistente.setEquipoGanador(enfrentamientoActualizado.getEquipoGanador());
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext() && !encontrado) {
+            Enfrentamiento e = it.next();
+            if (e.getId() == enfrentamientoActualizado.getId()) {
+                e.setFecha(enfrentamientoActualizado.getFecha());
+                e.setDescripcion(enfrentamientoActualizado.getDescripcion());
+                e.setVideojuego(enfrentamientoActualizado.getVideojuego());
+                e.setEquipoGanador(enfrentamientoActualizado.getEquipoGanador());
+                encontrado = true;
+            }
+        }
+        
+        if (!encontrado) {
+            throw new TorneoException("No se encontró el enfrentamiento con ID: " + enfrentamientoActualizado.getId());
+        }
     }
 
     /**
-     * Obtiene todos los enfrentamientos
+     * Obtiene todos los enfrentamientos usando Iterator
      */
     public List<Enfrentamiento> getTodosLosEnfrentamientos() {
-        return new ArrayList<>(enfrentamientoServicio.getListaEnfrentamientos());
+        List<Enfrentamiento> lista = new ArrayList<>();
+        
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            lista.add(it.next());
+        }
+        
+        return lista;
     }
 
     /**
-     * Filtra enfrentamientos por videojuego
+     * Filtra enfrentamientos por videojuego usando Iterator
      */
     public List<Enfrentamiento> getEnfrentamientosPorVideojuego(Videojuego videojuego) {
         List<Enfrentamiento> enfrentamientosFiltrados = new ArrayList<>();
         
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            Enfrentamiento e = it.next();
             if (e.getVideojuego() == videojuego) {
                 enfrentamientosFiltrados.add(e);
             }
@@ -118,12 +172,14 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Filtra enfrentamientos por fecha
+     * Filtra enfrentamientos por fecha usando Iterator
      */
     public List<Enfrentamiento> getEnfrentamientosPorFecha(String fecha) {
         List<Enfrentamiento> enfrentamientosFiltrados = new ArrayList<>();
         
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            Enfrentamiento e = it.next();
             if (e.getFecha().equals(fecha)) {
                 enfrentamientosFiltrados.add(e);
             }
@@ -133,12 +189,14 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Filtra enfrentamientos por descripción (contiene texto)
+     * Filtra enfrentamientos por descripción usando Iterator
      */
     public List<Enfrentamiento> getEnfrentamientosPorDescripcion(String textoDescripcion) {
         List<Enfrentamiento> enfrentamientosFiltrados = new ArrayList<>();
         
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            Enfrentamiento e = it.next();
             if (e.getDescripcion().toLowerCase().contains(textoDescripcion.toLowerCase())) {
                 enfrentamientosFiltrados.add(e);
             }
@@ -148,12 +206,14 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Cuenta victorias por equipo
+     * Cuenta victorias por equipo usando Iterator
      */
     public Map<String, Integer> getEstadisticasVictoriasPorEquipo() {
         Map<String, Integer> estadisticas = new HashMap<>();
         
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            Enfrentamiento e = it.next();
             if (e.getEquipoGanador() != null) {
                 String codigo = e.getEquipoGanador().getCodigo();
                 estadisticas.put(codigo, estadisticas.getOrDefault(codigo, 0) + 1);
@@ -164,12 +224,14 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Cuenta enfrentamientos por videojuego
+     * Cuenta enfrentamientos por videojuego usando Iterator
      */
     public Map<Videojuego, Integer> getEstadisticasPorVideojuego() {
         Map<Videojuego, Integer> estadisticas = new HashMap<>();
         
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            Enfrentamiento e = it.next();
             Videojuego videojuego = e.getVideojuego();
             estadisticas.put(videojuego, estadisticas.getOrDefault(videojuego, 0) + 1);
         }
@@ -178,7 +240,7 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Obtiene el equipo con más victorias
+     * Obtiene el equipo con más victorias usando Iterator
      */
     public String getEquipoConMasVictorias() throws TorneoException {
         Map<String, Integer> victorias = getEstadisticasVictoriasPorEquipo();
@@ -190,7 +252,9 @@ public class EnfrentamientoRepositorio {
         String equipoGanador = null;
         int maxVictorias = 0;
         
-        for (Map.Entry<String, Integer> entry : victorias.entrySet()) {
+        Iterator<Map.Entry<String, Integer>> it = victorias.entrySet().iterator();
+        while (it.hasNext()) {
+            Map.Entry<String, Integer> entry = it.next();
             if (entry.getValue() > maxVictorias) {
                 maxVictorias = entry.getValue();
                 equipoGanador = entry.getKey();
@@ -201,19 +265,23 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Obtiene equipos sin victorias
+     * Obtiene equipos sin victorias usando Iterator
      */
     public List<String> getEquiposSinVictorias(List<String> todosLosCodigos) {
         List<String> equiposConVictorias = new ArrayList<>();
         
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            Enfrentamiento e = it.next();
             if (e.getEquipoGanador() != null) {
                 equiposConVictorias.add(e.getEquipoGanador().getCodigo());
             }
         }
         
         List<String> equiposSinVictorias = new ArrayList<>();
-        for (String codigo : todosLosCodigos) {
+        Iterator<String> itCodigos = todosLosCodigos.iterator();
+        while (itCodigos.hasNext()) {
+            String codigo = itCodigos.next();
             if (!equiposConVictorias.contains(codigo)) {
                 equiposSinVictorias.add(codigo);
             }
@@ -223,7 +291,7 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Genera ranking de equipos por victorias
+     * Genera ranking de equipos por victorias usando Iterator
      */
     public List<Map.Entry<String, Integer>> getRankingEquiposPorVictorias() {
         Map<String, Integer> victorias = getEstadisticasVictoriasPorEquipo();
@@ -242,12 +310,14 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Cuenta enfrentamientos de un videojuego específico
+     * Cuenta enfrentamientos de un videojuego específico usando Iterator
      */
     public int contarEnfrentamientosPorVideojuego(Videojuego videojuego) {
         int contador = 0;
         
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            Enfrentamiento e = it.next();
             if (e.getVideojuego() == videojuego) {
                 contador++;
             }
@@ -257,10 +327,15 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Obtiene enfrentamientos ordenados por fecha
+     * Obtiene enfrentamientos ordenados por fecha usando Iterator
      */
     public List<Enfrentamiento> getEnfrentamientosOrdenadosPorFecha() {
-        List<Enfrentamiento> enfrentamientosOrdenados = new ArrayList<>(enfrentamientoServicio.getListaEnfrentamientos());
+        List<Enfrentamiento> enfrentamientosOrdenados = new ArrayList<>();
+        
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            enfrentamientosOrdenados.add(it.next());
+        }
         
         enfrentamientosOrdenados.sort((e1, e2) -> e1.getFecha().compareTo(e2.getFecha()));
         
@@ -268,10 +343,15 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Obtiene enfrentamientos ordenados por ID
+     * Obtiene enfrentamientos ordenados por ID usando Iterator
      */
     public List<Enfrentamiento> getEnfrentamientosOrdenadosPorId() {
-        List<Enfrentamiento> enfrentamientosOrdenados = new ArrayList<>(enfrentamientoServicio.getListaEnfrentamientos());
+        List<Enfrentamiento> enfrentamientosOrdenados = new ArrayList<>();
+        
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            enfrentamientosOrdenados.add(it.next());
+        }
         
         enfrentamientosOrdenados.sort((e1, e2) -> Integer.compare(e1.getId(), e2.getId()));
         
@@ -279,24 +359,31 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Verifica si existe un enfrentamiento con un ID específico
+     * Verifica si existe un enfrentamiento con un ID específico usando Iterator
      */
     public boolean existeEnfrentamiento(int id) {
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        boolean existe = false;
+        
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext() && !existe) {
+            Enfrentamiento e = it.next();
             if (e.getId() == id) {
-                return true;
+                existe = true;
             }
         }
-        return false;
+        
+        return existe;
     }
 
     /**
-     * Agrupa enfrentamientos por videojuego
+     * Agrupa enfrentamientos por videojuego usando Iterator
      */
     public Map<Videojuego, List<Enfrentamiento>> getEnfrentamientosAgrupadosPorVideojuego() {
         Map<Videojuego, List<Enfrentamiento>> agrupados = new HashMap<>();
         
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            Enfrentamiento e = it.next();
             Videojuego videojuego = e.getVideojuego();
             if (!agrupados.containsKey(videojuego)) {
                 agrupados.put(videojuego, new ArrayList<>());
@@ -308,12 +395,14 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Agrupa enfrentamientos por fecha
+     * Agrupa enfrentamientos por fecha usando Iterator
      */
     public Map<String, List<Enfrentamiento>> getEnfrentamientosAgrupadosPorFecha() {
         Map<String, List<Enfrentamiento>> agrupados = new HashMap<>();
         
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            Enfrentamiento e = it.next();
             String fecha = e.getFecha();
             if (!agrupados.containsKey(fecha)) {
                 agrupados.put(fecha, new ArrayList<>());
@@ -325,12 +414,14 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Obtiene el número de victorias de un equipo específico
+     * Obtiene el número de victorias de un equipo específico usando Iterator
      */
     public int getNumVictoriasEquipo(String codigoEquipo) {
         int victorias = 0;
         
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            Enfrentamiento e = it.next();
             if (e.getEquipoGanador() != null && 
                 e.getEquipoGanador().getCodigo().equalsIgnoreCase(codigoEquipo)) {
                 victorias++;
@@ -341,12 +432,14 @@ public class EnfrentamientoRepositorio {
     }
 
     /**
-     * Obtiene victorias de un equipo en un videojuego específico
+     * Obtiene victorias de un equipo en un videojuego específico usando Iterator
      */
     public int getNumVictoriasEquipoPorVideojuego(String codigoEquipo, Videojuego videojuego) {
         int victorias = 0;
         
-        for (Enfrentamiento e : enfrentamientoServicio.getListaEnfrentamientos()) {
+        Iterator<Enfrentamiento> it = enfrentamientoServicio.getListaEnfrentamientos().iterator();
+        while (it.hasNext()) {
+            Enfrentamiento e = it.next();
             if (e.getEquipoGanador() != null && 
                 e.getEquipoGanador().getCodigo().equalsIgnoreCase(codigoEquipo) &&
                 e.getVideojuego() == videojuego) {
@@ -356,4 +449,23 @@ public class EnfrentamientoRepositorio {
         
         return victorias;
     }
-}	
+
+    /**
+     * Agrega una lista de enfrentamientos al repositorio usando Iterator
+     * Captura e imprime excepciones a nivel de log
+     */
+    public void agregarListaEnfrentamientos(List<Enfrentamiento> enfrentamientos) {
+        org.apache.logging.log4j.Logger logger = org.apache.logging.log4j.LogManager.getLogger(EnfrentamientoRepositorio.class);
+        
+        Iterator<Enfrentamiento> it = enfrentamientos.iterator();
+        while (it.hasNext()) {
+            Enfrentamiento enfrentamiento = it.next();
+            try {
+                agregarEnfrentamiento(enfrentamiento);
+                logger.info("Enfrentamiento agregado correctamente: " + enfrentamiento.getId());
+            } catch (TorneoException e) {
+                logger.error("Error al agregar enfrentamiento " + enfrentamiento.getId() + ": " + e.getMessage());
+            }
+        }
+    }
+}

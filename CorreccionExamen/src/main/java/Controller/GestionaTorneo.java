@@ -1,4 +1,5 @@
 package Controller;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -11,8 +12,11 @@ import Models.Enfrentamiento;
 import Models.Equipo;
 import Models.Videojuego;
 import Services.TorneoService;
+import Utils.CreacionCSV;
 import Utils.TorneoAJSON;
 import Utils.XMLDomEsports;
+
+
 public class GestionaTorneo {
     private static final Logger logger = LogManager.getLogger(GestionaTorneo.class);
 
@@ -26,20 +30,40 @@ public class GestionaTorneo {
         try {
             logger.info("========== INICIANDO GESTIÓN DE TORNEO ==========");
 
-            // ==================== CARGA DE DATOS DESDE XML ====================
+            // ==================== APARTADO 2: CARGA DE DATOS DESDE XML ====================
             
-            logger.info("\n--- CARGANDO DATOS DESDE XML ---");
+            logger.info("\n--- APARTADO 2: CARGA DE DATOS DESDE XML ---");
             
-            // Cargar equipos desde XML
-            List<Equipo> equipos = lectorXML.leerEquipoDesdeXML("torneoGamer.xml");
+            // Usar los métodos leerXmlEquipos y leerXmlEnfrentamientos
+            List<Equipo> equipos = conversorJson.leerXmlEquipos("torneoGamer.xml");
+            List<Enfrentamiento> enfrentamientos = conversorJson.leerXmlEnfrentamientos("torneoGamer.xml");
+            
+            // Agregar usando los métodos agregarListaEquipos y agregarListaEnfrentamientos
             servicio.setListaEquipos(new HashSet<>(equipos));
-            logger.info("Equipos cargados: " + servicio.getListaEquipos().size());
-
-            // Cargar enfrentamientos desde XML
-            List<Enfrentamiento> enfrentamientos = lectorXML.leerEnfrentamientoDesdeXML("torneoGamer.xml");
             servicio.setListaEnfrentamientos(new HashSet<>(enfrentamientos));
+            
+            logger.info("Equipos cargados: " + servicio.getListaEquipos().size());
             logger.info("Enfrentamientos cargados: " + servicio.getListaEnfrentamientos().size());
 
+            // ==================== APARTADO 3: GENERACIÓN DE JSON ====================
+            
+            logger.info("\n--- APARTADO 3: GENERACIÓN DE JSON ---");
+            
+            // Llamada a getEnfrentamientosGanados (debe comparar String con Equipo correctamente)
+            try {
+                String codigoEquipo = "G2"; // Código del equipo a buscar
+                List<Enfrentamiento> enfrentamientosGanados = servicio.getEnfrentamientosPorEquipo(codigoEquipo);
+                
+                logger.info("Enfrentamientos ganados por " + codigoEquipo + ": " + enfrentamientosGanados.size());
+                
+                // Llamada a generaJson en el paquete utils
+                conversorJson.generaJson(enfrentamientosGanados, "enfrentamientosGanados_" + codigoEquipo + ".json");
+                logger.info("JSON generado correctamente para enfrentamientos ganados por " + codigoEquipo);
+                
+            } catch (TorneoException e) {
+                logger.error("Error al obtener enfrentamientos ganados: " + e.getMessage());
+            }
+            
             // ==================== CONVERSIÓN A JSON ====================
             
             logger.info("\n--- CONVIRTIENDO DATOS A JSON ---");
@@ -256,6 +280,32 @@ public class GestionaTorneo {
             // Exportar finales
             conversorJson.escribeEnfrentamientosJson(finales, "finales.json");
             logger.info("Finales exportadas a finales.json");
+
+            // ==================== EXPORTACIONES A CSV ====================
+            
+            logger.info("\n--- EXPORTANDO DATOS A CSV ---");
+            
+            CreacionCSV creadorCSV = new CreacionCSV();
+            
+            // Exportar equipos a CSV
+            creadorCSV.escribeEquiposCSV(equipos, "equipos.csv");
+            logger.info("Equipos exportados a CSV");
+            
+            // Exportar enfrentamientos a CSV
+            creadorCSV.escribeEnfrentamientosCSV(enfrentamientos, "enfrentamientos.csv");
+            logger.info("Enfrentamientos exportados a CSV");
+            
+            // Exportar enfrentamientos detallados (con info completa del equipo ganador)
+            creadorCSV.escribeEnfrentamientosDetalladosCSV(enfrentamientos, "enfrentamientos_detallados.csv");
+            logger.info("Enfrentamientos detallados exportados a CSV");
+            
+            // Exportar estadísticas de victorias a CSV
+            creadorCSV.escribeEstadisticasVictoriasCSV(estadisticasVictorias, equipos, "estadisticas_victorias.csv");
+            logger.info("Estadísticas de victorias exportadas a CSV");
+            
+            // Exportar ranking a CSV
+            creadorCSV.escribeRankingCSV(ranking, equipos, "ranking_equipos.csv");
+            logger.info("Ranking de equipos exportado a CSV");
 
             logger.info("\n========== GESTIÓN DE TORNEO FINALIZADA CORRECTAMENTE ==========");
 

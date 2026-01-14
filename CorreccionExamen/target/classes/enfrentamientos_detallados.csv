@@ -1,0 +1,51 @@
+ID Enfrentamiento,Fecha,Descripcion,Videojuego,Codigo Equipo,Nombre Equipo,Email Equipo,Num Jugadores
+1,2025-11-01,Fase Grupos 1,LOL,G2,null,null,0
+2,2025-11-01,Fase Grupos 2,VALORANT,KOI,null,null,0
+3,2025-11-01,Fase Grupos 3,CSGO,FNC,null,null,0
+4,2025-11-02,Fase Grupos 4,LOL,VIT,null,null,0
+5,2025-11-02,Fase Grupos 5,VALORANT,HRTS,null,null,0
+6,2025-11-02,Fase Grupos 6,CSGO,MAD,null,null,0
+7,2025-11-03,Fase Grupos 7,LOL,RGE,null,null,0
+8,2025-11-03,Fase Grupos 8,VALORANT,SK,null,null,0
+9,2025-11-03,Fase Grupos 9,CSGO,XL,null,null,0
+10,2025-11-04,Fase Grupos 10,LOL,BDS,null,null,0
+11,2025-11-04,Fase Grupos 11,VALORANT,AST,null,null,0
+12,2025-11-04,Fase Grupos 12,CSGO,MSF,null,null,0
+13,2025-11-05,Fase Grupos 13,LOL,KC,null,null,0
+14,2025-11-05,Fase Grupos 14,VALORANT,TH,null,null,0
+15,2025-11-05,Fase Grupos 15,CSGO,C9,null,null,0
+16,2025-11-06,Fase Grupos 16,LOL,TSM,null,null,0
+17,2025-11-06,Fase Grupos 17,VALORANT,TL,null,null,0
+18,2025-11-06,Fase Grupos 18,CSGO,NRG,null,null,0
+19,2025-11-07,Fase Grupos 19,LOL,SEN,null,null,0
+20,2025-11-07,Fase Grupos 20,VALORANT,LOUD,null,null,0
+21,2025-11-07,Fase Grupos 21,CSGO,GEN,null,null,0
+22,2025-11-08,Fase Grupos 22,LOL,T1,null,null,0
+23,2025-11-08,Fase Grupos 23,VALORANT,DRX,null,null,0
+24,2025-11-08,Fase Grupos 24,CSGO,EDG,null,null,0
+25,2025-11-09,Fase Grupos 25,LOL,RNG,null,null,0
+26,2025-11-09,Fase Grupos 26,VALORANT,FPX,null,null,0
+27,2025-11-09,Fase Grupos 27,CSGO,IG,null,null,0
+28,2025-11-10,Fase Grupos 28,LOL,LNG,null,null,0
+29,2025-11-10,Fase Grupos 29,VALORANT,TES,null,null,0
+30,2025-11-10,Fase Grupos 30,CSGO,JDG,null,null,0
+31,2025-11-11,Octavos 1,LOL,G2,null,null,0
+32,2025-11-11,Octavos 2,LOL,FNC,null,null,0
+33,2025-11-11,Octavos 3,LOL,MAD,null,null,0
+34,2025-11-12,Octavos 4,VALORANT,KOI,null,null,0
+35,2025-11-12,Octavos 5,VALORANT,HRTS,null,null,0
+36,2025-11-12,Octavos 6,CSGO,VIT,null,null,0
+37,2025-11-13,Octavos 7,CSGO,AST,null,null,0
+38,2025-11-13,Octavos 8,LOL,T1,null,null,0
+39,2025-11-14,Cuartos 1,VALORANT,LOUD,null,null,0
+40,2025-11-14,Cuartos 2,CSGO,C9,null,null,0
+41,2025-11-15,Cuartos 3,LOL,G2,null,null,0
+42,2025-11-15,Cuartos 4,LOL,T1,null,null,0
+43,2025-11-16,Semifinal 1,VALORANT,KOI,null,null,0
+44,2025-11-16,Semifinal 2,CSGO,FNC,null,null,0
+45,2025-11-17,Semifinal 3,LOL,G2,null,null,0
+46,2025-11-17,Semifinal 4,LOL,T1,null,null,0
+47,2025-11-18,Final VALORANT,VALORANT,KOI,null,null,0
+48,2025-11-18,Final CSGO,CSGO,FNC,null,null,0
+49,2025-11-19,3er Puesto LOL,LOL,G2,null,null,0
+50,2025-11-20,Gran Final LOL No existe,LOL,NoExiste,null,null,0
