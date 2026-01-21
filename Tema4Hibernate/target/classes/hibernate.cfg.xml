@@ -28,8 +28,11 @@
        <property name="hibernate.current_session_context_class">thread</property>
 
        <!-- Entidades mapeadas -->
-       <mapping class="ModelsReunion.Sala"/>
-       <mapping class="ModelsReunion.Reunion"/>
+       <mapping class="ModelsEmpleado.Sala"/>
+       <mapping class="ModelsEmpleado.Reunion"/>
+       <mapping class="ModelsEmpleado.Departamento"/>
+       <mapping class="ModelsEmpleado.Empleado"/>
+       <mapping class="ModelsEmpleado.Acta"/>
 
    </session-factory>
 </hibernate-configuration>

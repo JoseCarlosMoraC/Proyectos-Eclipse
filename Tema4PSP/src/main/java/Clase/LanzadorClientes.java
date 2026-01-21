@@ -1,0 +1,17 @@
+package Clase;
+
+public class LanzadorClientes {
+
+	public static void main(String[] args) {
+		
+		ClienteHilo cliente = new ClienteHilo();
+		
+		for (int i = 0; i < 10; i++) {
+			Thread hiloCliente = new Thread(cliente);
+			hiloCliente.start();
+		}
+		
+
+	}
+
+}

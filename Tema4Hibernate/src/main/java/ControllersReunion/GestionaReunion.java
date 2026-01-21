@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 import ModelsReunion.Reunion;
 import ModelsReunion.Sala;
-import RepositoriesReunion.RepositorioSala;
+import RepositoriesReunion.SalaDao;
 import RepositoriesReunion.ReunionDao;
 
 public class GestionaReunion {
@@ -18,7 +18,7 @@ public class GestionaReunion {
     public static void main(String[] args) {
 
         ReunionDao daoReunion = new ReunionDao();
-        RepositorioSala daoSala = new RepositorioSala();
+        SalaDao daoSala = new SalaDao();
 
         // 1️⃣ Obtenemos todas las salas existentes
         List<Sala> salas = daoSala.getAll();

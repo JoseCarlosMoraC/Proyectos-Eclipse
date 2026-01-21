@@ -5,8 +5,8 @@ import java.util.List;
 import ModelsReunion.Reunion;
 import ModelsReunion.Sala;
 
-public class RepositorioSala  extends AbstractDao<Sala>{
-	public RepositorioSala() {
+public class SalaDao  extends AbstractDao<Sala>{
+	public SalaDao() {
 		setClase(Sala.class);
 	}
 
