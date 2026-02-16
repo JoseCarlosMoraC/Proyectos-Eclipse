@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+       "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+       "https://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+   <session-factory>
+
+       <!-- Conexión a MySQL -->
+       <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+       <property name="hibernate.connection.url">
+           jdbc:mysql://localhost:3307/JCMoraConsultas?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true
+       </property>
+       <property name="hibernate.connection.username">usuario2</property>
+       <property name="hibernate.connection.password">usuario</property>
+
+       <!-- Dialecto de MySQL -->
+       <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+       <!-- Mantener tablas existentes y actualizar esquema automáticamente -->
+       <property name="hibernate.hbm2ddl.auto">update</property>
+
+       <!-- Mostrar SQL en consola -->
+       <property name="hibernate.show_sql">true</property>
+       <property name="hibernate.format_sql">true</property>
+
+       <!-- Configuración opcional de conexión -->
+       <property name="hibernate.current_session_context_class">thread</property>
+
+       <!-- Entidades mapeadas -->
+       <mapping class="modelos.Evento"/>
+       <mapping class="modelos.Participante"/>
+       <mapping class="modelos.Ubicacion"/>
+
+   </session-factory>
+</hibernate-configuration>
