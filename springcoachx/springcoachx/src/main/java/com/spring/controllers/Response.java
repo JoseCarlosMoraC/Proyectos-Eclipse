@@ -7,24 +7,18 @@ import lombok.Data;
 @Data
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public class Response {
+
 	public static final int NO_ERROR = 0;
 	public static final int NOT_FOUND = 101;
 	public static final String NO_MESSAGE = "";
 
-	private Error error;  
+	private Error error;
 
 	@Data
-	@AllArgsConstructor(access = AccessLevel.PRIVATE)
+	@AllArgsConstructor
 	static class Error {
-		public Error(int noError, String noMessage) {
-			// TODO Auto-generated constructor stub
-		}
 		private long errorCode;
 		private String message;
-	}
-
-	public Response(Error error2) {
-		// TODO Auto-generated constructor stub
 	}
 
 	public static Response noErrorResponse() {

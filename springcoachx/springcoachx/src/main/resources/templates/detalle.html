@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle del Equipo</title>
+</head>
+<body>
+    <h1>Detalle del Equipo</h1>
+    <p><strong>Nombre:</strong> <span th:text="${detalleEquipos.nombre}"></span></p>
+    <p><strong>Categoría:</strong> <span th:text="${detalleEquipos.categoria}"></span></p>
+    <p><strong>Entrenador:</strong> <span th:text="${detalleEquipos.nombreEntrenador}"></span></p>
+    <p><strong>Activo:</strong> <span th:text="${detalleEquipos.activo}"></span></p>
+
+    <h3>Jugadores</h3>
+    <ul>
+        <li th:each="jugador : ${detalleEquipos.jugadores}">
+            <span th:text="${jugador.nombre}"></span> -
+            <span th:text="${jugador.posicion}"></span>
+            (#<span th:text="${jugador.dorsal}"></span>)
+        </li>
+    </ul>
+
+    <br>
+    <a th:href="@{/coachx/lista}">Volver a la lista</a>
+</body>
+</html>

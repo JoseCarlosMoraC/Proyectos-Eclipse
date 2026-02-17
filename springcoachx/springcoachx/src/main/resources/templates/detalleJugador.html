@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle del Jugador</title>
+</head>
+<body>
+    <h1>Detalle del Jugador</h1>
+    <p><strong>Nombre:</strong> <span th:text="${detalleJugador.nombre}"></span></p>
+    <p><strong>Apellidos:</strong> <span th:text="${detalleJugador.apellidos}"></span></p>
+    <p><strong>Fecha de Nacimiento:</strong> <span th:text="${detalleJugador.fechaNacimiento}"></span></p>
+    <p><strong>Dorsal:</strong> <span th:text="${detalleJugador.dorsal}"></span></p>
+    <p><strong>Posición:</strong> <span th:text="${detalleJugador.posicion}"></span></p>
+    <p><strong>Activo:</strong> <span th:text="${detalleJugador.activo}"></span></p>
+
+    <br>
+    <a th:href="@{/coachx/jugadores}">Volver a la lista</a>
+</body>
+</html>
