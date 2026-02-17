@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Animales</title>
+</head>
+<body>
+    <h1>Lista de animales</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre animal</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="animal : ${animales}">
+                <td th:text="${animal.nombre}">Nombre</td>
+                <td th:text="${animal.tipo}">Tipo</td>
+                <td><a th:href="@{'/clinica/animal/' + ${animal.idAnimal}}">Ver detalle</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
