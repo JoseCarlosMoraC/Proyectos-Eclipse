@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle del Partido</title>
+</head>
+<body>
+    <h1>Detalle del Partido</h1>
+    <p><strong>Fecha:</strong> <span th:text="${detallePartido.fecha}"></span></p>
+    <p><strong>Lugar:</strong> <span th:text="${detallePartido.lugar}"></span></p>
+    <p><strong>Goles a Favor:</strong> <span th:text="${detallePartido.golesAFavor}"></span></p>
+    <p><strong>Goles en Contra:</strong> <span th:text="${detallePartido.golesEnContra}"></span></p>
+    <p><strong>Resultado:</strong> <span th:text="${detallePartido.resultado}"></span></p>
+
+    <br>
+    <a th:href="@{/coachx/partidos}">Volver a la lista</a>
+</body>
+</html>

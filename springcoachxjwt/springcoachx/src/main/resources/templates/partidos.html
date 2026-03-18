@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Partidos</title>
+</head>
+<body>
+    <h1>Lista de Partidos</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Lugar</th>
+                <th>Goles a Favor</th>
+                <th>Goles en Contra</th>
+                <th>Resultado</th>
+                <th>Detalle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="partido : ${partidos}">
+                <td th:text="${partido.fecha}"></td>
+                <td th:text="${partido.lugar}"></td>
+                <td th:text="${partido.golesAFavor}"></td>
+                <td th:text="${partido.golesEnContra}"></td>
+                <td th:text="${partido.resultado}"></td>
+                <td>
+                    <a th:href="@{'/coachx/partido/' + ${partido.id}}">Ver detalle</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <a th:href="@{/coachx/}">Volver al inicio</a>
+</body>
+</html>

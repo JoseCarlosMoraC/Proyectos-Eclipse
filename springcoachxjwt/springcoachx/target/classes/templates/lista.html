@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Equipos</title>
+</head>
+<body>
+    <h1>Lista de Equipos</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Categoría</th>
+                <th>Entrenador</th>
+                <th>Activo</th>
+                <th>Detalle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="equipo : ${equipos}">
+                <td th:text="${equipo.nombre}">Nombre</td>
+                <td th:text="${equipo.categoria}">Categoría</td>
+                <td th:text="${equipo.nombreEntrenador}">Entrenador</td>
+                <td th:text="${equipo.activo}">Activo</td>
+                <td>
+                    <a th:href="@{'/coachx/equipo/' + ${equipo.id}}">
+                        Ver detalle
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <a th:href="@{/coachx/}">Volver al inicio</a>
+</body>
+</html>
